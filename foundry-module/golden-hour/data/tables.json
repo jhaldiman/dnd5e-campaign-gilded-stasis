@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Rift Lair Actions (d4)",
+    "formula": "1d4",
+    "description": "On initiative count 20 while the Temporal Rift is open during the Riftborn Colossus fight, roll or choose one of these effects.",
+    "results": [
+      { "text": "Temporal Strike — A bolt of energy hits a random 10-ft. square within 60 ft. DC 14 Dex save or 14 (4d6) force damage and cosmetically aged 10 years (reversed when Rift closes).", "range": [1, 2] },
+      { "text": "Time Pocket — A 15-ft. radius sphere appears at a random point. Creatures inside must make a DC 14 Wis save or be Restrained (frozen in time) until the end of their next turn.", "range": [3, 3] },
+      { "text": "Rift Pulse — All creatures within 30 ft. of the Colossus must make a DC 14 Str save or be pushed 15 ft. and knocked prone.", "range": [4, 4] }
+    ]
+  }
+]

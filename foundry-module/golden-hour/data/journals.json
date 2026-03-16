@@ -1,0 +1,72 @@
+[
+  {
+    "name": "The Golden Hour — Adventure Overview",
+    "folder": "dm",
+    "playerVisible": false,
+    "pages": [
+      {
+        "name": "One-Shot Overview",
+        "content": "<h2>The Golden Hour</h2><p><em>An introductory one-shot for the Gilded Stasis campaign. Level 10. ~4.5 hours.</em></p><h3>Premise</h3><p>Set <strong>three years before</strong> the main campaign, during the <strong>7th Grand Heroic Games</strong>. Players are <strong>The Silver Chalice</strong>, a renowned adventuring party invited to compete. They will meet Valerius Thorne at the height of his public persona, fight alongside the Iron Vanguard at their prime, and experience the golden age that Valerius wants to preserve forever.</p><h3>The DM Secret</h3><p>Everything in this one-shot is designed to make Valerius look like the greatest leader the Tri-Kingdoms has ever produced. There are <strong>NO red flags, NO sinister moments</strong>. He is warm, sincere, and heroic. The horror happens later, in the main campaign, when the players realize the man they loved was freezing heroes in stasis pods.</p><h3>Five-Act Structure</h3><table><tr><th>Act</th><th>Time</th><th>Content</th></tr><tr><td>1 — Arrival</td><td>45 min</td><td>Travel, meet Elara, Heroes' Rest, Iron Vanguard encounter, Valerius reception</td></tr><tr><td>2 — Gauntlet</td><td>75 min</td><td>3 Crucible combat waves, Labyrinth puzzles, Champion's Trial boss</td></tr><tr><td>3 — Gala</td><td>30 min</td><td>Roleplay, Iron Vanguard bonding, Valerius's speech</td></tr><tr><td>4 — Rift Crisis</td><td>75 min</td><td>Temporal Rift opens, civilian rescue, building collapse, Colossus boss</td></tr><tr><td>5 — Golden Hour</td><td>30 min</td><td>Ceremony, medals, The Offer, farewell, epilogue</td></tr></table>"
+      },
+      {
+        "name": "Connections to Main Campaign",
+        "content": "<h2>Secret Connections — One-Shot to Main Campaign</h2><p>These emotional landmines planted by the one-shot detonate during the main campaign.</p><table><tr><th>One-Shot Moment</th><th>Main Campaign Payoff</th></tr><tr><td>Meeting Bron, Torq, Pip, Sylara as vibrant, alive people</td><td>Finding them frozen in stasis pods in the Citadel (Phase 3)</td></tr><tr><td>Valerius saving civilians, fighting alongside the PCs</td><td>Discovering he is the BBEG who freezes heroes (Phase 2\u20133)</td></tr><tr><td>\u201cYou are the best of us\u201d speech</td><td>He means it literally \u2014 he wants to preserve the \"best\" (Phase 3)</td></tr><tr><td>\u201cA rest you\u2019ve truly earned\u201d / The Offer</td><td>Stasis pods. That's the \u201crest.\u201d (Phase 3, Citadel)</td></tr><tr><td>Valerius's personal letter about \u201ca home\u201d</td><td>Finding the letter filed next to the PCs' frozen stasis pods (Phase 3)</td></tr><tr><td>The Silver Chalice pre-gen characters</td><td>Finding those exact characters frozen in the Hall of Statues (Phase 2\u20133)</td></tr><tr><td>Sylara's \u201cGold twenty. Black one.\u201d</td><td>She SAW this future \u2014 her Portent warned her and she went anyway (Phase 3)</td></tr><tr><td>Torq's terrible, wonderful poem</td><td>Finding a copy in his pod, clutched in his frozen hands (Phase 3)</td></tr><tr><td>Pip's handmade silver chalice pin</td><td>Finding it on her frozen body, or in a display case (Phase 3)</td></tr><tr><td>Bron's \u201cSee you at the Eighth Games!\u201d</td><td>He won the 8th Games. Then vanished. (Phase 2, lore discovery)</td></tr></table>"
+      }
+    ]
+  },
+  {
+    "name": "Player Handout: Golden Invitation",
+    "folder": "handouts",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "The Golden Invitation",
+        "content": "<div style=\"border: 3px double #c9a84c; padding: 20px; background: #fdf8e8; font-family: serif;\"><h3>By Order of His Grace, Archduke Valerius Thorne</h3><p>To the esteemed members of <strong>The Silver Chalice</strong> \u2014</p><p>You are hereby invited to compete in the <strong>Seventh Grand Heroic Games</strong> in the glorious City of Aurelius.</p><p>Your deeds have not gone unnoticed. The people of the Tri-Kingdoms speak your names with gratitude, and it is my honor to welcome you among the finest heroes our realm has ever produced.</p><p>The Games will feature:</p><ul><li><strong>The Gauntlet of Heroes</strong> \u2014 a three-stage test of combat, wit, and spirit</li><li><strong>The Grand Victory Gala</strong> \u2014 a celebration worthy of your accomplishments</li><li><strong>The Ceremony of the Seventh Star</strong> \u2014 where champions are crowned</li></ul><p>Your lodging at the <strong>Heroes' Rest</strong> has been arranged. All expenses are provided for by the Crown.</p><p>I look forward to greeting you personally.</p><p><em>With deepest admiration,</em></p><p><strong>Archduke Valerius Thorne</strong><br/><em>Steward of the Grand Heroic Games</em><br/><em>Keeper of the Tri-Kingdoms' Legacy</em></p></div>"
+      }
+    ]
+  },
+  {
+    "name": "Player Handout: Gauntlet Rules",
+    "folder": "handouts",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Gauntlet of Heroes — Official Rules",
+        "content": "<div style=\"border: 2px solid #333; padding: 15px; background: #f5f0e1;\"><h3>THE GAUNTLET OF HEROES \u2014 Official Rules</h3><p><em>Presented by the Office of the Archduke</em></p><hr/><h4>STAGE 1 \u2014 THE CRUCIBLE</h4><p><em>An arena combat trial in three waves.</em></p><ul><li>All damage is non-lethal. Arena healers stand ready.</li><li>Creatures are arena-trained and magically harnessed.</li><li>Teams may use any spells, abilities, or items at their disposal.</li><li>Surrender is permitted (no shame, but the crowd will boo).</li></ul><h4>STAGE 2 \u2014 THE LABYRINTH</h4><p><em>A test of mind and spirit.</em></p><ul><li>Teams navigate a shifting magical maze.</li><li>Combat is NOT expected (but anything can happen).</li><li>The Labyrinth responds to teamwork, not brute force.</li></ul><h4>STAGE 3 \u2014 THE CHAMPION'S TRIAL</h4><p><em>One final challenge for the glory of the Seventh Star.</em></p><ul><li>Face the legendary <strong>Golem of the Seventh Star</strong>.</li><li>Victory earns the <strong>Medal of the Seventh Star</strong> \u2014 the highest honor the Games bestow.</li><li>The Golem fights with honor. It will not strike the fallen.</li></ul><hr/><p><em>\u201cThe Games celebrate not only strength, but the courage to stand with your comrades when the stakes are highest.\u201d</em></p><p>\u2014 Archduke Valerius Thorne, Opening Address, 1st Grand Heroic Games</p></div>"
+      }
+    ]
+  },
+  {
+    "name": "Player Handout: Torq's Poem",
+    "folder": "handouts",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Ode to the Silver Chalice — by Torq",
+        "content": "<div style=\"border: 1px solid #666; padding: 15px; background: #faf9f4; font-family: serif; font-style: italic;\"><h3>\u201cOde to the Silver Chalice\u201d</h3><p><em>By Torq, Poet Barbarian of the Iron Vanguard</em></p><hr/><p>There once was a cup made of silver,<br/>Not gold, not bronze, not a pillar,<br/>They fought through the Gauntlet,<br/>With style and with talent,<br/>And beat up a golem \u2014 a killer!</p><p>Their healer kept everyone standing,<br/>Their rogue had some moves quite commanding,<br/>The fighter hit stuff,<br/>The ranger was tough,<br/>And the sorcerer \u2014 simply outstanding!</p><p>So here\u2019s to the Chalice, my friends,<br/>May your glory not meet any ends,<br/>We\u2019ll drink through the night,<br/>Till the morning is bright,<br/>And tomorrow we\u2019ll do it again!</p><hr/><p><em>[Handwritten at the bottom in shaky letters:]</em><br/>\u201cI worked on this for THREE DAYS. \u2014 T.\u201d</p></div>"
+      }
+    ]
+  },
+  {
+    "name": "Player Handout: Valerius's Letter",
+    "folder": "handouts",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "A Personal Note from Valerius",
+        "content": "<div style=\"border: 3px double #c9a84c; padding: 20px; background: #fdf8e8; font-family: serif;\"><h3>A Personal Note</h3><p>My dear friends,</p><p>I write this not as the Archduke, but as a man who has been moved by what he has seen today.</p><p>The Games exist because I believe that heroism is the highest expression of the mortal spirit. That when ordinary people choose to stand against darkness \u2014 not because they must, but because they <em>can</em> \u2014 the world is made better for it.</p><p>You are proof of that belief.</p><p>I have seen many champions over seven Games. Fighters who could shatter stone. Mages who could bend the sky. But what you showed today was something rarer \u2014 you showed <em>heart</em>. You fought for each other. You protected people who could not protect themselves. You stood when lesser souls would have run.</p><p>I want you to know that Aurelius will always have a place for you. When the road grows long and the battles grow weary \u2014 when you are ready for a rest you have truly earned \u2014 know that you need only return. I will be here.</p><p>The world needs heroes. But heroes deserve peace.</p><p>With the deepest respect and warmest friendship,</p><p><strong>Valerius</strong></p><p><em>[The letter smells faintly of parchment and old books. The handwriting is careful and unhurried \u2014 he clearly took time with this.]</em></p></div>"
+      }
+    ]
+  },
+  {
+    "name": "Player Handout: Medal of the Seventh Star",
+    "folder": "handouts",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Medal of the Seventh Star",
+        "content": "<div style=\"border: 2px solid #c9a84c; padding: 15px; background: #fffbe6;\"><h3>Medal of the Seventh Star</h3><p><em>Wondrous Item (Uncommon)</em></p><p>A heavy gold medal in the shape of a seven-pointed star, set with a small sapphire at its center. The names of the Silver Chalice are engraved on the reverse.</p><h4>Properties</h4><ul><li>While wearing the Medal, you have advantage on Charisma (Persuasion) checks made in the Tri-Kingdoms. People recognize you as a Games champion.</li><li>Once per long rest, you can invoke the Medal to gain +2 to one attack roll, ability check, or saving throw. You must declare the use before rolling.</li></ul><p><em>\u201cAwarded to the Silver Chalice for valor, cunning, and teamwork in the Seventh Grand Heroic Games.\u201d</em></p><p><em>Presented by Archduke Valerius Thorne</em></p></div>"
+      }
+    ]
+  }
+]

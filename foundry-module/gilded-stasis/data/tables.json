@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Oakhaven Rumors (d6)",
+    "formula": "1d6",
+    "description": "Tavern gossip at the Crossroads Inn. Roll or choose when players ask around Oakhaven. Each rumor seeds a different thread.",
+    "results": [
+      { "text": "Flick's metal cows were seen chasing sheep across Farmer Greta's fields again.", "range": [1, 1] },
+      { "text": "Margaux Delacroix hasn't come out of her manor in three days. Something about \"noises in the cellar.\"", "range": [2, 2] },
+      { "text": "A strange woman in fine clothes has been asking questions about adventurers in town. (Herald Elara — foreshadowing.)", "range": [3, 3] },
+      { "text": "Trade caravans through Emerald Pass have been getting robbed by someone calling himself a \"prince.\"", "range": [4, 4] },
+      { "text": "Brother Aldric insists the sundial at the shrine is broken. He's measured it eleven times. (Temporal foreshadowing.)", "range": [5, 5] },
+      { "text": "Old Barret says he saw a group of adventurers in golden armor pass through without stopping. Headed toward the capital. (The Iron Vanguard.)", "range": [6, 6] }
+    ]
+  },
+  {
+    "name": "Valerius Time Echo Summon (d4)",
+    "formula": "1d4",
+    "description": "Valerius's Legendary Action: Summon Time Echo (3 Actions, 2/Day). He tears open a temporal rift and summons an Echo of a previous boss. The Echo has half HP, lasts 3 rounds, and dissolves into golden sand when destroyed or expired.",
+    "results": [
+      { "text": "Wight Echo — HP 30. Key: Life Drain (necrotic, max HP reduction). A shimmering golden specter of the Wine-Cellar Wight.", "range": [1, 1] },
+      { "text": "Bandit Prince Echo — HP 60. Key: 2 attacks, Riposte, Parry. A golden silhouette of Sir Corwin, fighting without honor this time.", "range": [2, 2] },
+      { "text": "Gilded Sentinel Echo — HP 70. Key: Slam, Regeneration 10/turn. A half-formed golden construct, flickering in and out of time.", "range": [3, 3] },
+      { "text": "Duplicate King Echo — HP 75. Key: Chronal Bolt (+9, 4d8+4 force), Slow (DC 17). A translucent copy of the false king, still smiling.", "range": [4, 4] }
+    ]
+  }
+]

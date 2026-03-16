@@ -1,0 +1,30 @@
+{
+  "id": "gilded-stasis",
+  "title": "The Gilded Stasis — Complete Campaign",
+  "description": "A complete D&D 5e campaign for levels 3–15. Includes 23 custom NPCs/creatures, 29 player handouts, location guides, and roll tables. Import everything into your world with one click.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.3.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/init.mjs"
+  ],
+  "authors": [
+    {
+      "name": "AI-Generated Campaign Content"
+    }
+  ]
+}

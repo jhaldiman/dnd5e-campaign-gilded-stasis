@@ -1,0 +1,1318 @@
+[
+  {
+    "name": "Clockwork Cattle",
+    "phase": 1,
+    "cr": 1,
+    "size": "lg",
+    "creatureType": "construct",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "ac": 14,
+    "hp": 32,
+    "hpFormula": "5d10 + 5",
+    "speed": { "walk": 40, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
+    "str": 16, "dex": 8, "con": 12, "int": 3, "wis": 10, "cha": 1,
+    "saves": [],
+    "skills": {},
+    "di": ["poison"],
+    "dr": [],
+    "drCustom": "",
+    "dv": ["lightning"],
+    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Arcane Weak Point",
+        "description": "<p>A character who succeeds on a DC 15 Intelligence (Investigation or Arcana) check as an action can identify a glowing arcane node on the construct. The next attack against the cattle that hits the node (called shot, no penalty) stuns the cattle until the end of its next turn.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Stampede Charge (Recharge 5\u20136)",
+        "description": "<p>If the cattle moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 14 (4d6) bludgeoning damage and must succeed on a DC 13 Strength saving throw or be knocked prone.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Gore",
+        "description": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Clockwork Cattle</h2><p><em>Large construct, unaligned</em></p><hr><p><em>A malfunctioning clockwork construct created by Flick Cogsworth. Looks like a brass-and-copper cow with glowing blue eye-lenses and steam vents. Not evil \u2014 just broken. Gears whir and click inside its barrel-shaped torso, and jets of hot steam occasionally shoot from its nostrils.</em></p><hr><p><strong>Armor Class</strong> 14 (natural armor)</p><p><strong>Hit Points</strong> 32 (5d10 + 5)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>8 (\u22121)</td><td>12 (+1)</td><td>3 (\u22124)</td><td>10 (+0)</td><td>1 (\u22125)</td></tr></tbody></table><hr><p><strong>Damage Immunities</strong> poison</p><p><strong>Damage Vulnerabilities</strong> lightning</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 10</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 1 (200 XP)</p><hr><h3>Traits</h3><p><strong>Arcane Weak Point.</strong> A character who succeeds on a DC 15 Intelligence (Investigation or Arcana) check as an action can identify a glowing arcane node on the construct. The next attack against the cattle that hits the node (called shot, no penalty) stuns the cattle until the end of its next turn.</p><p><strong>Stampede Charge (Recharge 5\u20136).</strong> If the cattle moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 14 (4d6) bludgeoning damage and must succeed on a DC 13 Strength saving throw or be knocked prone.</p><h3>Actions</h3><p><strong>Gore.</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage.</p><hr><h3>DM Notes</h3><p>The Clockwork Cattle are not evil \u2014 they are malfunctioning constructs. If players find creative solutions (like using lightning damage to short-circuit them, or using Flick\u2019s shutdown codes), reward them with full XP. The Arcane Weak Point mechanic rewards Investigation-focused characters. Run the cattle as panicked animals \u2014 they charge in straight lines and try to flee when stunned. A herd of 4\u20136 creates a chaotic low-level encounter.</p>"
+  },
+  {
+    "name": "Sir Corwin Ashford",
+    "phase": 1,
+    "cr": 4,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Chaotic Good",
+    "ac": 18,
+    "hp": 78,
+    "hpFormula": "12d8 + 24",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 16, "dex": 14, "con": 14, "int": 12, "wis": 13, "cha": 16,
+    "saves": ["str", "con"],
+    "skills": { "ath": 1, "per": 1, "ins": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 0,
+    "items": [
+      {
+        "name": "Battlemaster Maneuvers (4/Short Rest)",
+        "description": "<p>Superiority Dice: 4d8. DC 13. Corwin knows: Riposte, Disarming Attack, Menacing Attack, Goading Attack.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Riposte",
+        "description": "<p>When a creature misses Corwin with a melee attack, he can use his reaction to make a melee weapon attack against that creature, adding 1d8 to the damage.</p>",
+        "activation": "reaction"
+      },
+      {
+        "name": "Disarming Attack",
+        "description": "<p>When Corwin hits with a weapon attack, he can add 1d8 to the damage. The target must make a DC 13 Strength saving throw or drop one held item.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Menacing Attack",
+        "description": "<p>When Corwin hits with a weapon attack, he can add 1d8 to the damage. The target must make a DC 13 Wisdom saving throw or be frightened until the end of Corwin\u2019s next turn.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Goading Attack",
+        "description": "<p>When Corwin hits with a weapon attack, he can add 1d8 to the damage. The target must make a DC 13 Wisdom saving throw or have disadvantage on attacks against targets other than Corwin until the end of his next turn.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Surrender Threshold",
+        "description": "<p>Corwin surrenders at 19 HP or below (25%). He drops his sword, raises his hands. He does not fight to kill \u2014 all attacks deal non-lethal damage if a PC drops to 0.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Corwin makes two longsword attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Longsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) if used two-handed.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Handaxe",
+        "description": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 20/60 ft., one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Parry",
+        "description": "<p>Corwin adds 2 to his AC against one melee attack that would hit him. He must see the attacker and be wielding a melee weapon.</p>",
+        "activation": "reaction"
+      }
+    ],
+    "biography": "<h2>Sir Corwin Ashford</h2><p><em>Medium humanoid (human), chaotic good</em></p><hr><p><em>The \u201cBandit Prince of Emerald Pass.\u201d A disgraced knight turned Robin Hood figure. Charismatic, honorable, fights with style. He wears battered but well-maintained armor adorned with a faded golden eagle \u2014 the crest of a noble house that disowned him. A torn golden invitation to the Heroic Games was found among his belongings.</em></p><hr><p><strong>Armor Class</strong> 18 (chain mail + shield)</p><p><strong>Hit Points</strong> 78 (12d8 + 24)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>14 (+2)</td><td>14 (+2)</td><td>12 (+1)</td><td>13 (+1)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +5, Con +4</p><p><strong>Skills</strong> Athletics +5, Persuasion +5, Insight +3</p><p><strong>Senses</strong> passive Perception 11</p><p><strong>Languages</strong> Common</p><p><strong>Challenge</strong> 4 (1,100 XP)</p><hr><h3>Traits</h3><p><strong>Battlemaster Maneuvers (4/Short Rest).</strong> Superiority Dice: 4d8. DC 13. Corwin knows: Riposte, Disarming Attack, Menacing Attack, Goading Attack.</p><p><strong>Disarming Attack.</strong> When Corwin hits with a weapon attack, he can add 1d8 to the damage. The target must make a DC 13 Strength saving throw or drop one held item.</p><p><strong>Menacing Attack.</strong> When Corwin hits with a weapon attack, he can add 1d8 to the damage. The target must make a DC 13 Wisdom saving throw or be frightened until the end of Corwin\u2019s next turn.</p><p><strong>Goading Attack.</strong> When Corwin hits with a weapon attack, he can add 1d8 to the damage. The target must make a DC 13 Wisdom saving throw or have disadvantage on attacks against targets other than Corwin until the end of his next turn.</p><p><strong>Surrender Threshold.</strong> Corwin surrenders at 19 HP or below (25%). He drops his sword, raises his hands. He does not fight to kill \u2014 all attacks deal non-lethal damage if a PC drops to 0.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Corwin makes two longsword attacks.</p><p><strong>Longsword.</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) if used two-handed.</p><p><strong>Handaxe.</strong> <em>Ranged Weapon Attack:</em> +5 to hit, range 20/60 ft., one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</p><h3>Reactions</h3><p><strong>Riposte.</strong> When a creature misses Corwin with a melee attack, he can use his reaction to make a melee weapon attack against that creature, adding 1d8 to the damage.</p><p><strong>Parry.</strong> Corwin adds 2 to his AC against one melee attack that would hit him. He must see the attacker and be wielding a melee weapon.</p><hr><h3>DM Notes</h3><p>Corwin is a sympathetic villain \u2014 he robs supply wagons to feed displaced villagers. He fights with honor and style, using Menacing Attack to frighten weaker PCs and Goading Attack to draw attacks to himself. He always surrenders before dying. The torn golden invitation is a critical clue to Phase 2. If the party spares him, he becomes a valuable ally and information source. In combat, he leads his 8 bandits from the front, opening with Menacing Attack to frighten casters, then using Riposte to punish melee attackers. He never targets unconscious PCs.</p>"
+  },
+  {
+    "name": "Gynosphinx \u2014 Labyrinth Guardian",
+    "phase": 2,
+    "cr": 8,
+    "size": "lg",
+    "creatureType": "monstrosity",
+    "subtype": "",
+    "alignment": "Lawful Neutral",
+    "ac": 17,
+    "hp": 105,
+    "hpFormula": "14d10 + 28",
+    "speed": { "walk": 40, "fly": 60, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 120 },
+    "str": 18, "dex": 15, "con": 14, "int": 18, "wis": 18, "cha": 18,
+    "saves": [],
+    "skills": { "arc": 1, "his": 1, "prc": 1, "rel": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "int",
+    "disposition": 0,
+    "items": [
+      {
+        "name": "Inscrutable",
+        "description": "<p>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks against the sphinx have disadvantage.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Magic Weapons",
+        "description": "<p>The sphinx\u2019s weapon attacks are magical.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Three Riddles",
+        "description": "<p>The sphinx poses three riddles. DC 15 Intelligence for Riddle 1, DC 17 for Riddle 2, DC 20 for Riddle 3. Success unlocks the door. Failure means the sphinx attacks for 3 rounds then resets.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Riddle 1 (DC 15)",
+        "description": "<p>\u2018I am always coming but never arrive. What am I?\u2019 Answer: Tomorrow.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Riddle 2 (DC 17)",
+        "description": "<p>\u2018I have cities but no houses, forests but no trees, and water but no fish. What am I?\u2019 Answer: A map.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Riddle 3 (DC 20)",
+        "description": "<p>\u2018The more you take, the more you leave behind. What am I?\u2019 Answer: Footsteps.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>The sphinx makes two claw attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Claw",
+        "description": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) slashing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Gynosphinx \u2014 Labyrinth Guardian</h2><p><em>Large monstrosity, lawful neutral</em></p><hr><p><em>The guardian of the Labyrinth of Trials beneath the Grand Arena. This ancient sphinx has golden fur, eagle wings, and an inscrutable expression carved from centuries of watching mortals fail. Geometric golden patterns \u2014 matching those found throughout Aurelius \u2014 are etched into its flanks. It follows specific combat rules: fights for only 3 rounds if riddles are failed, then resets.</em></p><hr><p><strong>Armor Class</strong> 17 (natural armor)</p><p><strong>Hit Points</strong> 105 (14d10 + 28)</p><p><strong>Speed</strong> 40 ft., fly 60 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>15 (+2)</td><td>14 (+2)</td><td>18 (+4)</td><td>18 (+4)</td><td>18 (+4)</td></tr></tbody></table><hr><p><strong>Skills</strong> Arcana +8, History +8, Perception +8, Religion +8</p><p><strong>Senses</strong> truesight 120 ft., passive Perception 18</p><p><strong>Languages</strong> Common, Sphinx</p><p><strong>Challenge</strong> 8 (3,900 XP)</p><hr><h3>Traits</h3><p><strong>Inscrutable.</strong> The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks against the sphinx have disadvantage.</p><p><strong>Magic Weapons.</strong> The sphinx\u2019s weapon attacks are magical.</p><p><strong>Three Riddles.</strong> The sphinx poses three riddles. DC 15 Intelligence for Riddle 1, DC 17 for Riddle 2, DC 20 for Riddle 3. Success unlocks the door. Failure means the sphinx attacks for 3 rounds then resets.</p><p><strong>Riddle 1 (DC 15).</strong> \u201cI am always coming but never arrive. What am I?\u201d <em>Answer: Tomorrow.</em></p><p><strong>Riddle 2 (DC 17).</strong> \u201cI have cities but no houses, forests but no trees, and water but no fish. What am I?\u201d <em>Answer: A map.</em></p><p><strong>Riddle 3 (DC 20).</strong> \u201cThe more you take, the more you leave behind. What am I?\u201d <em>Answer: Footsteps.</em></p><h3>Actions</h3><p><strong>Multiattack.</strong> The sphinx makes two claw attacks.</p><p><strong>Claw.</strong> <em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) slashing damage.</p><hr><h3>DM Notes</h3><p>The sphinx is a reskinned gynosphinx with a unique riddle-gate mechanic. It does <strong>not</strong> fight to kill. If the party fails the riddles, it attacks for exactly 3 rounds, then returns to its pedestal and the encounter resets. Players can attempt the riddles again after a short rest. The riddles can be solved by the players (not just ability checks) \u2014 if a player gives the correct answer at the table, auto-success regardless of the check. The sphinx speaks in a calm, measured voice and shows no emotion regardless of the outcome. It has been here for centuries and will be here for centuries more.</p>"
+  },
+  {
+    "name": "Bron Ironfist",
+    "phase": 2,
+    "cr": 5,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "dwarf",
+    "alignment": "Lawful Good",
+    "ac": 18,
+    "hp": 90,
+    "hpFormula": "12d8 + 36",
+    "speed": { "walk": 25, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
+    "str": 18, "dex": 10, "con": 16, "int": 10, "wis": 12, "cha": 14,
+    "saves": ["str", "con"],
+    "skills": { "ath": 1, "itm": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Dwarven Resilience",
+        "description": "<p>Advantage on saving throws against poison, and resistance to poison damage.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Improved Critical",
+        "description": "<p>Bron scores a critical hit on a roll of 19 or 20.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Second Wind (1/Rest)",
+        "description": "<p>As a bonus action, Bron regains 1d10 + 5 hit points.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Bron makes two warhammer attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Warhammer",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Bron Ironfist</h2><p><em>Medium humanoid (dwarf), lawful good</em></p><hr><p><em>Leader of the Iron Vanguard. A stocky dwarf fighter-champion with arms like tree trunks and a beard braided with iron rings. Gruff exterior, heart of gold. He and his party are the beloved previous champions of the Heroic Games \u2014 secretly frozen in stasis pods beneath Solhaven Palace.</em></p><hr><p><strong>Armor Class</strong> 18 (plate)</p><p><strong>Hit Points</strong> 90 (12d8 + 36)</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>10 (+0)</td><td>16 (+3)</td><td>10 (+0)</td><td>12 (+1)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +6</p><p><strong>Skills</strong> Athletics +7, Intimidation +5</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 11</p><p><strong>Languages</strong> Common, Dwarvish</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Dwarven Resilience.</strong> Advantage on saving throws against poison, and resistance to poison damage.</p><p><strong>Improved Critical.</strong> Bron scores a critical hit on a roll of 19 or 20.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Bron makes two warhammer attacks.</p><p><strong>Warhammer.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) bludgeoning damage.</p><p><strong>Second Wind (1/Rest).</strong> As a bonus action, Bron regains 1d10 + 5 hit points.</p><hr><h3>DM Notes</h3><p>Bron is the heart of the Iron Vanguard and a key emotional anchor for Phase 2. When found in stasis, he is mid-swing with his warhammer, frozen in time. If freed, he is disoriented but quickly rallies. He is fiercely protective of his team and will insist on freeing all of them before leaving. In combat as an ally, he anchors the front line, uses Second Wind early, and prioritizes protecting squishier party members. His Improved Critical makes him a reliable damage dealer. He calls everyone \u201clad\u201d or \u201class\u201d regardless of their actual age.</p>"
+  },
+  {
+    "name": "Sylara Moonwhisper",
+    "phase": 2,
+    "cr": 4,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "elf",
+    "alignment": "Neutral Good",
+    "ac": 13,
+    "hp": 55,
+    "hpFormula": "10d8 + 10",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
+    "str": 8, "dex": 14, "con": 12, "int": 18, "wis": 14, "cha": 10,
+    "saves": ["int", "wis"],
+    "skills": { "arc": 1, "his": 1, "inv": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "int",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Portent (2/Day)",
+        "description": "<p>After a long rest, Sylara rolls 2d20 and records the numbers. She can replace any attack roll, saving throw, or ability check made by a creature she can see with one of these foretelling rolls.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Fey Ancestry",
+        "description": "<p>Advantage on saving throws against being charmed, and magic can\u2019t put her to sleep.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Arcane Recovery (1/Day)",
+        "description": "<p>Once per day during a short rest, Sylara can recover up to 2 levels of expended spell slots.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Spellcasting (7th Level)",
+        "description": "<p>Sylara is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Fire Bolt, Minor Illusion, Prestidigitation</p><p><strong>1st level (4 slots):</strong> Shield, Mage Armor, Magic Missile</p><p><strong>2nd level (3 slots):</strong> Misty Step, Detect Thoughts</p><p><strong>3rd level (3 slots):</strong> Counterspell, Fireball</p><p><strong>4th level (1 slot):</strong> Greater Invisibility</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Fire Bolt",
+        "description": "<p><em>Ranged Spell Attack:</em> +7 to hit, range 120 ft., one target. <em>Hit:</em> 11 (2d10) fire damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Quarterstaff",
+        "description": "<p><em>Melee Weapon Attack:</em> +1 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d6 \u2212 1) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Sylara Moonwhisper</h2><p><em>Medium humanoid (elf), neutral good</em></p><hr><p><em>Iron Vanguard\u2019s wizard. A serene elven divination wizard who always seems to know what\u2019s going to happen \u2014 except when it mattered most. Tall and willowy with silver-white hair and pale violet eyes that occasionally flash with prescient light. Found frozen in stasis beneath Solhaven Palace with an expression of stunned surprise \u2014 she didn\u2019t see it coming.</em></p><hr><p><strong>Armor Class</strong> 13 (16 with Mage Armor)</p><p><strong>Hit Points</strong> 55 (10d8 + 10)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (\u22121)</td><td>14 (+2)</td><td>12 (+1)</td><td>18 (+4)</td><td>14 (+2)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +7, Wis +5</p><p><strong>Skills</strong> Arcana +7, History +7, Investigation +7</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 12</p><p><strong>Languages</strong> Common, Elvish, Draconic, Sylvan</p><p><strong>Challenge</strong> 4 (1,100 XP)</p><hr><h3>Traits</h3><p><strong>Portent (2/Day).</strong> After a long rest, Sylara rolls 2d20 and records the numbers. She can replace any attack roll, saving throw, or ability check made by a creature she can see with one of these foretelling rolls.</p><p><strong>Fey Ancestry.</strong> Advantage on saving throws against being charmed, and magic can\u2019t put her to sleep.</p><p><strong>Arcane Recovery (1/Day).</strong> Once per day during a short rest, Sylara can recover up to 2 levels of expended spell slots.</p><p><strong>Spellcasting (7th Level).</strong> Sylara is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Fire Bolt, Minor Illusion, Prestidigitation</p><p><strong>1st level (4 slots):</strong> Shield, Mage Armor, Magic Missile</p><p><strong>2nd level (3 slots):</strong> Misty Step, Detect Thoughts</p><p><strong>3rd level (3 slots):</strong> Counterspell, Fireball</p><p><strong>4th level (1 slot):</strong> Greater Invisibility</p><h3>Actions</h3><p><strong>Fire Bolt.</strong> <em>Ranged Spell Attack:</em> +7 to hit, range 120 ft., one target. <em>Hit:</em> 11 (2d10) fire damage.</p><p><strong>Quarterstaff.</strong> <em>Melee Weapon Attack:</em> +1 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d6 \u2212 1) bludgeoning damage.</p><hr><h3>DM Notes</h3><p>Sylara is the Iron Vanguard\u2019s tactical brain. As an ally, she stays at range and uses Fireball for groups and Counterspell to shut down enemy casters. She uses Portent defensively \u2014 forcing enemy saves to fail or ensuring ally saves succeed. She is deeply shaken by having been captured without forewarning and becomes obsessed with understanding Valerius\u2019s chronomancy. She speaks softly and rarely makes eye contact, but her tactical advice is impeccable. If Mage Armor is cast, her AC rises to 16.</p>"
+  },
+  {
+    "name": "Torq",
+    "phase": 2,
+    "cr": 5,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "half-orc",
+    "alignment": "Chaotic Good",
+    "ac": 14,
+    "hp": 95,
+    "hpFormula": "10d12 + 30",
+    "speed": { "walk": 40, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 18, "dex": 14, "con": 16, "int": 8, "wis": 12, "cha": 10,
+    "saves": ["str", "con"],
+    "skills": { "ath": 1, "prc": 1, "sur": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Rage (3/Day)",
+        "description": "<p>As a bonus action, Torq enters a rage for 1 minute. While raging: +2 melee damage, resistance to bludgeoning/piercing/slashing, advantage on Strength checks and saves. Cannot cast spells.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Bear Totem",
+        "description": "<p>While raging, Torq has resistance to all damage except psychic.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Relentless Endurance (1/Day)",
+        "description": "<p>When reduced to 0 HP but not killed, Torq drops to 1 HP instead.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Danger Sense",
+        "description": "<p>Advantage on Dexterity saving throws against effects Torq can see.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Reckless Attack",
+        "description": "<p>At the start of his turn, Torq can choose to attack recklessly. He gains advantage on melee attack rolls during that turn, but attack rolls against him have advantage until his next turn.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Torq makes two greataxe attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Greataxe",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d12 + 4) slashing damage, plus 2 while raging.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Torq</h2><p><em>Medium humanoid (half-orc), chaotic good</em></p><hr><p><em>Iron Vanguard\u2019s barbarian. A gentle half-orc poet-barbarian who writes terrible poetry and fights with terrifying efficiency. Broad-shouldered with grey-green skin and surprisingly kind eyes. Found frozen with an unfinished poem crumpled in his hand. The poem reads: \u201cThe axe falls like autumn leaves / But softer, I think, than\u2014\u201d</em></p><hr><p><strong>Armor Class</strong> 14 (unarmored defense)</p><p><strong>Hit Points</strong> 95 (10d12 + 30)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>14 (+2)</td><td>16 (+3)</td><td>8 (\u22121)</td><td>12 (+1)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +6</p><p><strong>Skills</strong> Athletics +7, Perception +4, Survival +4</p><p><strong>Senses</strong> passive Perception 14</p><p><strong>Languages</strong> Common, Orc</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Rage (3/Day).</strong> As a bonus action, Torq enters a rage for 1 minute. While raging: +2 melee damage, resistance to bludgeoning/piercing/slashing, advantage on Strength checks and saves. Cannot cast spells.</p><p><strong>Bear Totem.</strong> While raging, Torq has resistance to all damage except psychic.</p><p><strong>Relentless Endurance (1/Day).</strong> When reduced to 0 HP but not killed, Torq drops to 1 HP instead.</p><p><strong>Danger Sense.</strong> Advantage on Dexterity saving throws against effects Torq can see.</p><p><strong>Reckless Attack.</strong> At the start of his turn, Torq can choose to attack recklessly. He gains advantage on melee attack rolls during that turn, but attack rolls against him have advantage until his next turn.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Torq makes two greataxe attacks.</p><p><strong>Greataxe.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d12 + 4) slashing damage, plus 2 while raging.</p><hr><h3>DM Notes</h3><p>Torq is comic relief with surprising depth. He always opens combat by raging (bonus action) then using Reckless Attack for advantage on both greataxe swings. With Bear Totem, he has resistance to all damage except psychic while raging \u2014 making him an exceptional tank. Relentless Endurance means he effectively has to be \u201ckilled\u201d twice. He recites terrible poetry between attacks. Sample lines: \u201cYour skull is like a melon / Round and full of seeds of thought.\u201d He is deeply loyal to Bron and will not leave without the whole team.</p>"
+  },
+  {
+    "name": "Pip Nimblefingers",
+    "phase": 2,
+    "cr": 3,
+    "size": "sm",
+    "creatureType": "humanoid",
+    "subtype": "halfling",
+    "alignment": "Chaotic Good",
+    "ac": 15,
+    "hp": 45,
+    "hpFormula": "10d8",
+    "speed": { "walk": 25, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 8, "dex": 18, "con": 10, "int": 14, "wis": 12, "cha": 16,
+    "saves": ["dex", "int"],
+    "skills": { "acr": 1, "dec": 1, "slt": 1, "ste": 2 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Sneak Attack (3d6)",
+        "description": "<p>Once per turn, Pip deals an extra 10 (3d6) damage to one creature she hits with an attack if she has advantage on the attack roll, or if an ally is within 5 ft. of the target.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Cunning Action",
+        "description": "<p>On each of her turns, Pip can use a bonus action to Dash, Disengage, or Hide.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Lucky (Halfling)",
+        "description": "<p>When Pip rolls a 1 on an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Naturally Stealthy",
+        "description": "<p>Pip can attempt to hide even when obscured only by a creature that is at least one size larger.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Evasion",
+        "description": "<p>When subjected to an effect that allows a Dexterity save for half damage, Pip takes no damage on a success and half on a failure.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Pip makes two shortsword attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Shortsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Hand Crossbow",
+        "description": "<p><em>Ranged Weapon Attack:</em> +7 to hit, range 30/120 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Pip Nimblefingers</h2><p><em>Small humanoid (halfling), chaotic good</em></p><hr><p><em>Iron Vanguard\u2019s rogue. A cheerful halfling who steals everything that isn\u2019t nailed down and picks the pockets of anyone who stands still too long. The youngest member of the Vanguard, with curly auburn hair, freckles, and an irrepressible grin. Found frozen beneath Solhaven Palace with someone else\u2019s coin purse clutched in her hand.</em></p><hr><p><strong>Armor Class</strong> 15 (studded leather)</p><p><strong>Hit Points</strong> 45 (10d8)</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (\u22121)</td><td>18 (+4)</td><td>10 (+0)</td><td>14 (+2)</td><td>12 (+1)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Dex +7, Int +5</p><p><strong>Skills</strong> Acrobatics +7, Deception +6, Sleight of Hand +7, Stealth +10 (expertise)</p><p><strong>Senses</strong> passive Perception 11</p><p><strong>Languages</strong> Common, Halfling, Thieves\u2019 Cant</p><p><strong>Challenge</strong> 3 (700 XP)</p><hr><h3>Traits</h3><p><strong>Sneak Attack (3d6).</strong> Once per turn, Pip deals an extra 10 (3d6) damage to one creature she hits with an attack if she has advantage on the attack roll, or if an ally is within 5 ft. of the target.</p><p><strong>Cunning Action.</strong> On each of her turns, Pip can use a bonus action to Dash, Disengage, or Hide.</p><p><strong>Lucky (Halfling).</strong> When Pip rolls a 1 on an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll.</p><p><strong>Naturally Stealthy.</strong> Pip can attempt to hide even when obscured only by a creature that is at least one size larger.</p><p><strong>Evasion.</strong> When subjected to an effect that allows a Dexterity save for half damage, Pip takes no damage on a success and half on a failure.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Pip makes two shortsword attacks.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p><p><strong>Hand Crossbow.</strong> <em>Ranged Weapon Attack:</em> +7 to hit, range 30/120 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p><hr><h3>DM Notes</h3><p>Pip fights smart \u2014 she uses Cunning Action to Hide every turn, then attacks with advantage for Sneak Attack. With +10 Stealth (expertise), she is almost impossible to find in dim light. She targets isolated enemies and avoids fair fights. Outside of combat, she compulsively steals trinkets (never anything important) and offers them as gifts to PCs she likes. She is fiercely loyal to the Iron Vanguard family and especially protective of Bron, whom she calls \u201cDa\u201d (much to his embarrassment).</p>"
+  },
+  {
+    "name": "Gilded Sentinel (CR 7)",
+    "phase": 2,
+    "cr": 7,
+    "size": "lg",
+    "creatureType": "construct",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "ac": 18,
+    "hp": 142,
+    "hpFormula": "15d10 + 60",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 10, "truesight": 0 },
+    "str": 18, "dex": 8, "con": 18, "int": 7, "wis": 10, "cha": 3,
+    "saves": ["str", "con"],
+    "skills": {},
+    "di": ["poison"],
+    "dr": [],
+    "drCustom": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "dv": ["thunder"],
+    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Regeneration",
+        "description": "<p>The Sentinel regains 10 hit points at the start of its turn if it has at least 1 HP. Thunder damage suppresses this regeneration for 1 round.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Misty Step (1/Day)",
+        "description": "<p>As a bonus action, the Sentinel magically teleports up to 30 feet to an unoccupied space it can see.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Immutable Form",
+        "description": "<p>The Sentinel is immune to any spell or effect that would alter its form.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Death Voice",
+        "description": "<p>When the Sentinel is destroyed, a pre-recorded message from Archduke Valerius plays: \u2018You were warned. This did not have to happen.\u2019 The message is audible within 300 feet.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>The Sentinel makes two slam attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Slam",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Gilded Sentinel (CR 7)</h2><p><em>Large construct, unaligned</em></p><hr><p><em>A towering golden construct in the shape of an idealized humanoid. Geometric golden patterns cover its surface and pulse with warm light. Created by Valerius to guard key locations. Stands 9 feet tall and weighs over a ton. Its face is a featureless golden mask with two burning amber eyes.</em></p><hr><p><strong>Armor Class</strong> 18 (natural armor)</p><p><strong>Hit Points</strong> 142 (15d10 + 60)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>8 (\u22121)</td><td>18 (+4)</td><td>7 (\u22122)</td><td>10 (+0)</td><td>3 (\u22124)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +7</p><p><strong>Damage Immunities</strong> poison</p><p><strong>Damage Resistances</strong> Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Damage Vulnerabilities</strong> thunder</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</p><p><strong>Senses</strong> blindsight 10 ft., darkvision 60 ft., passive Perception 10</p><p><strong>Languages</strong> understands Common but can\u2019t speak</p><p><strong>Challenge</strong> 7 (2,900 XP)</p><hr><h3>Traits</h3><p><strong>Regeneration.</strong> The Sentinel regains 10 hit points at the start of its turn if it has at least 1 HP. Thunder damage suppresses this regeneration for 1 round.</p><p><strong>Immutable Form.</strong> The Sentinel is immune to any spell or effect that would alter its form.</p><p><strong>Death Voice.</strong> When the Sentinel is destroyed, a pre-recorded message from Archduke Valerius plays: \u201cYou were warned. This did not have to happen.\u201d The message is audible within 300 feet.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The Sentinel makes two slam attacks.</p><p><strong>Slam.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) bludgeoning damage.</p><p><strong>Misty Step (1/Day).</strong> As a bonus action, the Sentinel magically teleports up to 30 feet to an unoccupied space it can see.</p><hr><h3>DM Notes</h3><p>The Gilded Sentinel is the signature enemy of the campaign. Its regeneration (10 HP/round) makes it feel relentless \u2014 the key is thunder damage, which shuts it down for a round. Shatter is the obvious counter. The Death Voice is a powerful narrative tool: every time the party destroys one, Valerius\u2019s voice reminds them he knows they\u2019re coming. Use Misty Step to surprise players who think they\u2019re safe at range. The Sentinel fights methodically, targeting the nearest enemy and moving to the next when one falls. It does not retreat.</p>"
+  },
+  {
+    "name": "Golden Guard Veteran",
+    "phase": 2,
+    "cr": 3,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Lawful Neutral",
+    "ac": 20,
+    "hp": 58,
+    "hpFormula": "9d8 + 18",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 16, "dex": 13, "con": 14, "int": 10, "wis": 11, "cha": 10,
+    "saves": [],
+    "skills": { "ath": 1, "prc": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Shield of Faith (1/Day)",
+        "description": "<p>As a bonus action, the guard gains +2 to AC for 10 minutes (already included in AC above).</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Coordination",
+        "description": "<p>While within 5 feet of at least one allied Golden Guard, the veteran has advantage on attack rolls.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>The veteran makes two longsword attacks. If it has a shortsword drawn, it also makes a shortsword attack.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Longsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Shortsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Heavy Crossbow",
+        "description": "<p><em>Ranged Weapon Attack:</em> +3 to hit, range 100/400 ft., one target. <em>Hit:</em> 6 (1d10 + 1) piercing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Golden Guard Veteran</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>Elite soldiers in gold-trimmed plate armor serving the Archduke. Each bears the sunburst sigil of Aurelius on their shield and wears a golden half-helm. They move in disciplined formations and fight with coordinated precision. Most are loyal to Captain Vayne first, Valerius second.</em></p><hr><p><strong>Armor Class</strong> 20 (plate + shield + Shield of Faith)</p><p><strong>Hit Points</strong> 58 (9d8 + 18)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>13 (+1)</td><td>14 (+2)</td><td>10 (+0)</td><td>11 (+0)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Skills</strong> Athletics +5, Perception +2</p><p><strong>Senses</strong> passive Perception 12</p><p><strong>Languages</strong> Common</p><p><strong>Challenge</strong> 3 (700 XP)</p><hr><h3>Traits</h3><p><strong>Shield of Faith (1/Day).</strong> As a bonus action, the guard gains +2 to AC for 10 minutes (already included in AC above). Without Shield of Faith, AC is 18.</p><p><strong>Coordination.</strong> While within 5 feet of at least one allied Golden Guard, the veteran has advantage on attack rolls. This makes groups of guards significantly more dangerous than isolated ones.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The veteran makes two longsword attacks. If it has a shortsword drawn, it also makes a shortsword attack.</p><p><strong>Longsword.</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p><p><strong>Heavy Crossbow.</strong> <em>Ranged Weapon Attack:</em> +3 to hit, range 100/400 ft., one target. <em>Hit:</em> 6 (1d10 + 1) piercing damage.</p><hr><h3>DM Notes</h3><p>Golden Guards are designed to reward tactical play. Their AC 20 with Shield of Faith is punishing, but the buff only lasts 10 minutes and is once per day \u2014 if the party can wait it out or Dispel Magic it, the AC drops to 18. The Coordination ability means clustered guards are devastating (advantage on all attacks), but isolated guards lose their edge. Smart parties will use area effects to scatter them, then pick them off. Most guards are not evil \u2014 they are soldiers following orders. Some can be talked down, especially if Captain Vayne has been turned.</p>"
+  },
+  {
+    "name": "Herald Elara Dawnmantle",
+    "phase": 2,
+    "cr": 9,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "aasimar",
+    "alignment": "Lawful Good",
+    "ac": 18,
+    "hp": 110,
+    "hpFormula": "13d8 + 52",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
+    "str": 16, "dex": 10, "con": 18, "int": 13, "wis": 18, "cha": 16,
+    "saves": ["con", "wis", "cha"],
+    "skills": { "ins": 1, "med": 1, "per": 1, "rel": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "wis",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Aasimar Radiance (1/Day)",
+        "description": "<p>As a bonus action, Elara unleashes divine energy. For 1 minute, she deals an extra 4 radiant damage once per turn when she deals damage.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "War Priest (3/Day)",
+        "description": "<p>When Elara uses the Attack action, she can make one weapon attack as a bonus action.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Spellcasting (9th Level)",
+        "description": "<p>Elara is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Sacred Flame, Light, Thaumaturgy</p><p><strong>1st level (4 slots):</strong> Healing Word, Shield of Faith, Bless</p><p><strong>2nd level (3 slots):</strong> Hold Person, Spiritual Weapon, Silence</p><p><strong>3rd level (3 slots):</strong> Spirit Guardians, Dispel Magic, Revivify</p><p><strong>4th level (3 slots):</strong> Banishment, Guardian of Faith</p><p><strong>5th level (1 slot):</strong> Flame Strike, Greater Restoration</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Phase 3 \u2014 Reluctant Antagonist",
+        "description": "<p>If fought in Phase 3: deals half damage on melee attacks (pulling punches). If a PC is at 0 HP, she uses Healing Word on them instead of attacking. Can be turned mid-fight: Persuasion DC 22 (disadvantage). If turned, she immediately helps destroy the Anchors.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Mace",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) radiant damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Herald Elara Dawnmantle</h2><p><em>Medium humanoid (aasimar), lawful good</em></p><hr><p><em>The Archduke\u2019s herald and most trusted agent. An aasimar war priest who genuinely believes in Valerius\u2019s vision of a world frozen in perfect peace. She has luminous golden skin, white-blonde hair, and eyes that glow with soft divine light. She serves as the party\u2019s guide to Aurelius in Phase 2 and may become a reluctant antagonist in Phase 3. Her character arc is central to the campaign\u2019s moral themes.</em></p><hr><p><strong>Armor Class</strong> 18 (plate)</p><p><strong>Hit Points</strong> 110 (13d8 + 52)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>10 (+0)</td><td>18 (+4)</td><td>13 (+1)</td><td>18 (+4)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Con +8, Wis +8, Cha +7</p><p><strong>Skills</strong> Insight +8, Medicine +8, Persuasion +7, Religion +5</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 14</p><p><strong>Languages</strong> Common, Celestial</p><p><strong>Challenge</strong> 9 (5,000 XP)</p><hr><h3>Traits</h3><p><strong>Aasimar Radiance (1/Day).</strong> As a bonus action, Elara unleashes divine energy. For 1 minute, she deals an extra 4 radiant damage once per turn when she deals damage.</p><p><strong>War Priest (3/Day).</strong> When Elara uses the Attack action, she can make one weapon attack as a bonus action.</p><p><strong>Phase 3 \u2014 Reluctant Antagonist.</strong> If fought in Phase 3: deals half damage on melee attacks (pulling punches). If a PC is at 0 HP, she uses Healing Word on them instead of attacking. Can be turned mid-fight: Persuasion DC 22 (disadvantage). If turned, she immediately helps destroy the Anchors.</p><p><strong>Spellcasting (9th Level).</strong> Elara is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Sacred Flame, Light, Thaumaturgy</p><p><strong>1st level (4 slots):</strong> Healing Word, Shield of Faith, Bless</p><p><strong>2nd level (3 slots):</strong> Hold Person, Spiritual Weapon, Silence</p><p><strong>3rd level (3 slots):</strong> Spirit Guardians, Dispel Magic, Revivify</p><p><strong>4th level (3 slots):</strong> Banishment, Guardian of Faith</p><p><strong>5th level (1 slot):</strong> Flame Strike, Greater Restoration</p><h3>Actions</h3><p><strong>Mace.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) radiant damage.</p><hr><h3>DM Notes</h3><p>Elara is one of the most important NPCs in the campaign. In Phase 2, she is warm, helpful, and genuinely kind \u2014 she believes Valerius is building paradise. In Phase 3, if she becomes an antagonist, she fights with visible reluctance: half damage on melee, healing downed PCs, and openly weeping while casting Spirit Guardians. The DC 22 Persuasion check to turn her is intentionally high but not impossible \u2014 evidence from the stasis pods, testimony from the Iron Vanguard, or invoking her divine oath can grant advantage. If turned, she becomes the party\u2019s most powerful ally for the final battle. Her Spirit Guardians deal 3d8 radiant damage to enemies within 15 feet \u2014 devastating when she\u2019s on the party\u2019s side.</p>"
+  },
+  {
+    "name": "Duplicate King Thalric",
+    "phase": 3,
+    "cr": 12,
+    "size": "med",
+    "creatureType": "construct",
+    "subtype": "temporal duplicate",
+    "alignment": "Lawful Neutral",
+    "ac": 15,
+    "hp": 150,
+    "hpFormula": "20d8 + 60",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 10, "dex": 16, "con": 16, "int": 20, "wis": 14, "cha": 18,
+    "saves": ["int", "wis", "cha"],
+    "skills": { "dec": 1, "his": 1, "per": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": ["charmed", "frightened"],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Magic Resistance",
+        "description": "<p>The Duplicate has advantage on saving throws against spells and other magical effects.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Chronal Defense",
+        "description": "<p>The Duplicate has advantage on initiative rolls.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Temporal Shell",
+        "description": "<p>When the Duplicate is reduced to 0 HP, its body freezes in time for 1 round, gaining 50 temporary hit points. If these are depleted or after 1 round, the shell shatters and the Duplicate is truly destroyed.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Spellcasting",
+        "description": "<p>The Duplicate can cast Slow at will (DC 17 Wisdom save) and Time Stop once per day.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>The Duplicate makes two Chronal Bolt attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Chronal Bolt",
+        "description": "<p><em>Ranged Spell Attack:</em> +9 to hit, range 120 ft., one target. <em>Hit:</em> 22 (4d8 + 4) force damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Slow (At Will)",
+        "description": "<p>Spell save DC 17 Wisdom. Up to 6 creatures within 120 ft. On a failed save, the target\u2019s speed is halved, it takes a \u22122 penalty to AC and Dexterity saves, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Time Stop (1/Day)",
+        "description": "<p>The Duplicate briefly stops the flow of time for everyone but itself. It takes 1d4 + 1 turns in a row, during which other creatures are frozen.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Temporal Flicker (3/Day)",
+        "description": "<p>When targeted by an attack, the Duplicate teleports up to 15 feet and imposes disadvantage on that attack roll.</p>",
+        "activation": "reaction"
+      }
+    ],
+    "biography": "<h2>Duplicate King Thalric</h2><p><em>Medium construct (temporal duplicate), lawful neutral</em></p><hr><p><em>A perfect temporal copy of King Thalric Greenbough, created by Valerius to rule Verdaine in the real king\u2019s absence. Speaks, acts, and looks exactly like the king \u2014 but cannot produce specific personal memories. Answers policy questions flawlessly but fails on emotional detail. The real king is frozen in a stasis pod beneath Castle Greenbough. When damaged, the Duplicate\u2019s form flickers with golden light, briefly revealing the clockwork temporal matrix beneath its skin.</em></p><hr><p><strong>Armor Class</strong> 15 (temporal armor)</p><p><strong>Hit Points</strong> 150 (20d8 + 60)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>16 (+3)</td><td>16 (+3)</td><td>20 (+5)</td><td>14 (+2)</td><td>18 (+4)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +9, Wis +6, Cha +8</p><p><strong>Skills</strong> Deception +8, History +9, Persuasion +8</p><p><strong>Condition Immunities</strong> charmed, frightened</p><p><strong>Senses</strong> passive Perception 12</p><p><strong>Languages</strong> Common, Elvish, Dwarvish, Sylvan</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><hr><h3>Traits</h3><p><strong>Magic Resistance.</strong> The Duplicate has advantage on saving throws against spells and other magical effects.</p><p><strong>Chronal Defense.</strong> The Duplicate has advantage on initiative rolls.</p><p><strong>Temporal Shell.</strong> When the Duplicate is reduced to 0 HP, its body freezes in time for 1 round, gaining 50 temporary hit points. If these are depleted or after 1 round, the shell shatters and the Duplicate is truly destroyed.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The Duplicate makes two Chronal Bolt attacks.</p><p><strong>Chronal Bolt.</strong> <em>Ranged Spell Attack:</em> +9 to hit, range 120 ft., one target. <em>Hit:</em> 22 (4d8 + 4) force damage.</p><p><strong>Slow (At Will).</strong> Spell save DC 17 Wisdom. Up to 6 creatures within 120 ft. On a failed save, the target\u2019s speed is halved, it takes a \u22122 penalty to AC and Dexterity saves, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both.</p><p><strong>Time Stop (1/Day).</strong> The Duplicate briefly stops the flow of time for everyone but itself. It takes 1d4 + 1 turns in a row, during which other creatures are frozen.</p><h3>Reactions</h3><p><strong>Temporal Flicker (3/Day).</strong> When targeted by an attack, the Duplicate teleports up to 15 feet and imposes disadvantage on that attack roll.</p><hr><h3>DM Notes</h3><p>The Duplicate King is a puzzle boss as much as a combat encounter. It opens with Slow (at will!) to debilitate the party, then uses Chronal Bolt from range. Temporal Flicker makes it frustratingly evasive \u2014 three uses mean the first three big hits might miss. Time Stop is its panic button: it uses those free turns to reposition, cast Slow again, and set up Chronal Bolt volleys. The Temporal Shell at 0 HP means the party has to \u201ckill\u201d it twice (50 temp HP). The real challenge is exposing the Duplicate before combat \u2014 ask it about the king\u2019s childhood pet, his wedding vows, or his mother\u2019s name. It answers with technically correct but emotionally hollow responses that Archdruid Eira immediately recognizes as wrong.</p>"
+  },
+  {
+    "name": "Archdruid Eira",
+    "phase": 3,
+    "cr": 12,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "elf",
+    "alignment": "Neutral Good",
+    "ac": 16,
+    "hp": 132,
+    "hpFormula": "24d8 + 24",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
+    "str": 10, "dex": 14, "con": 12, "int": 12, "wis": 20, "cha": 11,
+    "saves": ["int", "wis"],
+    "skills": { "med": 1, "nat": 1, "prc": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "wis",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Wild Shape (2/Day)",
+        "description": "<p>Eira can use her action to magically assume the shape of a beast she has seen before, up to CR 1.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Spellcasting (18th Level)",
+        "description": "<p>Eira is an 18th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Druidcraft, Mending, Produce Flame, Shillelagh</p><p><strong>1st level (4 slots):</strong> Entangle, Goodberry, Healing Word</p><p><strong>2nd level (3 slots):</strong> Hold Person, Pass Without Trace, Spike Growth</p><p><strong>3rd level (3 slots):</strong> Call Lightning, Dispel Magic, Plant Growth</p><p><strong>4th level (3 slots):</strong> Blight, Polymorph, Stoneskin</p><p><strong>5th level (3 slots):</strong> Commune with Nature, Greater Restoration, Wall of Thorns</p><p><strong>6th level (1 slot):</strong> Heal, Sunbeam</p><p><strong>7th level (1 slot):</strong> Transport via Plants</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Quarterstaff (with Shillelagh)",
+        "description": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d8 + 5) magical bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Archdruid Eira</h2><p><em>Medium humanoid (elf), neutral good</em></p><hr><p><em>Verdaine\u2019s archdruid and longtime advisor to King Thalric. An elderly elven woman with silver hair woven with living vines and bark-brown skin weathered by centuries of wind and sun. She was the first to realize the king had been replaced. She brings powerful druid magic to the final battle as a key ally. Her testimony about the Duplicate King is one of the most emotionally impactful handouts in the campaign.</em></p><hr><p><strong>Armor Class</strong> 16 (hide + shield, +2 natural)</p><p><strong>Hit Points</strong> 132 (24d8 + 24)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>14 (+2)</td><td>12 (+1)</td><td>12 (+1)</td><td>20 (+5)</td><td>11 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +5, Wis +9</p><p><strong>Skills</strong> Medicine +9, Nature +5, Perception +9</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 19</p><p><strong>Languages</strong> Common, Elvish, Druidic, Sylvan</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><hr><h3>Traits</h3><p><strong>Wild Shape (2/Day).</strong> Eira can use her action to magically assume the shape of a beast she has seen before, up to CR 1.</p><p><strong>Spellcasting (18th Level).</strong> Eira is an 18th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Druidcraft, Mending, Produce Flame, Shillelagh</p><p><strong>1st level (4 slots):</strong> Entangle, Goodberry, Healing Word</p><p><strong>2nd level (3 slots):</strong> Hold Person, Pass Without Trace, Spike Growth</p><p><strong>3rd level (3 slots):</strong> Call Lightning, Dispel Magic, Plant Growth</p><p><strong>4th level (3 slots):</strong> Blight, Polymorph, Stoneskin</p><p><strong>5th level (3 slots):</strong> Commune with Nature, Greater Restoration, Wall of Thorns</p><p><strong>6th level (1 slot):</strong> Heal, Sunbeam</p><p><strong>7th level (1 slot):</strong> Transport via Plants</p><h3>Actions</h3><p><strong>Quarterstaff (with Shillelagh).</strong> <em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d8 + 5) magical bludgeoning damage.</p><hr><h3>DM Notes</h3><p>Eira is the party\u2019s most powerful ally in Phase 3. As an NPC ally, she prioritizes support: Healing Word for downed PCs, Call Lightning for sustained damage, and Dispel Magic to counter enemy effects. She uses Stoneskin on the party\u2019s tank before big fights and Wall of Thorns to control battlefields. Heal (70 HP, no roll) is her emergency button. Transport via Plants allows fast travel between locations with large trees. She is calm, wise, and heartbroken \u2014 she has known Thalric for over a century and immediately recognized the Duplicate\u2019s emotional hollowness. Her testimony handout reads: \u201cI asked him about the day his daughter was born. He told me the date, the weight, the name. But he did not smile. Thalric always smiles when he speaks of Lily.\u201d</p>"
+  },
+  {
+    "name": "Gilded Sentinel (CR 10)",
+    "phase": 3,
+    "cr": 10,
+    "size": "lg",
+    "creatureType": "construct",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "ac": 18,
+    "hp": 142,
+    "hpFormula": "15d10 + 60",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 10, "truesight": 0 },
+    "str": 18, "dex": 8, "con": 18, "int": 7, "wis": 10, "cha": 3,
+    "saves": ["str", "con"],
+    "skills": {},
+    "di": ["poison"],
+    "dr": [],
+    "drCustom": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "dv": ["thunder"],
+    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Regeneration",
+        "description": "<p>The Sentinel regains 10 hit points at the start of its turn if it has at least 1 HP. Thunder damage suppresses this for 1 round.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Misty Step (1/Day)",
+        "description": "<p>As a bonus action, the Sentinel teleports up to 30 feet to an unoccupied space.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Immutable Form",
+        "description": "<p>The Sentinel is immune to any spell or effect that would alter its form.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Death Voice",
+        "description": "<p>When destroyed, a recorded message plays: \u2018Return what was taken.\u2019</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>The Sentinel makes two slam attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Slam",
+        "description": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Gilded Sentinel (CR 10)</h2><p><em>Large construct, unaligned</em></p><hr><p><em>Standard Gilded Sentinel variant deployed at the Citadel of Chronos. Same base stats as the CR 7 version but with higher proficiency bonus. Six of these guard Phase 3 locations \u2014 four at the Citadel entrance and two in the Clockwork Atrium. Their Death Voice message is more ominous: \u201cReturn what was taken.\u201d</em></p><hr><p><strong>Armor Class</strong> 18 (natural armor)</p><p><strong>Hit Points</strong> 142 (15d10 + 60)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>8 (\u22121)</td><td>18 (+4)</td><td>7 (\u22122)</td><td>10 (+0)</td><td>3 (\u22124)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +8, Con +8</p><p><strong>Damage Immunities</strong> poison</p><p><strong>Damage Resistances</strong> Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Damage Vulnerabilities</strong> thunder</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</p><p><strong>Senses</strong> blindsight 10 ft., darkvision 60 ft., passive Perception 10</p><p><strong>Languages</strong> understands Common but can\u2019t speak</p><p><strong>Challenge</strong> 10 (5,900 XP)</p><hr><h3>Traits</h3><p><strong>Regeneration.</strong> The Sentinel regains 10 hit points at the start of its turn if it has at least 1 HP. Thunder damage suppresses this for 1 round.</p><p><strong>Immutable Form.</strong> The Sentinel is immune to any spell or effect that would alter its form.</p><p><strong>Death Voice.</strong> When destroyed, a recorded message plays: \u201cReturn what was taken.\u201d</p><h3>Actions</h3><p><strong>Multiattack.</strong> The Sentinel makes two slam attacks.</p><p><strong>Slam.</strong> <em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) bludgeoning damage.</p><p><strong>Misty Step (1/Day).</strong> As a bonus action, the Sentinel teleports up to 30 feet to an unoccupied space.</p><hr><h3>DM Notes</h3><p>This is the mid-tier Sentinel variant. Mechanically identical to the CR 7 version but with +4 proficiency bonus instead of +3, resulting in higher attack bonus (+8 vs +7) and save DCs. The Citadel entrance encounter features four of these in a narrow corridor \u2014 a brutal chokepoint. Smart parties will use thunder damage (Shatter, Thunderwave) to suppress regeneration on multiple Sentinels at once. The cryptic Death Voice message \u201cReturn what was taken\u201d refers to the stolen essence of the frozen champions. If the party has already freed champions, the message hits differently.</p>"
+  },
+  {
+    "name": "Gilded Sentinel (CR 12)",
+    "phase": 3,
+    "cr": 12,
+    "size": "lg",
+    "creatureType": "construct",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "ac": 19,
+    "hp": 180,
+    "hpFormula": "19d10 + 76",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 10, "truesight": 0 },
+    "str": 20, "dex": 8, "con": 18, "int": 7, "wis": 10, "cha": 3,
+    "saves": ["str", "con"],
+    "skills": {},
+    "di": ["poison"],
+    "dr": [],
+    "drCustom": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+    "dv": ["thunder"],
+    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Regeneration",
+        "description": "<p>The Sentinel regains 15 hit points at the start of its turn if it has at least 1 HP. Thunder damage suppresses this for 1 round.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Misty Step (3/Day)",
+        "description": "<p>As a bonus action, the Sentinel teleports up to 30 feet.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Dimension Door (1/Day)",
+        "description": "<p>The Sentinel teleports up to 500 feet to a location it can see or describe.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Immutable Form",
+        "description": "<p>Immune to any spell or effect that would alter its form.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Spatial Shunt (Recharge 5\u20136)",
+        "description": "<p>The Sentinel warps space around one creature within 30 ft. DC 16 Charisma saving throw or be banished to a harmless demiplane for 1 round. The creature reappears in the nearest unoccupied space.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>The Sentinel makes three slam attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Slam",
+        "description": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 16 (2d10 + 5) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Gilded Sentinel (CR 12)</h2><p><em>Large construct, unaligned</em></p><hr><p><em>The most powerful Sentinel variant. Guards the Anchor of Space in the Sunken Vault beneath Ironhaven Harbor. This Sentinel is larger than its lesser counterparts, standing nearly 12 feet tall with more elaborate golden filigree and eyes that burn with intense amber fire. It has enhanced regeneration, multiple teleportation abilities, and the terrifying Spatial Shunt power that can briefly banish a creature from reality.</em></p><hr><p><strong>Armor Class</strong> 19 (natural armor)</p><p><strong>Hit Points</strong> 180 (19d10 + 76)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>20 (+5)</td><td>8 (\u22121)</td><td>18 (+4)</td><td>7 (\u22122)</td><td>10 (+0)</td><td>3 (\u22124)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +9, Con +8</p><p><strong>Damage Immunities</strong> poison</p><p><strong>Damage Resistances</strong> Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Damage Vulnerabilities</strong> thunder</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</p><p><strong>Senses</strong> blindsight 10 ft., darkvision 60 ft., passive Perception 10</p><p><strong>Languages</strong> understands Common but can\u2019t speak</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><hr><h3>Traits</h3><p><strong>Regeneration.</strong> The Sentinel regains 15 hit points at the start of its turn if it has at least 1 HP. Thunder damage suppresses this for 1 round.</p><p><strong>Immutable Form.</strong> Immune to any spell or effect that would alter its form.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The Sentinel makes three slam attacks.</p><p><strong>Slam.</strong> <em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 16 (2d10 + 5) bludgeoning damage.</p><p><strong>Spatial Shunt (Recharge 5\u20136).</strong> The Sentinel warps space around one creature within 30 ft. DC 16 Charisma saving throw or be banished to a harmless demiplane for 1 round. The creature reappears in the nearest unoccupied space.</p><p><strong>Dimension Door (1/Day).</strong> The Sentinel teleports up to 500 feet to a location it can see or describe.</p><p><strong>Misty Step (3/Day).</strong> As a bonus action, the Sentinel teleports up to 30 feet.</p><hr><h3>DM Notes</h3><p>This is the apex predator of the Sentinel line. Three slam attacks at +9 for 16 damage each is brutal (48 average per round). Regeneration of 15 HP/round means it heals back almost a full slam\u2019s worth of damage every turn. Spatial Shunt is the real threat \u2014 removing the party\u2019s tank or healer for a full round can be devastating. The Sentinel uses Dimension Door to chase fleeing parties and Misty Step (3/day) to close gaps or escape area effects. Thunder damage is still the key weakness. The Sunken Vault encounter pairs this Sentinel with rising water and collapsing architecture for a truly memorable set piece. It guards the Anchor of Space \u2014 destroying the anchor causes a brief spatial distortion that deals 4d10 force damage to everything within 30 feet.</p>"
+  },
+  {
+    "name": "Time Echo",
+    "phase": 3,
+    "cr": 0.5,
+    "size": "med",
+    "creatureType": "undead",
+    "subtype": "",
+    "alignment": "Neutral",
+    "ac": 12,
+    "hp": 20,
+    "hpFormula": "3d8 + 3",
+    "speed": { "walk": 40, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 6, "dex": 14, "con": 13, "int": 6, "wis": 10, "cha": 8,
+    "saves": [],
+    "skills": {},
+    "di": ["necrotic", "poison"],
+    "dr": ["acid", "cold", "fire", "lightning", "thunder"],
+    "drCustom": "",
+    "dv": [],
+    "ci": ["exhaustion", "frightened", "grappled", "paralyzed", "petrified", "poisoned", "prone", "restrained"],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Mirror Link",
+        "description": "<p>Each Time Echo is linked to a specific mirror in the Mirror Gallery. If the corresponding mirror is shattered (AC 13, 10 HP), the Echo is instantly destroyed.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Amorphous",
+        "description": "<p>The Echo can move through a space as narrow as 1 inch without squeezing.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Shadow Stealth",
+        "description": "<p>While in dim light or darkness, the Echo can take the Hide action as a bonus action.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Signature Attack",
+        "description": "<p>Instead of the Shadow\u2019s Strength Drain, each Echo uses the signature weapon or cantrip of the PC it mirrors. Adjust attack and damage to match.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Signature Attack (Melee)",
+        "description": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 2) damage (type matches mirrored PC\u2019s weapon).</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Signature Attack (Ranged)",
+        "description": "<p><em>Ranged Spell Attack:</em> +4 to hit, range 120 ft., one target. <em>Hit:</em> 11 (2d10) damage (type matches mirrored PC\u2019s cantrip).</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Time Echo</h2><p><em>Medium undead, neutral</em></p><hr><p><em>Golden temporal copies of the player characters, summoned from the Mirror Gallery. Shimmering silhouettes that fight with echoes of the party\u2019s own abilities. They look like golden-glass reflections of each PC \u2014 same height, same posture, same fighting stance, but translucent and flickering with temporal energy. Deliberately fragile (20 HP each) \u2014 the encounter is emotional, not lethal. Destroying the corresponding mirror instantly destroys the Echo.</em></p><hr><p><strong>Armor Class</strong> 12</p><p><strong>Hit Points</strong> 20 (3d8 + 3)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>6 (\u22122)</td><td>14 (+2)</td><td>13 (+1)</td><td>6 (\u22122)</td><td>10 (+0)</td><td>8 (\u22121)</td></tr></tbody></table><hr><p><strong>Damage Immunities</strong> necrotic, poison</p><p><strong>Damage Resistances</strong> acid, cold, fire, lightning, thunder</p><p><strong>Condition Immunities</strong> exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</p><p><strong>Senses</strong> passive Perception 10</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 1/2 (100 XP)</p><hr><h3>Traits</h3><p><strong>Mirror Link.</strong> Each Time Echo is linked to a specific mirror in the Mirror Gallery. If the corresponding mirror is shattered (AC 13, 10 HP), the Echo is instantly destroyed.</p><p><strong>Amorphous.</strong> The Echo can move through a space as narrow as 1 inch without squeezing.</p><p><strong>Shadow Stealth.</strong> While in dim light or darkness, the Echo can take the Hide action as a bonus action.</p><p><strong>Signature Attack.</strong> Instead of the Shadow\u2019s Strength Drain, each Echo uses the signature weapon or cantrip of the PC it mirrors. Adjust attack and damage to match.</p><h3>Actions</h3><p><strong>Signature Attack (Melee).</strong> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 2) damage (type matches mirrored PC\u2019s weapon).</p><p><strong>Signature Attack (Ranged).</strong> <em>Ranged Spell Attack:</em> +4 to hit, range 120 ft., one target. <em>Hit:</em> 11 (2d10) damage (type matches mirrored PC\u2019s cantrip).</p><hr><h3>DM Notes</h3><p>This encounter is about emotional impact, not difficulty. Each Echo mirrors a specific PC perfectly \u2014 describe it using that PC\u2019s mannerisms, stance, and weapon. The Echo of the barbarian holds its axe the same way. The Echo of the wizard traces the same arcane gestures. Players fighting themselves is inherently unsettling. The Mirror Link mechanic gives clever players an instant-kill option: shatter the mirror (AC 13, 10 HP) instead of fighting the Echo. The mirrors are arranged around the gallery \u2014 players can see their own reflections moving independently before the Echoes step out. Spawn one Echo per PC. If a PC destroys their own Echo, have it mouth their name silently before shattering.</p>"
+  },
+  {
+    "name": "Archduke Valerius Thorne",
+    "phase": 3,
+    "cr": 18,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Lawful Evil",
+    "ac": 18,
+    "hp": 250,
+    "hpFormula": "27d8 + 135",
+    "speed": { "walk": 30, "fly": 60, "swim": 0, "hover": true },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 60 },
+    "str": 10, "dex": 16, "con": 20, "int": 22, "wis": 16, "cha": 20,
+    "saves": ["int", "wis", "cha", "con"],
+    "skills": { "arc": 1, "his": 1, "ins": 1, "per": 1 },
+    "di": [],
+    "dr": ["force", "radiant"],
+    "drCustom": "",
+    "dv": [],
+    "ci": ["charmed", "frightened"],
+    "spellcastingAbility": "int",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "description": "<p>If Valerius fails a saving throw, he can choose to succeed instead. When he does, there is an audible sound of a clock rewinding.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Magic Resistance",
+        "description": "<p>Advantage on saving throws against spells and other magical effects.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Temporal Distortion Field",
+        "description": "<p>Ranged attack rolls against Valerius have disadvantage (projectiles slow in the air around him). This field fails when he drops below 50% HP (125 HP).</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Sanctuary (Anchor-Linked)",
+        "description": "<p>While at least one Anchor of Reality remains active in Room 3, Valerius cannot be targeted by attacks or spells (as the Sanctuary spell, no save). The Anchors must be destroyed first.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "PHASE 1 \u2014 The Philanthropist (100%\u201350% HP)",
+        "description": "<p>Valerius fights with restraint in Phase 1. He talks during combat, trying to convince the party. He does not waste actions on dialogue \u2014 he speaks while fighting. Uses Wall of Force, Slow (DC 20), Hold Person (upcast 5th, 3 targets, DC 20), Counterspell (at 7th level), and Shield (+5 AC reaction).</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "PHASE 2 \u2014 The Tyrant (50%\u20130% HP)",
+        "description": "<p>At 125 HP: drops to ground level, Temporal Distortion Field ends, ritual circle damage increases from 2d6 to 4d6 radiant. He gains Legendary Actions and additional spells: Disintegrate (DC 20 Dex, 10d6+40 force), Chain Lightning (DC 20 Dex, 10d8 lightning), Meteor Swarm (1/day, DC 20 Dex, 40d6), Globe of Invulnerability (1/day).</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Phase 1 Spellcasting (17th Level)",
+        "description": "<p>Spell save DC 20, +12 to hit with spell attacks. Known spells in Phase 1: Wall of Force, Slow (DC 20), Hold Person (upcast 5th level, 3 targets, DC 20), Counterspell (at 7th level), Shield (+5 AC reaction).</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Valerius makes three Chronal Bolt attacks, or two Chronal Bolt attacks and casts one spell.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Chronal Bolt",
+        "description": "<p><em>Ranged Spell Attack:</em> +12 to hit, range 120 ft., one target. <em>Hit:</em> 19 (3d8 + 6) force damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Temporal Rewind (1 Legendary Action, 3/Day total)",
+        "description": "<p>Valerius negates the last instance of damage dealt to him, restoring up to 30 HP. Accompanied by the sound of a clock running backward.</p>",
+        "activation": "legendary"
+      },
+      {
+        "name": "Essence Burst (2 Legendary Actions)",
+        "description": "<p>60-ft. cone. Each creature: DC 18 Dexterity save, 36 (8d8) radiant damage on a failed save, half on success. Visible as a wave of golden light filled with ghostly faces.</p>",
+        "activation": "legendary"
+      },
+      {
+        "name": "Summon Time Echo (3 Legendary Actions, 2/Day)",
+        "description": "<p>Valerius summons a Time Echo of a previous boss within 30 ft: d4: 1=Wight (30 HP), 2=Bandit Prince (60 HP), 3=Gilded Sentinel (70 HP), 4=Duplicate King (75 HP). Echoes have half HP and last 3 rounds.</p>",
+        "activation": "legendary"
+      },
+      {
+        "name": "Gravity Inversion (Lair Action)",
+        "description": "<p>20-ft square within 120 ft. DC 16 Dex save or \u2018fall\u2019 30 ft up (3d6 bludgeoning) then 30 ft down (3d6 bludgeoning).</p>",
+        "activation": "lair"
+      },
+      {
+        "name": "Time Pool (Lair Action)",
+        "description": "<p>15-ft radius within 120 ft. DC 16 Con save or 18 (4d8) necrotic damage + 1 level of Exhaustion.</p>",
+        "activation": "lair"
+      },
+      {
+        "name": "Frozen Moment (Lair Action)",
+        "description": "<p>One creature within 120 ft. DC 17 Wis save or Paralyzed until end of its next turn.</p>",
+        "activation": "lair"
+      },
+      {
+        "name": "Death and Final Choice",
+        "description": "<p>At 0 HP Valerius falls, incapacitated but conscious. The ritual shatters, stored essence erupts, all stasis pods shatter, champions awaken. Players choose: Kill (clean ending), Spare/Imprison (trial, sequel hook), Use Stasis on Him (poetic justice).</p>",
+        "activation": "passive"
+      }
+    ],
+    "biography": "<h2>Archduke Valerius Thorne</h2><p><em>Medium humanoid (human), lawful evil</em></p><hr><p><em>The campaign\u2019s BBEG. A 17th-level Chronurgy Wizard who has spent 14 years engineering a ritual to freeze the entire Tri-Kingdoms in a single perfect moment \u2014 no death, no disease, no change, no choice. He genuinely believes he is saving the world. Silver-streaked dark hair, immaculate cream-and-gold robes, surrounded by swirling golden essence. His eyes glow with temporal energy. He speaks with calm, measured certainty \u2014 the voice of a man who has seen every possible future and chosen this one.</em></p><hr><p><strong>Armor Class</strong> 18 (temporal distortion field)</p><p><strong>Hit Points</strong> 250 (27d8 + 135)</p><p><strong>Speed</strong> 30 ft., fly 60 ft. (hover)</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>16 (+3)</td><td>20 (+5)</td><td>22 (+6)</td><td>16 (+3)</td><td>20 (+5)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +12, Wis +9, Cha +11, Con +11</p><p><strong>Skills</strong> Arcana +12, History +12, Insight +9, Persuasion +11</p><p><strong>Damage Resistances</strong> force, radiant</p><p><strong>Condition Immunities</strong> charmed, frightened</p><p><strong>Senses</strong> truesight 60 ft., passive Perception 13</p><p><strong>Languages</strong> Common, Elvish, Dwarvish, Draconic, Celestial, Infernal</p><p><strong>Challenge</strong> 18 (20,000 XP)</p><hr><h3>Traits</h3><p><strong>Legendary Resistance (3/Day).</strong> If Valerius fails a saving throw, he can choose to succeed instead. When he does, there is an audible sound of a clock rewinding.</p><p><strong>Magic Resistance.</strong> Advantage on saving throws against spells and other magical effects.</p><p><strong>Temporal Distortion Field.</strong> Ranged attack rolls against Valerius have disadvantage (projectiles slow in the air around him). This field fails when he drops below 50% HP (125 HP).</p><p><strong>Sanctuary (Anchor-Linked).</strong> While at least one Anchor of Reality remains active in Room 3, Valerius cannot be targeted by attacks or spells (as the Sanctuary spell, no save). The Anchors must be destroyed first.</p><h3>Phase 1 \u2014 The Philanthropist (100%\u201350% HP)</h3><p>Valerius fights with restraint. He talks during combat, trying to convince the party that his vision is correct. He does not waste actions on dialogue \u2014 he speaks while fighting.</p><p><strong>Spellcasting (17th Level).</strong> Spell save DC 20, +12 to hit. Spells available: Wall of Force, Slow (DC 20), Hold Person (upcast 5th level, 3 targets, DC 20), Counterspell (at 7th level), Shield (+5 AC reaction).</p><h3>Phase 2 \u2014 The Tyrant (50%\u20130% HP)</h3><p>At 125 HP: drops to ground level, Temporal Distortion Field ends, ritual circle damage increases from 2d6 to 4d6 radiant. He gains Legendary Actions and additional spells.</p><p><strong>Additional Spells:</strong> Disintegrate (DC 20 Dex, 10d6+40 force), Chain Lightning (DC 20 Dex, 10d8 lightning), Meteor Swarm (1/day, DC 20 Dex, 40d6), Globe of Invulnerability (1/day).</p><h3>Actions</h3><p><strong>Multiattack.</strong> Valerius makes three Chronal Bolt attacks, or two Chronal Bolt attacks and casts one spell.</p><p><strong>Chronal Bolt.</strong> <em>Ranged Spell Attack:</em> +12 to hit, range 120 ft., one target. <em>Hit:</em> 19 (3d8 + 6) force damage.</p><h3>Legendary Actions (Phase 2 Only, 3/Round)</h3><p><strong>Temporal Rewind (1 Action, 3/Day total).</strong> Valerius negates the last instance of damage dealt to him, restoring up to 30 HP. Accompanied by the sound of a clock running backward.</p><p><strong>Essence Burst (2 Actions).</strong> 60-ft. cone. Each creature: DC 18 Dexterity save, 36 (8d8) radiant damage on a failed save, half on success. Visible as a wave of golden light filled with ghostly faces.</p><p><strong>Summon Time Echo (3 Actions, 2/Day).</strong> Valerius summons a Time Echo of a previous boss within 30 ft: d4: 1=Wight (30 HP), 2=Bandit Prince (60 HP), 3=Gilded Sentinel (70 HP), 4=Duplicate King (75 HP). Echoes have half HP and last 3 rounds.</p><h3>Lair Actions (Initiative 20)</h3><p><strong>Gravity Inversion.</strong> 20-ft square within 120 ft. DC 16 Dex save or \u201cfall\u201d 30 ft up (3d6 bludgeoning) then 30 ft down (3d6 bludgeoning).</p><p><strong>Time Pool.</strong> 15-ft radius within 120 ft. DC 16 Con save or 18 (4d8) necrotic damage + 1 level of Exhaustion.</p><p><strong>Frozen Moment.</strong> One creature within 120 ft. DC 17 Wis save or Paralyzed until end of its next turn.</p><h3>Death and Final Choice</h3><p>At 0 HP Valerius falls, incapacitated but conscious. The ritual shatters, stored essence erupts, all stasis pods shatter, champions awaken. Players choose: <strong>Kill</strong> (clean ending), <strong>Spare/Imprison</strong> (trial, sequel hook), <strong>Use Stasis on Him</strong> (poetic justice).</p><hr><h3>DM Notes</h3><p>This is a two-phase boss fight designed to escalate dramatically. In Phase 1, Valerius is restrained and philosophical \u2014 he uses Wall of Force to separate the party, Slow to debilitate them, and Hold Person to neutralize threats, all while explaining his vision. He is genuinely trying to convince the party. Counterspell at 7th level shuts down almost any spell. Shield makes him temporarily AC 23. In Phase 2, the mask drops completely. Legendary Actions make him feel relentless \u2014 Temporal Rewind is psychologically devastating (the party deals a massive hit and watches it rewind), Essence Burst punishes clustering, and Summon Time Echo creates chaos. Lair Actions on initiative 20 add constant environmental pressure. Time Pool is the most dangerous (exhaustion stacks are deadly). The Sanctuary mechanic means the party MUST destroy the Anchors before they can touch him \u2014 this creates a frantic multi-objective encounter. Run his dialogue throughout: \u201cI have seen ten thousand futures. In nine thousand of them, everyone you love dies screaming. I am offering you the one where they don\u2019t.\u201d</p>"
+  },
+  {
+    "name": "Mayor Tilda Bramblethorn",
+    "phase": 1,
+    "cr": 0,
+    "size": "sm",
+    "creatureType": "humanoid",
+    "subtype": "halfling",
+    "alignment": "Lawful Good",
+    "ac": 10,
+    "hp": 9,
+    "hpFormula": "2d6 + 2",
+    "speed": { "walk": 25, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 8, "dex": 12, "con": 12, "int": 14, "wis": 16, "cha": 16,
+    "saves": [],
+    "skills": { "ins": 1, "per": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Natural Authority",
+        "description": "<p>Tilda has advantage on Charisma (Persuasion) checks when dealing with Oakhaven citizens.</p>",
+        "activation": "passive"
+      }
+    ],
+    "biography": "<h2>Mayor Tilda Bramblethorn</h2><p><em>Small humanoid (halfling), lawful good</em></p><hr><p><em>The mayor of Oakhaven. A no-nonsense halfling grandmother who runs the town with warmth and efficiency. Her office always smells like cinnamon. She wears a practical wool dress, a chain of office that\u2019s slightly too big for her, and reading spectacles perched on the end of her nose. She knows every citizen by name and their grandmother\u2019s name. Quest-giver for Phase 1\u2019s opening adventures.</em></p><hr><p><strong>Armor Class</strong> 10</p><p><strong>Hit Points</strong> 9 (2d6 + 2)</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (\u22121)</td><td>12 (+1)</td><td>12 (+1)</td><td>14 (+2)</td><td>16 (+3)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Skills</strong> Insight +5, Persuasion +5</p><p><strong>Senses</strong> passive Perception 13</p><p><strong>Languages</strong> Common, Halfling</p><p><strong>Challenge</strong> 0 (10 XP)</p><hr><h3>Traits</h3><p><strong>Natural Authority.</strong> Tilda has advantage on Charisma (Persuasion) checks when dealing with Oakhaven citizens.</p><hr><h3>DM Notes</h3><p>Tilda is the party\u2019s introduction to the campaign world. She is warm, practical, and efficient \u2014 a perfect quest-giver who makes the players feel welcome while clearly communicating stakes. She runs the Oakhaven town council from a cozy office above the general store. She offers the party their first quests: the Clockwork Cattle, the Wine-Cellar Wight, and the Emerald Pass Bandits. She pays fairly, provides useful information, and always has fresh-baked cookies. She is not a combatant under any circumstances \u2014 if threatened, every citizen of Oakhaven will defend her. She serves as a moral compass and a reminder of what the party is fighting to protect.</p>"
+  },
+  {
+    "name": "Flick Cogsworth",
+    "phase": 1,
+    "cr": 0,
+    "size": "sm",
+    "creatureType": "humanoid",
+    "subtype": "gnome",
+    "alignment": "Chaotic Neutral",
+    "ac": 11,
+    "hp": 7,
+    "hpFormula": "2d6",
+    "speed": { "walk": 25, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
+    "str": 8, "dex": 12, "con": 10, "int": 18, "wis": 10, "cha": 12,
+    "saves": [],
+    "skills": { "arc": 1, "inv": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Tinker",
+        "description": "<p>Flick can spend 1 hour and 10 gp of materials to construct a Tiny clockwork device (AC 5, 1 HP).</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Artificer's Lore",
+        "description": "<p>Proficiency bonus doubled for History checks related to magic items, alchemical objects, or technological devices.</p>",
+        "activation": "passive"
+      }
+    ],
+    "biography": "<h2>Flick Cogsworth</h2><p><em>Small humanoid (gnome), chaotic neutral</em></p><hr><p><em>Oakhaven\u2019s resident gnome inventor. Creator of the Clockwork Cattle (and their problems). His workshop is a converted barn that is constantly smoking, clanking, and occasionally on fire. Flick is barely three feet tall with wild copper hair that stands on end (from static, he claims, though it\u2019s probably fear). His fingers are perpetually stained with grease and his eyebrows have been burned off so many times they\u2019ve given up growing back. Eager to help but his solutions often create new problems.</em></p><hr><p><strong>Armor Class</strong> 11</p><p><strong>Hit Points</strong> 7 (2d6)</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (\u22121)</td><td>12 (+1)</td><td>10 (+0)</td><td>18 (+4)</td><td>10 (+0)</td><td>12 (+1)</td></tr></tbody></table><hr><p><strong>Skills</strong> Arcana +6, Investigation +6</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 10</p><p><strong>Languages</strong> Common, Gnomish</p><p><strong>Challenge</strong> 0 (10 XP)</p><hr><h3>Traits</h3><p><strong>Tinker.</strong> Flick can spend 1 hour and 10 gp of materials to construct a Tiny clockwork device (AC 5, 1 HP). Examples include a clockwork toy, a fire starter, or a music box.</p><p><strong>Artificer\u2019s Lore.</strong> Proficiency bonus doubled for History checks related to magic items, alchemical objects, or technological devices.</p><hr><h3>DM Notes</h3><p>Flick is comic relief with a heart of gold. He created the Clockwork Cattle as automated farm helpers, but a lightning strike scrambled their control crystals. He has shutdown codes that work... sometimes. He offers to help the party with gadgets that are creative but unreliable (50% chance of working as intended, 25% chance of doing nothing, 25% chance of spectacular malfunction). In later phases, Flick\u2019s understanding of clockwork constructs becomes crucial \u2014 he can identify weak points in Gilded Sentinels if consulted. He speaks very fast, interrupts himself constantly, and refers to explosions as \u201cenergetic disassembly events.\u201d</p>"
+  },
+  {
+    "name": "Margaux Delacroix",
+    "phase": 1,
+    "cr": 0.125,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Lawful Neutral",
+    "ac": 11,
+    "hp": 11,
+    "hpFormula": "2d8 + 2",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 10, "dex": 12, "con": 12, "int": 14, "wis": 14, "cha": 16,
+    "saves": [],
+    "skills": { "per": 1, "ins": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Wine Expertise",
+        "description": "<p>Margaux has advantage on Intelligence checks related to wines, brewing, and vineyard management.</p>",
+        "activation": "passive"
+      }
+    ],
+    "biography": "<h2>Margaux Delacroix</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>Owner of the Delacroix Vineyard, 2 miles south of Oakhaven. Sophisticated and particular \u2014 she wears impeccable clothing even while inspecting the vines, and her silver hair is always perfectly coiffed. Her cellar extends deep into the hillside, accidentally breaching an ancient burial chamber (the Wine-Cellar Wight quest). The vintage the party saves becomes a recurring plot device throughout the campaign.</em></p><hr><p><strong>Armor Class</strong> 11</p><p><strong>Hit Points</strong> 11 (2d8 + 2)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>12 (+1)</td><td>12 (+1)</td><td>14 (+2)</td><td>14 (+2)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Skills</strong> Persuasion +5, Insight +4</p><p><strong>Senses</strong> passive Perception 12</p><p><strong>Languages</strong> Common, Elvish</p><p><strong>Challenge</strong> 1/8 (25 XP)</p><hr><h3>Traits</h3><p><strong>Wine Expertise.</strong> Margaux has advantage on Intelligence checks related to wines, brewing, and vineyard management.</p><hr><h3>DM Notes</h3><p>Margaux is the quest-giver for the Wine-Cellar Wight adventure. She discovered her cellar expansion broke through into an ancient burial chamber and now undead are terrorizing her workers. She offers the party a generous reward (50 gp each plus a case of her finest vintage). The Delacroix Red vintage the party receives becomes a recurring item \u2014 it\u2019s served at the Heroic Games in Phase 2, found in Valerius\u2019s personal collection in Phase 3, and can be given to freed champions as a comfort. Margaux is proud, shrewd, and brooks no nonsense, but she\u2019s also genuinely grateful and becomes a lifelong friend if the party helps her. She has strong opinions about everything and will judge the party\u2019s table manners.</p>"
+  },
+  {
+    "name": "Gareth \"The Blade\" Lumley",
+    "phase": 1,
+    "cr": 0.125,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Chaotic Good",
+    "ac": 12,
+    "hp": 11,
+    "hpFormula": "2d8 + 2",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 12, "dex": 12, "con": 12, "int": 8, "wis": 8, "cha": 14,
+    "saves": [],
+    "skills": { "prf": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Self-Proclaimed Leader",
+        "description": "<p>Gareth believes he is the leader of the Lucky Leopards. The others humor him.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Dramatic Flourish",
+        "description": "<p>Once per combat, Gareth can attempt a dramatic sword flourish. He must make a DC 10 Dexterity check or drop his weapon.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Greatsword (Optimistically Named)",
+        "description": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage. (He uses it like a longsword \u2014 poorly.)</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Gareth \u201cThe Blade\u201d Lumley</h2><p><em>Medium humanoid (human), chaotic good</em></p><hr><p><em>Leader (by his own declaration) of the Lucky Leopards, a comic-relief rival adventuring party. His business card reads \u201cLUKKY LEPPARDS \u2014 Advenchurers for Hire.\u201d Enthusiastic but utterly incompetent. He wears slightly-too-large armor with a crudely painted leopard on the breastplate. His greatsword is \u201coptimistically named\u201d \u2014 it\u2019s actually a standard longsword he uses without any proper training. The Leopards appear throughout the campaign as bumbling foils who somehow keep surviving.</em></p><hr><p><strong>Armor Class</strong> 12 (leather armor)</p><p><strong>Hit Points</strong> 11 (2d8 + 2)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>12 (+1)</td><td>12 (+1)</td><td>12 (+1)</td><td>8 (\u22121)</td><td>8 (\u22121)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Skills</strong> Performance +4</p><p><strong>Senses</strong> passive Perception 9</p><p><strong>Languages</strong> Common (poorly spelled)</p><p><strong>Challenge</strong> 1/8 (25 XP)</p><hr><h3>Traits</h3><p><strong>Self-Proclaimed Leader.</strong> Gareth believes he is the leader of the Lucky Leopards. The others humor him.</p><h3>Actions</h3><p><strong>Dramatic Flourish.</strong> Once per combat, Gareth can attempt a dramatic sword flourish. He must make a DC 10 Dexterity check or drop his weapon.</p><p><strong>Greatsword (Optimistically Named).</strong> <em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage. (He uses it like a longsword \u2014 poorly.)</p><hr><h3>DM Notes</h3><p>Gareth and the Lucky Leopards are the campaign\u2019s recurring comic relief. They show up at the worst possible moments: trying to clear the same dungeon the party is in, entering the Heroic Games with disastrous results, and eventually getting captured in Phase 3 (requiring rescue). Gareth is genuinely kind-hearted and enthusiastic \u2014 he just has no talent whatsoever. The Dramatic Flourish ability exists purely for comedy: there\u2019s a 55% chance he drops his sword every time he tries to look cool. The other Lucky Leopards are: Nibbles (a halfling \u201cwizard\u201d who only knows Prestidigitation), Chunk (a half-orc who is afraid of blood), and Whisper (an elf ranger who is extremely loud). Despite everything, they somehow keep surviving. They are loved by tables everywhere.</p>"
+  },
+  {
+    "name": "Sable",
+    "phase": 3,
+    "cr": 5,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Chaotic Good",
+    "ac": 15,
+    "hp": 65,
+    "hpFormula": "10d8 + 20",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 10, "dex": 16, "con": 14, "int": 16, "wis": 14, "cha": 14,
+    "saves": ["dex", "int"],
+    "skills": { "ste": 2, "dec": 1, "ins": 1, "inv": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Silver Crows Leader",
+        "description": "<p>Sable leads the underground resistance network. She has contacts in every major city and can arrange safe houses, disguises, and intelligence.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Sneak Attack (3d6)",
+        "description": "<p>Once per turn, Sable deals an extra 10 (3d6) damage when she hits with a finesse or ranged weapon and has advantage or an ally within 5 ft.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Cunning Action",
+        "description": "<p>Sable can Dash, Disengage, or Hide as a bonus action.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Evasion",
+        "description": "<p>No damage on successful Dex save for half, half on failure.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Sable makes two shortsword attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Shortsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Hand Crossbow",
+        "description": "<p><em>Ranged Weapon Attack:</em> +6 to hit, range 30/120 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Sable</h2><p><em>Medium humanoid (human), chaotic good</em></p><hr><p><em>Leader of the Silver Crows, the underground resistance movement opposing Valerius. Cool, competent, and always three steps ahead. She wears dark practical clothing, keeps her black hair cropped short, and has a thin scar across her left cheek from a Golden Guard\u2019s blade. She provides the party with the Operation Daybreak mission board and serves as their primary intelligence source throughout Phase 3. Her real name is unknown \u2014 \u201cSable\u201d is the only name she answers to.</em></p><hr><p><strong>Armor Class</strong> 15 (studded leather)</p><p><strong>Hit Points</strong> 65 (10d8 + 20)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>16 (+3)</td><td>14 (+2)</td><td>16 (+3)</td><td>14 (+2)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Dex +6, Int +6</p><p><strong>Skills</strong> Stealth +9 (expertise), Deception +5, Insight +5, Investigation +6</p><p><strong>Senses</strong> passive Perception 12</p><p><strong>Languages</strong> Common, Thieves\u2019 Cant, Elvish</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Silver Crows Leader.</strong> Sable leads the underground resistance network. She has contacts in every major city and can arrange safe houses, disguises, and intelligence.</p><p><strong>Sneak Attack (3d6).</strong> Once per turn, Sable deals an extra 10 (3d6) damage when she hits with a finesse or ranged weapon and has advantage or an ally within 5 ft.</p><p><strong>Evasion.</strong> No damage on successful Dex save for half, half on failure.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Sable makes two shortsword attacks.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p><p><strong>Hand Crossbow.</strong> <em>Ranged Weapon Attack:</em> +6 to hit, range 30/120 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p><p><strong>Cunning Action.</strong> As a bonus action, Sable can Dash, Disengage, or Hide.</p><hr><h3>DM Notes</h3><p>Sable is the party\u2019s spymaster in Phase 3. She runs the Silver Crows resistance from a rotating network of safe houses. She provides the Operation Daybreak mission board: a cork board with pinned notes, maps, and intelligence reports that organizes all of Phase 3\u2019s missions. She is calm under pressure, emotionally guarded, and rarely smiles \u2014 but she cares deeply about the people Valerius has frozen. In combat, she fights smart: using Cunning Action to Hide, then attacking with Sneak Attack from stealth. She never engages in a fair fight if she can avoid it. She has a personal vendetta against Madame Voss, who captured and froze Sable\u2019s sister. If the party rescues her sister from the stasis pods, Sable\u2019s composure cracks for the first and only time in the campaign.</p>"
+  },
+  {
+    "name": "Madame Lucretia Voss",
+    "phase": 3,
+    "cr": 8,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Lawful Evil",
+    "ac": 15,
+    "hp": 78,
+    "hpFormula": "12d8 + 24",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 11, "dex": 16, "con": 14, "int": 18, "wis": 16, "cha": 18,
+    "saves": ["dex", "int"],
+    "skills": { "dec": 2, "ste": 2, "prc": 1, "per": 1, "ins": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Assassinate",
+        "description": "<p>During her first turn, Lucretia has advantage on attack rolls against any creature that hasn\u2019t taken a turn yet. Any hit against a surprised creature is a critical hit.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Sneak Attack (4d6)",
+        "description": "<p>Once per turn, 14 (4d6) extra damage with a finesse/ranged weapon when she has advantage or an ally within 5 ft.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Evasion",
+        "description": "<p>No damage on successful Dex save for half, half on failure.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Preservation Society Director",
+        "description": "<p>Lucretia manages the infrastructure of Valerius\u2019s operation \u2014 the surveillance, the stasis pods, the public relations. She signed the survey permit in Phase 1.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Lucretia makes two shortsword attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Shortsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Light Crossbow",
+        "description": "<p><em>Ranged Weapon Attack:</em> +6 to hit, range 80/320 ft., one target. <em>Hit:</em> 7 (1d8 + 3) piercing damage plus 7 (2d6) poison damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Madame Lucretia Voss</h2><p><em>Medium humanoid (human), lawful evil</em></p><hr><p><em>Director of the Preservation Society, Valerius\u2019s chief lieutenant. Runs the surveillance operation at Heroes\u2019 Rest, manages the stasis pod infrastructure, and handles public relations. A true believer who is more ruthless than Valerius himself. She wears elegant dark clothing, keeps her silver-streaked auburn hair in a severe bun, and speaks with precise, clipped diction. She smiles frequently but it never reaches her eyes. She signed the survey permit the party finds in Phase 1 \u2014 their first breadcrumb leading to the conspiracy.</em></p><hr><p><strong>Armor Class</strong> 15 (studded leather)</p><p><strong>Hit Points</strong> 78 (12d8 + 24)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>11 (+0)</td><td>16 (+3)</td><td>14 (+2)</td><td>18 (+4)</td><td>16 (+3)</td><td>18 (+4)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Dex +6, Int +7</p><p><strong>Skills</strong> Deception +10 (expertise), Stealth +9 (expertise), Perception +6, Persuasion +7, Insight +6</p><p><strong>Senses</strong> passive Perception 16</p><p><strong>Languages</strong> Common, Elvish, Dwarvish, Thieves\u2019 Cant</p><p><strong>Challenge</strong> 8 (3,900 XP)</p><hr><h3>Traits</h3><p><strong>Assassinate.</strong> During her first turn, Lucretia has advantage on attack rolls against any creature that hasn\u2019t taken a turn yet. Any hit against a surprised creature is a critical hit.</p><p><strong>Sneak Attack (4d6).</strong> Once per turn, 14 (4d6) extra damage with a finesse/ranged weapon when she has advantage or an ally within 5 ft.</p><p><strong>Evasion.</strong> No damage on successful Dex save for half, half on failure.</p><p><strong>Preservation Society Director.</strong> Lucretia manages the infrastructure of Valerius\u2019s operation \u2014 the surveillance, the stasis pods, the public relations. She signed the survey permit in Phase 1.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Lucretia makes two shortsword attacks.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage.</p><p><strong>Light Crossbow.</strong> <em>Ranged Weapon Attack:</em> +6 to hit, range 80/320 ft., one target. <em>Hit:</em> 7 (1d8 + 3) piercing damage plus 7 (2d6) poison damage.</p><hr><h3>DM Notes</h3><p>Lucretia is the campaign\u2019s secondary villain and in many ways more hateful than Valerius. Where Valerius is a tragic philosopher, Lucretia is a cold pragmatist who enjoys her power. She manages the stasis pod operation personally, choosing who gets frozen and who gets \u201cpreserved.\u201d Her Assassinate feature means her opening attack is devastating: if she surprises a target, the first hit is an automatic critical dealing 2d6 + 3 piercing + 4d6 poison + 8d6 Sneak Attack = average 45 damage in a single strike. She fights dirty \u2014 targeting healers first, using poison, and retreating when outmatched. She has 2d4 Golden Guard Veterans as bodyguards in most encounters. Her office at Heroes\u2019 Rest contains the evidence needed to turn Captain Vayne. Sable has a personal vendetta against her.</p>"
+  },
+  {
+    "name": "Captain Aldric Vayne",
+    "phase": 3,
+    "cr": 9,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "human",
+    "alignment": "Lawful Neutral",
+    "ac": 18,
+    "hp": 112,
+    "hpFormula": "15d8 + 45",
+    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
+    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
+    "str": 18, "dex": 14, "con": 16, "int": 10, "wis": 12, "cha": 14,
+    "saves": ["str", "con"],
+    "skills": { "ath": 1, "itm": 1, "prc": 1 },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": -1,
+    "items": [
+      {
+        "name": "Improved Critical",
+        "description": "<p>Vayne scores a critical hit on a roll of 19 or 20.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Remarkable Athlete",
+        "description": "<p>Adds half proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check that doesn\u2019t already use his proficiency bonus.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Indomitable (2/Day)",
+        "description": "<p>Vayne can reroll a saving throw that he fails.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Commander of the Golden Guard",
+        "description": "<p>Vayne leads the Archduke\u2019s elite soldiers. He can be turned against Valerius if presented with undeniable proof. If turned, half the Golden Guard joins the party.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Vayne makes three longsword attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Longsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) slashing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Heavy Crossbow",
+        "description": "<p><em>Ranged Weapon Attack:</em> +6 to hit, range 100/400 ft., one target. <em>Hit:</em> 9 (1d10 + 4) piercing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Captain Aldric Vayne</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>Captain of the Golden Guard, Valerius\u2019s military commander. A duty-bound soldier who follows orders but has growing doubts. He is tall, broad-shouldered, with a close-cropped beard going grey at the temples and tired eyes that have seen too much. He wears immaculate gold-trimmed plate armor and carries a longsword named \u201cOath.\u201d He can be turned to the party\u2019s side with evidence from the Hall of Statues or testimony from freed champions.</em></p><hr><p><strong>Armor Class</strong> 18 (plate)</p><p><strong>Hit Points</strong> 112 (15d8 + 45)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>14 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>12 (+1)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +8, Con +7</p><p><strong>Skills</strong> Athletics +8, Intimidation +6, Perception +5</p><p><strong>Senses</strong> passive Perception 15</p><p><strong>Languages</strong> Common</p><p><strong>Challenge</strong> 9 (5,000 XP)</p><hr><h3>Traits</h3><p><strong>Improved Critical.</strong> Vayne scores a critical hit on a roll of 19 or 20.</p><p><strong>Remarkable Athlete.</strong> Adds half proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check that doesn\u2019t already use his proficiency bonus.</p><p><strong>Indomitable (2/Day).</strong> Vayne can reroll a saving throw that he fails.</p><p><strong>Commander of the Golden Guard.</strong> Vayne leads the Archduke\u2019s elite soldiers. He can be turned against Valerius if presented with undeniable proof. If turned, half the Golden Guard joins the party.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Vayne makes three longsword attacks.</p><p><strong>Longsword.</strong> <em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) slashing damage.</p><p><strong>Heavy Crossbow.</strong> <em>Ranged Weapon Attack:</em> +6 to hit, range 100/400 ft., one target. <em>Hit:</em> 9 (1d10 + 4) piercing damage.</p><hr><h3>DM Notes</h3><p>Captain Vayne is the campaign\u2019s most important \u201cturn\u201d opportunity. He is a good man serving a bad cause because he believes in order and stability. He follows Valerius because the Archduke brought peace to the Tri-Kingdoms \u2014 but he doesn\u2019t know about the stasis pods or the frozen champions. Evidence that can turn him: the stasis pods beneath Solhaven Palace, testimony from the Iron Vanguard (especially Bron, whom Vayne respected), records from Lucretia\u2019s office showing the scale of the operation, or the Hall of Statues showing frozen civilians. Turning Vayne requires a Persuasion check (DC 18 with evidence, DC 25 without). If turned, half the Golden Guard (those loyal to Vayne personally) switch sides \u2014 roughly 40 soldiers. This dramatically changes the final battle. In combat, Vayne is a straightforward but extremely effective fighter: three attacks at +8 with Improved Critical means he crits roughly 19% of the time. Indomitable (2/day) makes him very hard to take out with save-or-suck spells. He fights with honor and will accept surrender.</p>"
+  }
+]

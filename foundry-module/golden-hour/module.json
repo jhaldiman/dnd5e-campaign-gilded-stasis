@@ -1,0 +1,30 @@
+{
+  "id": "golden-hour",
+  "title": "The Golden Hour — Introductory One-Shot",
+  "description": "A D&D 5e one-shot for level 10 players set before The Gilded Stasis campaign. Includes 8 custom creatures, 5 pre-generated characters, 5 journal handouts, and a roll table. Import everything into your world with one click.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.3.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/init.mjs"
+  ],
+  "authors": [
+    {
+      "name": "AI-Generated Campaign Content"
+    }
+  ]
+}

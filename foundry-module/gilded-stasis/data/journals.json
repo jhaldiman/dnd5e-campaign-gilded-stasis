@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Campaign Overview",
+    "folder": "locations",
+    "playerVisible": false,
+    "pages": [
+      {
+        "name": "The Gilded Stasis — Overview",
+        "content": "<h2>The Gilded Stasis</h2><p><em>A D&amp;D 5e campaign for levels 3–15</em></p><h3>Theme</h3><p>A lighthearted, heroic campaign that gradually reveals a darker political conspiracy. The tone starts as cozy small-town adventure and escalates into revolution against a sympathetic villain.</p><h3>Campaign Phases</h3><table><tr><th>Phase</th><th>Levels</th><th>Sessions</th><th>Theme</th></tr><tr><td>1 — Local Legends</td><td>3–5</td><td>1–4</td><td>Small-town heroes, hints of conspiracy</td></tr><tr><td>2 — Heroic Games</td><td>6–10</td><td>5–10</td><td>Arena competition, espionage, terrible discovery</td></tr><tr><td>3 — The Gilded Stasis</td><td>11–15</td><td>11–16</td><td>Revolution, alliances, final confrontation</td></tr></table><h3>The BBEG</h3><p><strong>Archduke Valerius Thorne</strong> — A 17th-level Chronurgy Wizard who has spent 14 years engineering a ritual to freeze the entire Tri-Kingdoms in a single perfect moment. No death, no disease, no war, no change, no choice. He genuinely believes he is saving the world.</p><h3>The Grand Heroic Games</h3><p>Valerius's arena competition where he identifies, tests, and harvests the heroic essence of the realm's greatest champions. Winners are \"retired\" to luxurious estates — actually frozen in stasis pods beneath Solhaven Palace.</p><h3>Anchors of Reality</h3><p>Five ancient artifacts that power the Gilded Stasis ritual: Time, Space, Life, Death, and Change. Valerius controls three; the Silver Crows protect one; the fifth's location is uncertain.</p><h3>Key Design Principle</h3><p><em>Every session, ask: \"What is Valerius doing right now?\"</em> He is always acting in the background, always three steps ahead — until the players catch up.</p>"
+      },
+      {
+        "name": "The Tri-Kingdoms",
+        "content": "<h2>The Tri-Kingdoms</h2><p>Three sovereign nations sharing a temperate landmass roughly the size of France, bound by a mutual defense pact. Valerius has positioned himself as the indispensable glue holding them together.</p><table><tr><th>Kingdom</th><th>Terrain</th><th>Culture</th><th>Leader</th></tr><tr><td><strong>Solara</strong></td><td>Rolling golden plains, vineyards, ancient ruins</td><td>Cosmopolitan, artistic, bureaucratic</td><td>Queen Isolde Dawnveil (replaced by duplicate)</td></tr><tr><td><strong>Verdaine</strong></td><td>Dense old-growth forests, fey crossings</td><td>Druidic, insular, deeply traditional</td><td>King Thalric Greenbough (frozen in stasis)</td></tr><tr><td><strong>Ferromar</strong></td><td>Rocky coastline, island chains, busy harbors</td><td>Mercantile, pragmatic, naval power</td><td>Admiral-Regent Kessa Ironhull (still free)</td></tr></table><h3>Travel Distances</h3><table><tr><th>From</th><th>To</th><th>Distance</th><th>On Foot</th></tr><tr><td>Oakhaven</td><td>Emerald Pass</td><td>30 miles</td><td>1.5 days</td></tr><tr><td>Emerald Pass</td><td>Main Highway</td><td>15 miles</td><td>1 day</td></tr><tr><td>Main Highway</td><td>Aurelius</td><td>120 miles</td><td>6 days</td></tr><tr><td>Aurelius</td><td>Ferromar (coast)</td><td>200 miles</td><td>10 days (3 by ship)</td></tr><tr><td>Aurelius</td><td>Verdaine (forest)</td><td>80 miles</td><td>4 days</td></tr></table>"
+      }
+    ]
+  },
+  {
+    "name": "Locations: Oakhaven",
+    "folder": "locations",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Oakhaven Overview",
+        "content": "<h2>Oakhaven — Starting Town</h2><p>A prosperous market town of ~2,000 people in the <strong>Silver-Leaf Province</strong>, at the foot of the Ashenmere Hills. Cobblestone streets, flower boxes in every window, the smell of baking bread and fermenting grapes.</p><p><em>Think: The Shire meets French wine country.</em></p>"
+      },
+      {
+        "name": "The Crossroads Inn",
+        "content": "<h3>The Crossroads Inn (Tavern &amp; Hub)</h3><p><strong>Owner:</strong> Barret Stone, a retired human fighter with a bad knee and a good heart. His wife, Nessa, runs the kitchen. Their ale, \"Oakhaven Gold,\" is locally famous.</p><p><strong>Function:</strong> The party's de facto headquarters. Job postings on the board. Rumors over breakfast. Barret knows everyone and subtly points the party toward problems.</p>"
+      },
+      {
+        "name": "Town Hall",
+        "content": "<h3>Town Hall</h3><p><strong>Occupant:</strong> Mayor Tilda Bramblethorn.</p><p>A charming two-story halfling-scale building (taller folk duck). Town records, meeting room, and Tilda's office (which always smells like cinnamon).</p>"
+      },
+      {
+        "name": "Cogsworth's Workshop",
+        "content": "<h3>Cogsworth's Workshop</h3><p><strong>Occupant:</strong> Flick Cogsworth.</p><p>A converted barn on the edge of town. Constantly smoking, clanking, and occasionally on fire. A hand-painted sign reads: <em>\"Cogsworth's Clockworks — If It Can Be Built, It Probably Shouldn't Be.\"</em></p><p>Source of the Clockwork Cattle quest. Flick can later craft gadgets for the party.</p>"
+      },
+      {
+        "name": "Delacroix Vineyard",
+        "content": "<h3>Delacroix Vineyard</h3><p>2 miles south of town on a sunny hillside. Row upon row of immaculate grapevines surrounding a whitewashed manor house. The cellar extends deep into the hillside — and into a forgotten burial chamber.</p><p>Source of the Wine-Cellar Wight quest. The vintage the party saves becomes a recurring plot device — showing up at galas in Aurelius as the most expensive bottle in the room.</p>"
+      },
+      {
+        "name": "Clearbrook Bridge & Shrine",
+        "content": "<h3>The Clearbrook Bridge</h3><p>An ancient stone bridge over the Clearbrook River, covered in ivy. Local legend says a troll lived under it once. There's no troll — there <em>is</em> a very territorial giant otter the locals have named \"Lord Whiskers.\"</p><h3>The Shrine of Dawnlight</h3><p>A small, open-air chapel maintained by <strong>Brother Aldric</strong>, a kind but absentminded acolyte.</p><p><strong>Foreshadowing:</strong> The shrine's sundial has been running about two minutes slow. Brother Aldric mentions it to anyone who will listen. Nobody takes him seriously.</p>"
+      }
+    ]
+  },
+  {
+    "name": "Locations: Aurelius",
+    "folder": "locations",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Aurelius Overview",
+        "content": "<h2>Aurelius — The Golden Capital</h2><p>The crown jewel of Solara and the Archduke's seat of power. Population ~150,000. White marble, gold leaf, ever-blooming gardens.</p><p><em>If Oakhaven is the Shire, Aurelius is Versailles crossed with a World's Fair.</em> Everything is beautiful, maintained, and slightly uncanny. The streets are too clean. The citizens are too content. There are no beggars, no crime, no weeds. It is perfect — and that perfection is the first red flag.</p>"
+      },
+      {
+        "name": "The Grand Arena",
+        "content": "<h3>The Aurelius Grand Arena</h3><p>A massive colosseum seating 50,000. Magically enhanced to project images of arena events across the city.</p><p><strong>Secret:</strong> Essence-siphoning crystals are built into the arena barriers. When heroes push their limits in combat, the crystals glow faintly gold. (DC 20 Perception to notice; DC 22 Arcana to identify.)</p>"
+      },
+      {
+        "name": "The Gilded Promenade",
+        "content": "<h3>The Gilded Promenade</h3><p>The main boulevard of Aurelius. Lined with luxury shops, cafés, theaters, and the offices of the Preservation Society. Street performers, confetti, music — a permanent festival atmosphere.</p><p>Function: Social encounters, shopping, people-watching, and being watched.</p>"
+      },
+      {
+        "name": "The Heroes' Rest",
+        "content": "<h3>The Heroes' Rest (Players' Estate)</h3><p>A luxurious townhouse \"gifted\" to the players by the Archduke. Marble columns, enchanted baths, a personal chef.</p><p><strong>Secret:</strong> The Unseen Servants that maintain the house also report to Madame Lucretia Voss. <em>Everything</em> the players say inside is recorded. (DC 16 Arcana to detect the Divination aura on the Servants.)</p><p><strong>Countermeasure:</strong> If discovered, the party can feed false information — a huge advantage in the intrigue storyline.</p>"
+      },
+      {
+        "name": "Solhaven Palace",
+        "content": "<h3>Solhaven Palace</h3><p>A sprawling estate of white stone and golden spires. Beautiful gardens open to the public. The interior is warm and inviting — more \"wealthy uncle's country house\" than \"tyrant's fortress.\"</p><h4>Interior Locations</h4><ul><li><strong>The Grand Ballroom</strong> — Where galas and celebrations are held</li><li><strong>The Philanthropist's Gallery</strong> — Portraits of every hero Valerius has \"sponsored\" (the faces match the Hall of Statues)</li><li><strong>The Private Wing</strong> — Off-limits, magically warded. Valerius's actual workspace</li></ul>"
+      },
+      {
+        "name": "The Hall of Statues",
+        "content": "<h3>The Hall of Statues (Hidden)</h3><p>Beneath Solhaven Palace, accessible through a hidden passage in the Philanthropist's Gallery.</p><p>A vast underground chamber. Hundreds of crystalline pods line the walls, each containing a frozen hero — mid-expression, mid-breath, perfectly preserved. Golden filaments connect each pod to a central conduit that pulses with warm light.</p><p><strong>Emotional Beat:</strong> This is the \"oh no\" moment of the campaign. The players find Bron, Sylara, Torq, and Pip — the Iron Vanguard — frozen and smiling. Torq has a crumpled piece of paper in his hand.</p>"
+      }
+    ]
+  },
+  {
+    "name": "Locations: Citadel of Chronos",
+    "folder": "locations",
+    "playerVisible": false,
+    "pages": [
+      {
+        "name": "Citadel Overview",
+        "content": "<h2>The Citadel of Chronos — Final Dungeon</h2><p>A demiplane folded into reality at the heart of Aurelius, accessible only during the celestial conjunction. From outside, a shimmering golden cathedral that wasn't there yesterday. Inside, the laws of time are Valerius's to command.</p><p><em>Everything is gold and glass. Clocks cover every surface — all running at different speeds. Some rooms are frozen in time; others age anyone who enters. Gravity shifts between floors.</em></p>"
+      },
+      {
+        "name": "The Clockwork Atrium",
+        "content": "<h3>The Clockwork Atrium (Entrance)</h3><p>A vast, ticking hall of interlocking gears. The floor is a massive clock face. Players must navigate across it as the hands sweep around — stepping on the wrong section ages or de-ages them (Exhaustion levels or stat penalties, reversed by resting on a \"safe\" gear).</p><p><strong>Enemies:</strong> 2 × Gilded Sentinel CR 10, 4 × Animated Armor (reskinned as golden statues).</p>"
+      },
+      {
+        "name": "The Mirror Gallery",
+        "content": "<h3>The Mirror Gallery</h3><p>A corridor of mirrors showing the players' past selves. The reflections step out as <strong>Time Echoes</strong> — shadow versions of the players at earlier levels.</p><p>Each Echo is linked to a mirror (AC 13, 10 HP). Shattering the mirror instantly destroys the Echo.</p><p><em>Consider using the players' actual character sheets from earlier sessions for maximum impact.</em></p>"
+      },
+      {
+        "name": "The Anchor Chamber",
+        "content": "<h3>The Anchor Chamber</h3><p>Five pedestals, one for each Anchor of Reality. The players have (hopefully) destroyed or recovered 2–3 by this point. Remaining Anchors are defended by <strong>Gilded Sentinels</strong>.</p><p>If Herald Elara was not turned, she defends this room. She fights at half damage, heals downed PCs, and can be turned mid-fight (Persuasion DC 22 with disadvantage).</p>"
+      },
+      {
+        "name": "The Throne of Forever Noon",
+        "content": "<h3>The Throne of Forever Noon (Boss Arena)</h3><p>A circular chamber at the top of the Citadel. No ceiling — just an unchanging golden sky. The sun hangs motionless directly overhead.</p><p>Valerius waits here, hovering above a ritual circle, surrounded by swirling heroic essence — captured dreams and stolen courage.</p><h4>Lair Actions (Initiative 20)</h4><table><tr><th>Lair Action</th><th>Effect</th></tr><tr><td><strong>Gravity Inversion</strong></td><td>20-ft square, 120 ft range. DC 16 Dex or fall 30 ft up (3d6) then 30 ft down (3d6)</td></tr><tr><td><strong>Time Pool</strong></td><td>15-ft radius, 120 ft range. DC 16 Con or 4d8 necrotic + 1 Exhaustion</td></tr><tr><td><strong>Frozen Moment</strong></td><td>One creature, 120 ft. DC 17 Wis or Paralyzed until end of its next turn</td></tr></table><p>Cannot repeat the same lair action two rounds in a row.</p>"
+      }
+    ]
+  },
+  {
+    "name": "Phase 1 Handouts",
+    "folder": "phase1",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Quest Board: Clockwork Cattle",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 2px solid #8b7355; border-radius: 4px;\"><h2 style=\"text-align:center;\">⚠ URGENT — HELP WANTED ⚠</h2><p>Flick's metal cows are at it again.</p><p>Three chickens <strong>missing</strong>. Greta's fence <strong>destroyed</strong>. Something chased Farmer Holt into the pond. <em>Again.</em></p><p>Anyone with the courage (and the good sense) to wrangle these contraptions back to Cogsworth's Workshop — or, if necessary, dismantle them — please report to the Town Hall.</p><p><strong>Payment:</strong> 50 gold pieces from the town fund, plus whatever Flick can cobble together as an apology.</p><p style=\"text-align:right;\">— <em>Mayor Tilda Bramblethorn</em><br/><em>\"Please stop asking me about the chickens. I know.\"</em></p></div>"
+      },
+      {
+        "name": "Quest Board: Wine-Cellar Wight",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 2px solid #8b7355; border-radius: 4px;\"><h2 style=\"text-align:center;\">⚠ URGENT — SITUATION AT THE DELACROIX VINEYARD ⚠</h2><p>Workers in the deepest cellar of the Delacroix Vineyard have breached an unknown chamber behind the east wall.</p><p><strong>Something came out.</strong></p><p>The cellar is now OFF LIMITS until resolved. Vintner Delacroix is offering <strong>generous compensation</strong> to qualified adventurers.</p><p><em>IMPORTANT: The 1594 Reserve is stored in the affected area. Exercise EXTREME caution around the wine racks. No fire magic. I MEAN IT.</em></p><p style=\"text-align:right;\">— <em>Mayor Tilda Bramblethorn</em><br/>on behalf of Vintner Margaux Delacroix</p></div>"
+      },
+      {
+        "name": "Lucky Leopards Business Card",
+        "content": "<div style=\"font-family: serif; background: #fffff0; padding: 15px; border: 1px solid #999; border-radius: 4px; text-align: center; max-width: 350px;\"><h3>THE LUKKY LEPPARDS</h3><p><em>Advenchurers for Hire</em></p><p>★ Dunjen Crawling ★ Monster Slane ★<br/>★ Tresure Recovery ★ Escort Servises ★</p><p><em>\"No Job Too Big, No Fee Too Small!\"</em></p><p>Contact: Gareth \"The Blade\" Lumley<br/>Room 3, The Crossroads Inn, Oakhaven</p><p><em>(ask for the party with the leopard banner)</em><br/><em>(it's the one that looks like a cat)</em></p></div>"
+      },
+      {
+        "name": "Corwin's Wanted Poster",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 2px solid #8b4513; border-radius: 4px;\"><h2 style=\"text-align:center;\">WANTED</h2><h3 style=\"text-align:center;\">SIR CORWIN ASHFORD<br/>\"THE BANDIT PRINCE OF EMERALD PASS\"</h3><p><strong>For:</strong> Highway robbery, theft of goods, obstruction of trade, and <em>excessive politeness during criminal activity</em>.</p><p><strong>Description:</strong> Human male, early 30s, brown hair, sharp features. Wears a green cloak and carries a longsword. Often accompanied by 15–20 armed bandits.</p><p><strong>WARNING:</strong> Ashford is a trained knight. Do not engage alone. He is known to offer his victims dinner. Do not accept.</p><p><strong>REWARD:</strong> 500 gold pieces for capture or proof of defeat.</p><p style=\"text-align:right;\"><em>By order of the Regional Governor of the Silver-Leaf Province.</em></p></div>"
+      },
+      {
+        "name": "Corwin's Apology Note",
+        "content": "<div style=\"font-family: cursive, serif; background: #fffff0; padding: 20px; border: 1px solid #8b7355; border-radius: 4px;\"><p>My Dear Lucky Leopards,</p><p>Please accept my sincerest apologies for the inconvenience of today's toll collection. I assure you, your valuables will be put to excellent use (primarily food, shelter, and tablecloths).</p><p>I have taken the liberty of leaving you a basket of fresh apricots as compensation. They are in season and, I am told, quite good for morale.</p><p>Regarding the greatsword: I will keep it safe. It is a fine weapon, if somewhat optimistically named.</p><p>Should you wish to discuss the matter further, I am available most afternoons in the pass. Please send word ahead — I prefer to set a proper table for guests.</p><p>With warm regards and genuine respect,</p><p><em>Sir Corwin Ashford</em><br/><em>Prince of the Pass</em></p><p><small>P.S. — Your wizard's spellbook makes for surprisingly entertaining reading. The margin notes are inspired.</small></p></div>"
+      },
+      {
+        "name": "The Survey Permit",
+        "content": "<div style=\"font-family: serif; background: #f5f5f0; padding: 20px; border: 2px solid #666; border-radius: 4px;\"><h3 style=\"text-align:center;\">OFFICIAL SURVEY PERMIT</h3><h4 style=\"text-align:center;\">Tri-Kingdoms Infrastructure Bureau</h4><p><strong>Project:</strong> Silver-Leaf Trade Route Improvement Initiative<br/><strong>Authorized by:</strong> The Office of Archduke Valerius Thorne<br/><strong>Permit No.:</strong> TK-IR-4471-SL</p><p>The bearer of this permit is authorized to conduct geographical and arcane survey operations in the <strong>Whispering Woods</strong> (Western Silver-Leaf Province).</p><p>Survey activities may include:</p><ul><li>Terrain assessment and mapping</li><li>Soil and mineral sampling</li><li><small>Ley-line conductivity measurement ← (DC 14 Perception to notice)</small></li><li>Vegetation clearance as needed</li></ul><p>This permit supersedes local ordinances.</p><p><em>Signed,</em><br/><em>Lucretia Voss</em><br/><em>Director, Preservation Society</em></p><p><strong>DM Note:</strong> The ley-line measurement line is the first hard clue. Lucretia's signature is a seed for Act II.</p></div>"
+      },
+      {
+        "name": "Corwin's Torn Golden Invitation",
+        "content": "<div style=\"font-family: serif; background: linear-gradient(#fdf6e3, #f5e6c8); padding: 20px; border: 2px solid #daa520; border-radius: 4px; text-align: center;\"><p>✦ ═══════════════════════════ ✦</p><h3>YOU ARE CORDIALLY INVITED</h3><p>to the</p><h2>GRAND HEROIC GAMES</h2><p>held in the glorious capital of <strong>Aurelius</strong><br/>under the patronage of<br/><strong>Archduke Valerius Thorne</strong></p><hr/><p><strong>Invitee:</strong> Sir Corwin Ashford<br/><strong>Title:</strong> Knight of the Silver Order<br/><strong>Event:</strong> The Third Annual Invitational</p><hr/><p><em>The Archduke has observed your deeds and is honored to welcome you among the realm's greatest champions.</em></p><p><em>\"May your strength inspire us all.\"</em></p><p>✦ ═══════════════════════════ ✦</p><p><em>(The invitation has been torn down the middle and clumsily sewn back together with thick thread. Stains — possibly wine, possibly tears — mark the lower corner.)</em></p></div>"
+      },
+      {
+        "name": "The Players' Golden Invitation",
+        "content": "<div style=\"font-family: serif; background: linear-gradient(#fdf6e3, #f5e6c8); padding: 20px; border: 2px solid #daa520; border-radius: 4px; text-align: center;\"><p>✦ ═══════════════════════════ ✦</p><h3>YOU ARE CORDIALLY INVITED</h3><p>to the</p><h2>GRAND HEROIC GAMES</h2><p>held in the glorious capital of <strong>Aurelius</strong><br/>under the patronage of<br/><strong>Archduke Valerius Thorne</strong></p><hr/><p><strong>Invitee:</strong> ________________________<br/><em>(Write each PC's name by hand)</em></p><p><strong>Recognized Deeds:</strong><br/><em>(Fill in 1–2 of that character's achievements)</em></p><hr/><p><em>Presented by Herald Elara Dawnmantle</em></p><p><em>\"May your strength inspire us all.\"</em></p><p>✦ ═══════════════════════════ ✦</p><p><strong>DM Tip:</strong> Personalize the deeds for each player. Use specific moments from your sessions. Valerius is watching. He knows everything.</p></div>"
+      },
+      {
+        "name": "Silver Signet Ring",
+        "content": "<div style=\"font-family: serif; background: #f0f0f0; padding: 15px; border: 1px solid #999; border-radius: 4px;\"><h3>ITEM: Silver Signet Ring</h3><p>A heavy silver ring, tarnished with age. The face bears an engraved motif: a single leaf with seven veins, enclosed in a circle. The interior band is inscribed with letters too worn to read — only \"...ren of the Sil...\" is legible.</p><p><em>(The leaf motif is distinctive. It doesn't match any current noble house in the Tri-Kingdoms. It must be very old.)</em></p></div>"
+      }
+    ]
+  },
+  {
+    "name": "Phase 2 Handouts",
+    "folder": "phase2",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Golden Invitation (Reminder)",
+        "content": "<div style=\"font-family: serif; background: linear-gradient(#fdf6e3, #f5e6c8); padding: 20px; border: 2px solid #daa520; border-radius: 4px; text-align: center;\"><p>★ THE ARCHDUKE'S SEAL ★</p><p>You are cordially and personally invited to the</p><h2>GRAND HEROIC GAMES OF AURELIUS</h2><p>As an honored guest of Archduke Valerius Thorne,<br/>Steward of the Tri-Kingdoms and Patron of Heroes.</p><p>Accommodations, travel, and training will be provided. Present this invitation at any Golden Guard checkpoint for priority passage.</p><p><em>\"May the brightest among you find the rest they deserve.\"</em></p><p>— Archduke Valerius Thorne</p></div><p><strong>DM Note:</strong> \"Find the rest they deserve\" is now loaded with double meaning.</p>"
+      },
+      {
+        "name": "Aurelius City Map",
+        "content": "<div style=\"font-family: monospace; background: #f5f0e0; padding: 20px; border: 2px solid #8b7355; border-radius: 4px;\"><h2 style=\"text-align:center;\">AURELIUS — THE GOLDEN CAPITAL</h2><pre style=\"font-size: 12px; line-height: 1.4;\">\n          ┌─────────────────┐\n          │   SOLHAVEN      │\n          │    PALACE       │ ← Private wing: OFF LIMITS\n          └────────┬────────┘\n                   │\n          ┌────────┴────────┐\n          │  PHILANTHROPIST │ ← Portraits of champions\n          │    GALLERY      │\n          └────────┬────────┘\n                   │\n    ┌──────────────┼──────────────┐\n    │   THE GILDED PROMENADE     │\n    │  [Shops] [Cafés] [Theaters]│\n    │  Preservation   The Broken │\n    │  Society HQ ★   Bell ★     │\n    └──────────────┬──────────────┘\n                   │\n          ┌────────┴────────┐\n          │    GRAND ARENA  │ ← Seats 50,000\n          └────────┬────────┘\n                   │\n    ┌──────────────┼──────────────┐\n    │              │              │\n  HEROES'      MARKET     RESIDENTIAL\n  REST ★       QUARTER    DISTRICT\n  (Your estate)           (\"Retirement\n                            Estates\" ★)\n</pre><p>★ = Locations of interest for investigation</p></div>"
+      },
+      {
+        "name": "Aurelius Daily Herald",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 2px solid #333; border-radius: 4px;\"><h2 style=\"text-align:center;\">THE AURELIUS DAILY HERALD</h2><p style=\"text-align:center;\"><em>\"All the News That Glitters\"</em></p><hr/><h3>HEROES CONQUER THE LABYRINTH!</h3><p>[PLAYER PARTY NAME] stunned crowds yesterday in the first event of the Grand Heroic Games. Navigating the legendary Labyrinth of Trials beneath the Grand Arena, the party demonstrated remarkable [SKILL — fill in based on play].</p><p>\"Absolutely electrifying,\" said one spectator. \"I haven't seen talent like this since the Iron Vanguard's run three years ago.\"</p><p>The Archduke himself was seen applauding from the royal box.</p><p><strong>UPCOMING:</strong> The Sky-Ship Regatta — one week hence!</p><hr/><p><small>OTHER NEWS:<br/>• Preservation Society announces new scholarship fund<br/>• Gilded Promenade flower festival begins Tuesday<br/>• Missing persons report: 3 citizens unaccounted for (continued on page 7) ← <em>[they won't find page 7]</em></small></p></div>"
+      },
+      {
+        "name": "Valerius's Quest Briefing",
+        "content": "<div style=\"font-family: serif; background: #f0f0f0; padding: 20px; border: 2px solid #555; border-radius: 4px;\"><p style=\"text-align:center;\"><strong>CONFIDENTIAL — EYES ONLY</strong></p><p><strong>TO:</strong> [Player Party Name]<br/><strong>FROM:</strong> Office of the Archduke<br/><strong>RE:</strong> Recovery of Stolen Artifact</p><hr/><p>A group of radical scholars calling themselves the \"Order of Ashen Knowledge\" has stolen an artifact of significant historical and strategic importance from the Solaran National Archives.</p><p>The artifact — a crystalline orb known as the <strong>\"Meridian Stone\"</strong> — is believed to be an Anchor of pre-Tri-Kingdom origin. In the wrong hands, it could destabilize regional ley-lines and threaten the safety of thousands.</p><p>Intelligence places the stolen artifact at the <strong>Ruins of Grayhold</strong>, a fortress 3 days northeast of Aurelius.</p><p>Your mission: recover the artifact and return it to Solhaven Palace. Herald Elara Dawnmantle will accompany you.</p><p style=\"text-align:right;\">— V.T.</p><p><strong>DM Note:</strong> Every claim is technically true but misleading. The \"Order\" is the Silver Crows. The \"Meridian Stone\" is the Anchor of Death. They didn't steal it — they've been protecting it.</p></div>"
+      },
+      {
+        "name": "The Crow Token Note",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 1px solid #666; border-radius: 4px;\"><p>You're asking the right questions.<br/>The wrong people have noticed.</p><p>Midnight.<br/>The Broken Bell on Copper Street.<br/>Come alone.</p><p style=\"text-align:right;\">— a friend</p><p><em>[A tiny silver pin shaped like a crow is tucked into the fold of the paper.]</em></p></div>"
+      },
+      {
+        "name": "Preservation Society Dossier",
+        "content": "<div style=\"font-family: monospace; background: #1a1a2e; color: #e0e0e0; padding: 20px; border: 2px solid #daa520; border-radius: 4px;\"><h3 style=\"color: #daa520;\">PRESERVATION SOCIETY — RESTRICTED FILE</h3><p>Subject Assessment: [PLAYER PARTY NAME]<br/>Classification: PRIORITY HARVEST</p><hr style=\"border-color: #daa520;\"/><p><strong>MEMBER 1:</strong> [Player Name]<br/>Class Assessment: [Class]<br/>Threat Level: ELEVATED<br/>Power Ceiling: HIGH<br/>Estimated Yield: ████████░░ (78%)<br/>Notes: [Insert detail the Society couldn't know unless watching]</p><p><strong>MEMBER 2:</strong> [Player Name]<br/>Class Assessment: [Class]<br/>Threat Level: MODERATE<br/>Power Ceiling: VERY HIGH<br/>Estimated Yield: █████████░ (85%)<br/>Notes: [Same — personal detail]</p><p>[Continue for each player]</p><hr style=\"border-color: #daa520;\"/><p>RECOMMENDATION: Proceed to Phase 3 (Preservation) at conclusion of current Games cycle. Do NOT engage prematurely — yield increases with stress exposure.</p><p>Authorized: L. Voss</p></div><p><strong>DM Note:</strong> CUSTOMIZE THIS. Use real details from play — things said inside Heroes' Rest, abilities used in the arena, exact quotes. The \"Estimated Yield\" should make their skin crawl.</p>"
+      },
+      {
+        "name": "Professor Quill's Evidence",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 1px solid #8b7355; border-radius: 4px;\"><h3>NOTES — Prof. A. Quill, Silver Crows</h3><p><strong>The Anchors of Reality (5 total):</strong></p><ol><li>Anchor of TIME — ◆ Valerius controls</li><li>Anchor of SPACE — ◆ Valerius controls</li><li>Anchor of LIFE — ◆ Valerius controls</li><li>Anchor of DEATH — ○ In our protection</li><li>Anchor of CHANGE — ○ Location uncertain</li></ol><p>When all 5 are aligned at the Citadel of Chronos during the celestial conjunction (Festival of Eternal Light), the Gilded Stasis ritual can be cast.</p><p><strong>Effect:</strong> All living things within the Tri-Kingdoms are frozen in a single perfect moment. No death. No disease. No war. No CHOICE.</p><p><strong>Heroic Essence (the fuel):</strong><br/>Extracted from heroes pushed to their limits. The Games are a harvesting operation. The \"retirement estates\" are stasis pods. The winners aren't resting — they're FUEL.</p><p><strong>Evidence enclosed:</strong></p><ul><li>Crystallized essence sample (golden crystal)</li><li>Valerius's handwriting (ritual schematics)</li><li>Testimony: Operative \"Wren\" — escaped estate</li></ul><p><em>If you're reading this, you're either a friend or we're already dead.</em></p><p style=\"text-align:right;\">— Aldren Quill</p></div>"
+      },
+      {
+        "name": "Torq's Unfinished Poem",
+        "content": "<div style=\"font-family: cursive, serif; background: #f5f0e0; padding: 30px; border: 1px solid #8b7355; border-radius: 4px; text-align: center;\"><p style=\"font-size: 16px; line-height: 2;\">The road was long, the ale was strong,<br/>Our blades were true, our friends—</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div><p><strong>DM Note:</strong> Just silence after \"our friends—\". Let it hang. Don't explain. Don't fill the gap. Torq was writing it when they came for him.</p>"
+      },
+      {
+        "name": "Iron Vanguard Retirement Notice",
+        "content": "<div style=\"font-family: serif; background: linear-gradient(#fdf6e3, #f5e6c8); padding: 20px; border: 2px solid #daa520; border-radius: 4px; text-align: center;\"><p>★ CONGRATULATIONS TO THE IRON VANGUARD ★</p><p>Winners of the 8th Grand Heroic Games!</p><p>After a legendary performance, the Iron Vanguard — Bron Ironfist, Sylara Moonwhisper, Torq, and Pip Nimblefingers — have been awarded the highest honor:</p><h3>ETERNAL REMEMBRANCE</h3><p>The Vanguard will retire to a private estate provided by the Archduke, where they may enjoy a life of comfort befitting their sacrifice.</p><p><em>\"They have given everything. Now we give back.\"</em><br/>— Archduke Valerius Thorne</p><p><small>The Iron Vanguard are not available for public appearances at this time.</small></p></div><p><strong>DM Note:</strong> \"Eternal Remembrance.\" \"The rest they deserve.\" After the Hall of Statues, this poster should make them furious.</p>"
+      },
+      {
+        "name": "Grayhold Ruins Map",
+        "content": "<div style=\"font-family: monospace; background: #f5f0e0; padding: 20px; border: 2px solid #8b7355; border-radius: 4px;\"><h3 style=\"text-align:center;\">GRAYHOLD RUINS</h3><p style=\"text-align:center;\">3 Days Northeast of Aurelius</p><pre style=\"font-size: 12px; line-height: 1.4;\">\n    ┌─────────────────────────┐\n    │   ┌───────┐  Collapsed  │\n    │   │ TOWER │  Wall       │\n    │   │(empty)│             │\n    │   └───────┘             │\n    │   ┌─────────────────┐   │\n    │   │   MAIN HALL     │   │\n    │   │  (Quill's camp) │   │\n    │   │  - Research desks│   │\n    │   │  - Archive crates│   │\n    │   │  - Bedrolls (6)  │   │\n    │   └────────┬────────┘   │\n    │            │             │\n    │   ┌────────┴────────┐   │\n    │   │   LOWER VAULT   │   │\n    │   │  (The Anchor)   │   │\n    │   │  [Warded door   │   │\n    │   │   DC 18]        │   │\n    │   └─────────────────┘   │\n    │   ┌───────┐             │\n    │   │STABLE │  ← Trail   │\n    │   │(guard │    to road  │\n    │   │ post) │             │\n    │   └───────┘             │\n    └─────────────────────────┘\n</pre></div>"
+      }
+    ]
+  },
+  {
+    "name": "Phase 3 Handouts",
+    "folder": "phase3",
+    "playerVisible": true,
+    "pages": [
+      {
+        "name": "Wanted Poster: Traitors to Paradise",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 2px solid #8b4513; border-radius: 4px;\"><h2 style=\"text-align:center;\">★ WANTED ★</h2><p style=\"text-align:center;\"><strong>BY ORDER OF THE ARCHDUKE'S OFFICE</strong></p><p><strong>CUSTOMIZE:</strong> Insert each PC's name, race, and a one-line physical description.</p><p><strong>CHARGES:</strong></p><ul><li>Attempted sabotage of the Heroic Preservation Program</li><li>Trespass upon sovereign grounds</li><li>Desecration of the Hall of Eternal Remembrance</li><li>Conspiracy with known enemies of the state</li></ul><p><strong>REWARD:</strong> 5,000 gp per individual, alive. 2,000 gp deceased.</p><p>APPROACH WITH EXTREME CAUTION. These individuals are trained combatants.</p><p><em>\"They would have been heroes. Instead, they chose treason.\"</em> — Archduke Valerius Thorne</p></div><p><strong>DM Note:</strong> The reward being higher alive than dead is deliberate — Valerius wants them in pods, not in the ground.</p>"
+      },
+      {
+        "name": "Silver Crows Mission Board",
+        "content": "<div style=\"font-family: serif; background: #2a2a3a; color: #e0e0e0; padding: 20px; border: 2px solid #c0c0c0; border-radius: 4px;\"><h3 style=\"color: #c0c0c0; text-align: center;\">THE SILVER CROWS — OPERATION DAYBREAK</h3><p style=\"text-align:center;\"><em>\"Break the Anchors. Break the Ritual.\"</em></p><hr style=\"border-color: #666;\"/><h4>OBJECTIVE A: THE ANCHOR OF CHANGE</h4><p><strong>Location:</strong> Castle Greenbough, Verdaine<br/><strong>Intel:</strong> King Thalric has been replaced. The real king is frozen beneath the castle. The Anchor is in the throne room.<br/><strong>Contact:</strong> Archdruid Eira (sympathetic, needs proof)<br/><strong>Travel:</strong> ~4 days west | <strong>Difficulty:</strong> HARD</p><h4>OBJECTIVE B: THE ANCHOR OF SPACE</h4><p><strong>Location:</strong> Sunken Vault, Ironhaven Harbor, Ferromar<br/><strong>Intel:</strong> Hidden beneath the harbor. Underwater access only. Guarded by upgraded Sentinel.<br/><strong>Contact:</strong> Mira Ashvane (Silver Crow operative)<br/><strong>Travel:</strong> ~10 days east (3 by ship) | <strong>Difficulty:</strong> HARD</p><h4>OBJECTIVE C: RALLY ADMIRAL KESSA</h4><p><strong>Location:</strong> Flagship Stormbreaker, Ironhaven<br/><strong>Intel:</strong> She suspects foul play. Needs undeniable proof. Controls 30 warships, 3,000 marines.<br/><strong>Difficulty:</strong> MODERATE (political)</p><h4>OBJECTIVE D: TURN KEY ALLIES (Optional)</h4><p><strong>Targets:</strong> Herald Elara, Captain Vayne<br/><strong>Intel:</strong> Both conflicted. Requires returning to Aurelius (hostile).<br/><strong>Difficulty:</strong> VERY HARD</p><hr style=\"border-color: #666;\"/><p><strong>DEADLINE:</strong> The Festival of Eternal Light (30–40 days)<br/><em>\"When the conjunction comes, he casts the ritual. We stop him before then, or we don't stop him.\"</em> — Sable</p></div>"
+      },
+      {
+        "name": "Archdruid Eira's Testimony",
+        "content": "<div style=\"font-family: serif; background: #f0f5f0; padding: 20px; border: 2px solid #2e8b57; border-radius: 4px;\"><h3>SPOKEN TESTIMONY — ARCHDRUID EIRA OF VERDAINE</h3><blockquote><p>\"I have served King Thalric for thirty years. I taught his children the names of trees. I stood beside him when the Ironwood Blight nearly took the western forest.</p><p>The man on that throne is not Thalric.</p><p>He smiles the same smile every day. He eats the same meal. He says the same words at dinner — EXACTLY the same words, down to the pauses.</p><p>I brought him a cutting from the World-Tree — a gift I've given him every solstice for twenty years. He accepted it graciously, as always. Then he set it on the wrong shelf.</p><p>Thalric has set the solstice cutting on the eastern window ledge since before I knew him. This thing that wears his face does not know that.</p><p>It is perfect. It is wrong. He is PERFECT and WRONG.\"</p></blockquote><p><em>— Recorded in confidence by the Silver Crows</em></p></div>"
+      },
+      {
+        "name": "The Duplicate's Response",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 1px solid #8b7355; border-radius: 4px;\"><p>The king smiles. The same smile. Always the same.</p><blockquote><p>\"My dear friends, I assure you — I am quite myself. The Archdruid is a treasured adviser, but age takes its toll on memory, does it not?\"</p></blockquote><p>He gestures at the room. Everything is in order. Everything is exactly where it should be.</p><blockquote><p>\"The Archduke and I are of one mind on the future of Verdaine. The forest has never been healthier. The people have never been happier. What more could a king desire?\"</p></blockquote><p><em>His eyes don't blink.</em></p><p><strong>Insight DC 14:</strong> His answers are perfect but generic. He cannot produce specific memories. When pressed on details, he redirects to policy statements. He is a speech, not a person.</p></div>"
+      },
+      {
+        "name": "Ironhaven Harbor Notice",
+        "content": "<div style=\"font-family: serif; background: #e8f0f8; padding: 20px; border: 2px solid #4682b4; border-radius: 4px;\"><h3 style=\"text-align:center;\">IRONHAVEN HARBOR AUTHORITY — PUBLIC NOTICE</h3><p><strong>RE:</strong> Recent disturbances in the harbor district</p><p>Citizens are advised that the following phenomena are UNDER INVESTIGATION and pose NO IMMEDIATE THREAT:</p><ul><li>Ships reporting navigational anomalies near the old sea-wall (compass deviations of up to 40 degrees)</li><li>Intermittent spatial displacement events in warehouse district (doors opening to incorrect rooms, corridors appearing longer than measured)</li><li>Reports of \"missing\" harbor sections that reappear hours later in slightly different positions</li></ul><p>The Admiral-Regent's office assures the public that these are natural ley-line fluctuations and will resolve on their own.</p><p><strong>DO NOT approach the old sea-wall after dark.</strong></p><p style=\"text-align:right;\">— Harbormaster Dorin Kelp</p></div><p><strong>DM Note:</strong> These are symptoms of the Anchor of Space destabilizing reality. Kessa knows it's not \"natural.\"</p>"
+      },
+      {
+        "name": "Kessa's Pledge",
+        "content": "<div style=\"font-family: serif; background: #f0f0f8; padding: 20px; border: 2px solid #4682b4; border-radius: 4px;\"><h3 style=\"text-align:center;\">FLEET ORDER — EYES ONLY</h3><p>Flagship Stormbreaker, Ironhaven Harbor<br/>Admiral-Regent Kessa Ironhull, Commanding</p><hr/><p><strong>BY MY HAND AND SEAL:</strong></p><p>I have seen what the Archduke has done. I have seen the proof with my own eyes. I believe it.</p><p>Effective immediately, the Iron Fleet is committed to <strong>OPERATION DAYBREAK</strong> under joint command with the bearer(s) of this document.</p><p><strong>DEPLOYMENT:</strong></p><ul><li>30 warships, full complement</li><li>3,000 marines, combat-ready</li><li>12 siege engines (ship-mounted)</li><li>The Stormbreaker will serve as mobile command</li></ul><p><strong>TARGET:</strong> The city of Aurelius<br/><strong>OBJECTIVE:</strong> Neutralize the Citadel of Chronos<br/><strong>TIMELINE:</strong> Fleet sails at your word</p><p>I don't do speeches. Here's what I know: a man I trusted is freezing heroes in glass boxes. That ends.</p><p style=\"text-align:right;\">— Kessa Ironhull<br/><em>\"Fair winds and cannon fire.\"</em></p></div>"
+      },
+      {
+        "name": "Valerius's Personal Journal",
+        "content": "<div style=\"font-family: cursive, serif; background: #f5f0e0; padding: 20px; border: 1px solid #8b7355; border-radius: 4px;\"><h3>Year 14, Day 203</h3><p>The conjunction approaches. Fourteen years of work. Fourteen years of smiling at banquets, shaking hands, pretending that patience is the same as peace.</p><p>I watched a child die of fever last week, in the lower quarter. His mother held him and asked me why. I had no answer. But I will.</p><p>Soon, no child will die of fever. No mother will hold a cooling body. No plague, no famine, no war. Forever Noon. A world at its best, held there by my hand, because no one else had the courage.</p><p>They call it tyranny. I call it mercy.</p><p>The heroes in the Hall — they gave more than they know. Their strength will fuel a world without suffering. Without change. Without that terrible, grinding entropy that makes monsters of us all.</p><p>Elara asked me today if I ever doubted. I told her no.</p><p>I lied.</p><p>I doubt every day. And every day I watch the world suffer, and the doubt goes away.</p><p style=\"text-align:right;\">— V.T.</p></div><p><strong>DM Note:</strong> This is the most sympathetic Valerius will ever be on paper. If a player reads it aloud, let the table sit with it.</p>"
+      },
+      {
+        "name": "Festival of Eternal Light",
+        "content": "<div style=\"font-family: serif; background: linear-gradient(#fdf6e3, #f5e6c8); padding: 20px; border: 2px solid #daa520; border-radius: 4px; text-align: center;\"><h2>✦ THE FESTIVAL OF ETERNAL LIGHT ✦</h2><p><em>A Celebration of Peace, Progress, &amp; Prosperity</em></p><hr/><p><strong>✧ SCHEDULE ✧</strong></p><table style=\"margin: 0 auto; text-align: left;\"><tr><td><strong>DAWN</strong></td><td>Procession of Champions</td></tr><tr><td><strong>MIDDAY</strong></td><td>The Archduke's Address (Solhaven, open balcony)</td></tr><tr><td><strong>AFTERNOON</strong></td><td>Feasting &amp; Games in every district</td></tr><tr><td><strong>DUSK</strong></td><td>The Illumination Ceremony</td></tr><tr><td><strong>MIDNIGHT</strong></td><td>??? — \"A surprise that will change the world forever\"</td></tr></table><hr/><p>FREE ADMISSION. FREE FOOD. FREE ALE.<br/><em>\"The future belongs to everyone.\"</em></p></div><p><strong>DM Note:</strong> \"A surprise that will change the world forever.\" He's telling the truth. He's been telling the truth the entire time.</p>"
+      },
+      {
+        "name": "Elara's Letter (Epilogue)",
+        "content": "<div style=\"font-family: cursive, serif; background: #fffff0; padding: 20px; border: 1px solid #8b7355; border-radius: 4px;\"><p>I have written this letter eleven times. Each version was longer. None of them said what I needed to say. So:</p><p><strong>I was wrong.</strong></p><p>I followed a man I believed was saving the world, and I helped him cage it. I looked at you — my friends, the people I was supposed to protect — and I called you traitors, because admitting the truth would have meant admitting that my entire life was a lie.</p><p>It was.</p><p>I am leaving Aurelius. I don't know where I'll go. Somewhere I can do good without a title or a uniform or someone else's ideology telling me what \"good\" means.</p><p>You showed me what courage actually looks like. It doesn't look like freezing the world in amber. It looks like choosing the mess. The imperfect, beautiful, terrifying mess.</p><p>Thank you.</p><p>If you ever need me, I'll find a way.</p><p style=\"text-align:right;\">— Elara</p><p><small>P.S. Torq finished his poem. It's still terrible. It's perfect.</small></p></div>"
+      },
+      {
+        "name": "\"The World Breathes Again\" (Epilogue)",
+        "content": "<div style=\"font-family: serif; background: #f5f0e0; padding: 20px; border: 2px solid #333; border-radius: 4px;\"><h2 style=\"text-align:center;\">THE AURELIUS DAILY HERALD</h2><p style=\"text-align:center;\"><strong>Special Edition — \"THE WORLD BREATHES AGAIN\"</strong></p><hr/><h3>ARCHDUKE VALERIUS THORNE [DEFEATED/CAPTURED]</h3><p><em>CUSTOMIZE: based on the party's final choice</em></p><h3>HUNDREDS OF HEROES FREED FROM STASIS</h3><p>Champions of the Grand Heroic Games found alive beneath Solhaven Palace. Disoriented but healthy. \"I thought it was still Tuesday,\" said one freed champion, who had been frozen for six years.</p><h3>IRON VANGUARD RECOVERED</h3><p>Bron Ironfist, Sylara Moonwhisper, Torq, and Pip Nimblefingers were among those freed. Bron's first words upon waking: \"Did I miss lunch?\"</p><h3>KING THALRIC RESTORED TO VERDAINE THRONE</h3><p>\"I have a lot of questions,\" the king said.</p><h3>IRON FLEET SECURES AURELIUS</h3><p>Admiral-Regent Kessa Ironhull's 30-ship fleet maintains order during transition.</p><h3>PRESERVATION SOCIETY DISMANTLED</h3><p>Madame Lucretia Voss [CAPTURED/AT LARGE] — <em>CUSTOMIZE</em></p><h3>GOLDEN GUARD RESTRUCTURED</h3><p>Captain Aldric Vayne assumes command pending civilian oversight review.</p><hr/><p><strong>EDITORIAL:</strong> \"We were told it was paradise. We were told the smiles were real, the peace was earned, the gold was a gift. It wasn't. But the heroes who showed us the truth — they are real. And the peace we build now, imperfect and uncertain, will be ours.\"</p><hr/><p style=\"text-align:center;\"><strong>TORQ FINISHES POEM</strong> — Full text on Page 7.<br/><em>(Literary critic writes: \"Still terrible. Still the most important poem written this century.\")</em></p></div>"
+      }
+    ]
+  }
+]
