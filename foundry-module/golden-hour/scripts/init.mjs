@@ -8,6 +8,23 @@
 const MODULE_ID = 'golden-hour';
 const MODULE_PATH = `modules/${MODULE_ID}/data`;
 
+// Map actor names to folder categories
+const ACTOR_FOLDER_MAP = {
+  'Arena Chimera Spawn':    'arena',
+  'Arena Drake':            'arena',
+  'Arena Champion Golem':   'arena',
+  'Golem of the Seventh Star': 'arena',
+  'Rift Stalker':           'rift',
+  'Temporal Wraith':        'rift',
+  'Riftborn Colossus':      'rift',
+  'Valerius Thorne — The Philanthropist': 'npc',
+  'Bron Ironfist':          'npc',
+  'Sylara Moonwhisper':     'npc',
+  'Torq':                   'npc',
+  'Pip Nimblefingers':      'npc',
+  'Herald Elara Dawnmantle': 'npc'
+};
+
 /* ───────────────────────────────────────────────────────────
    Module API — available as game.goldenHour.importContent()
    ─────────────────────────────────────────────────────────── */
@@ -48,14 +65,14 @@ function showImportDialog() {
     content: `
       <div style="margin: 10px 0; line-height: 1.6;">
         <p>Welcome to <strong>The Golden Hour</strong> one-shot module!</p>
-        <p>This will import all custom content into your world:</p>
+        <p>This will import/update all custom content into your world:</p>
         <ul>
           <li><strong>18 Actors</strong> — 8 creatures, 5 allied NPCs, &amp; 5 pre-gen PCs</li>
           <li><strong>7 Journals</strong> — Adventure overview, 5 player handouts, &amp; key scenes</li>
           <li><strong>1 Roll Table</strong> — Rift Lair Actions</li>
           <li><strong>5 Scenes</strong> — High-quality battle maps + Landing Page</li>
         </ul>
-        <p><em>All content will be organized in "Golden Hour" folders.</em></p>
+        <p><em>All content will be organized in "Golden Hour" folders. Existing items will be updated.</em></p>
       </div>`,
     buttons: {
       import: {
@@ -82,7 +99,7 @@ function showImportDialog() {
    ─────────────────────────────────────────────────────────── */
 
 async function runFullImport() {
-  ui.notifications.info('Golden Hour: Starting import…');
+  ui.notifications.info('Golden Hour: Starting import/update…');
 
   try {
     const [actorsRaw, journalsRaw, tablesRaw, scenesRaw] = await Promise.all([
@@ -122,8 +139,12 @@ async function runFullImport() {
   }
 }
 
+/* ───────────────────────────────────────────────────────────
+   Helper Functions
+   ─────────────────────────────────────────────────────────── */
+
 async function getOrCreateFolder(data) {
-  let folder = game.folders.find(f => f.name === data.name && f.type === data.type && f.folder?.id === data.folder);
+  let folder = game.folders.find(f => f.name === data.name && f.type === data.type && f.folder?.id === (data.folder || null));
   if (folder) return folder;
   return await Folder.create(data);
 }
@@ -164,7 +185,6 @@ async function importScene(data, folders) {
 
   const existing = game.scenes.find(s => s.name === data.name && s.folder?.id === folders.sceneRoot?.id);
   if (existing) {
-    ui.notifications.info(`Updating scene: ${data.name}`);
     return await existing.update(updateData);
   }
   return await Scene.create(updateData);
@@ -176,7 +196,7 @@ async function importActor(data, folders) {
   if (category === 'arena') folderId = folders.actorArena.id;
   else if (category === 'rift') folderId = folders.actorRift.id;
   else if (category === 'npc') folderId = folders.actorNPC.id;
-  else if (category === 'pregen' || !category) folderId = folders.actorPregen.id;
+  else folderId = folders.actorPregen.id;
 
   const doc = {
     name: data.name,
@@ -202,7 +222,10 @@ async function importActor(data, folders) {
     prototypeToken: {
       name: data.name,
       texture: { src: data.token || 'icons/svg/mystery-man.svg' },
-      disposition: data.disposition ?? -1
+      disposition: data.disposition ?? -1,
+      displayName: 30,
+      displayBars: 40,
+      bar1: { attribute: 'attributes.hp' }
     }
   };
 
@@ -226,7 +249,6 @@ async function importJournal(data, folders) {
 
   const existing = game.journal.find(j => j.name === data.name && j.folder?.id === folderId);
   if (existing) {
-    // For journals, we replace pages to ensure they match exactly
     await existing.deleteEmbeddedDocuments('JournalEntryPage', existing.pages.map(p => p.id));
     return await existing.createEmbeddedDocuments('JournalEntryPage', pages);
   }
