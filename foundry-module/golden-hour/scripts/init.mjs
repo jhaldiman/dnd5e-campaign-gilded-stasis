@@ -120,12 +120,12 @@ async function runFullImport() {
       await importActor(data, folders);
     }
 
-    console.log(`Golden Hour | Processing journals...`);
+    console.log(`Golden Hour | Processing journal entries...`);
     for (const data of journalsRaw) {
       await importJournal(data, folders);
     }
 
-    console.log(`Golden Hour | Processing tables...`);
+    console.log(`Golden Hour | Processing roll tables...`);
     for (const data of tablesRaw) {
       await importTable(data, folders);
     }
@@ -183,7 +183,6 @@ async function createFolders() {
 function mapLegacyWalls(walls = []) {
   return walls.map(w => ({
     c: w.c,
-    // V12 constants: 0 = NONE, 10 = LIMITED, 20 = ALL
     move: w.move === 1 ? 20 : (w.move ?? 0),
     sense: w.sense === 1 ? 20 : (w.sense ?? 0),
     sound: w.sound === 1 ? 20 : (w.sound ?? 0),
@@ -260,9 +259,30 @@ async function importActor(data, folders) {
 
   const existing = game.actors.find(a => a.name === data.name && a.folder?.id === folderId);
   if (existing) {
-    return await existing.update(doc);
+    await existing.update(doc);
+    const itemIds = existing.items.map(i => i.id);
+    if (itemIds.length > 0) await existing.deleteEmbeddedDocuments('Item', itemIds);
+    if (data.items?.length > 0) {
+      const itemDocs = data.items.map(item => ({
+        name: item.name,
+        type: 'feat',
+        system: { description: { value: item.description ?? '' }, type: { value: 'monster', subtype: '' } }
+      }));
+      await existing.createEmbeddedDocuments('Item', itemDocs);
+    }
+    return existing;
   }
-  return await Actor.create(doc);
+
+  const actor = await Actor.create(doc);
+  if (data.items?.length > 0) {
+    const itemDocs = data.items.map(item => ({
+      name: item.name,
+      type: 'feat',
+      system: { description: { value: item.description ?? '' }, type: { value: 'monster', subtype: '' } }
+    }));
+    await actor.createEmbeddedDocuments('Item', itemDocs);
+  }
+  return actor;
 }
 
 async function importJournal(data, folders) {
@@ -276,9 +296,8 @@ async function importJournal(data, folders) {
     sort: (i + 1) * 100000
   }));
 
-  const existing = game.journals.find(j => j.name === data.name && j.folder?.id === folderId);
+  const existing = game.journal.find(j => j.name === data.name && j.folder?.id === folderId);
   if (existing) {
-    // Delete old pages and create new ones to ensure content is fresh
     const pageIds = existing.pages.map(p => p.id);
     if (pageIds.length > 0) await existing.deleteEmbeddedDocuments('JournalEntryPage', pageIds);
     return await existing.createEmbeddedDocuments('JournalEntryPage', pages);
