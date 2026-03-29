@@ -85,135 +85,68 @@ async function runFullImport() {
   ui.notifications.info('Golden Hour: Starting import…');
 
   try {
-    // 1. Fetch all data files in parallel
     const [actorsRaw, journalsRaw, tablesRaw, scenesRaw] = await Promise.all([
-      fetch(`${MODULE_PATH}/actors.json`).then(r => {
-        if (!r.ok) throw new Error(`Failed to load actors.json (${r.status})`);
-        return r.json();
-      }),
-      fetch(`${MODULE_PATH}/journals.json`).then(r => {
-        if (!r.ok) throw new Error(`Failed to load journals.json (${r.status})`);
-        return r.json();
-      }),
-      fetch(`${MODULE_PATH}/tables.json`).then(r => {
-        if (!r.ok) throw new Error(`Failed to load tables.json (${r.status})`);
-        return r.json();
-      }),
-      fetch(`${MODULE_PATH}/scenes.json`).then(r => {
-        if (!r.ok) throw new Error(`Failed to load scenes.json (${r.status})`);
-        return r.json();
-      })
+      fetch(`${MODULE_PATH}/actors.json`).then(r => r.json()),
+      fetch(`${MODULE_PATH}/journals.json`).then(r => r.json()),
+      fetch(`${MODULE_PATH}/tables.json`).then(r => r.json()),
+      fetch(`${MODULE_PATH}/scenes.json`).then(r => r.json())
     ]);
 
-    // 2. Create folder structure
     const folders = await createFolders();
 
-    // 3. Import actors
-    ui.notifications.info(`Golden Hour: Importing ${actorsRaw.length} actors…`);
+    ui.notifications.info(`Golden Hour: Processing ${actorsRaw.length} actors…`);
     for (const data of actorsRaw) {
       await importActor(data, folders);
     }
 
-    // 4. Import journal entries
-    ui.notifications.info(`Golden Hour: Importing ${journalsRaw.length} journal entries…`);
+    ui.notifications.info(`Golden Hour: Processing ${journalsRaw.length} journals…`);
     for (const data of journalsRaw) {
       await importJournal(data, folders);
     }
 
-    // 5. Import roll tables
-    ui.notifications.info(`Golden Hour: Importing ${tablesRaw.length} roll tables…`);
+    ui.notifications.info(`Golden Hour: Processing ${tablesRaw.length} tables…`);
     for (const data of tablesRaw) {
       await importTable(data, folders);
     }
 
-    // 6. Import scenes
-    ui.notifications.info(`Golden Hour: Importing ${scenesRaw.length} scenes…`);
+    ui.notifications.info(`Golden Hour: Processing ${scenesRaw.length} scenes…`);
     for (const data of scenesRaw) {
       await importScene(data, folders);
     }
 
-    // 7. Mark complete
     await game.settings.set(MODULE_ID, 'imported', true);
-
-    // 8. Success dialog
-    ui.notifications.info('Golden Hour: Import complete!');
-    new Dialog({
-      title: 'Import Complete!',
-      content: `
-        <div style="margin: 10px 0; text-align: center; line-height: 1.6;">
-          <h2 style="margin-bottom: 4px;">The Golden Hour</h2>
-          <p>Successfully imported:</p>
-          <ul style="list-style: none; padding: 0;">
-            <li>✅ ${actorsRaw.length} Actors (8 creatures + 5 pre-gen PCs)</li>
-            <li>✅ ${journalsRaw.length} Journal Entries</li>
-            <li>✅ ${tablesRaw.length} Roll Tables</li>
-            <li>✅ ${scenesRaw.length} Scenes (Battle Maps)</li>
-          </ul>
-          <p style="margin-top: 12px;">Check your <strong>Actors</strong>, <strong>Journal</strong>,
-          <strong>Roll Tables</strong>, and <strong>Scenes</strong> sidebar tabs.<br/>
-          Everything is in <em>"Golden Hour"</em> folders.</p>
-        </div>`,
-      buttons: { ok: { icon: '<i class="fas fa-check"></i>', label: 'Got It!' } },
-      default: 'ok'
-    }).render(true);
+    ui.notifications.info('Golden Hour: Update/Import complete!');
   } catch (err) {
     console.error('Golden Hour import error:', err);
-    ui.notifications.error(`Golden Hour: Import failed — ${err.message}. Check console (F12) for details.`);
+    ui.notifications.error(`Golden Hour: Import failed — ${err.message}`);
   }
 }
 
-/* ───────────────────────────────────────────────────────────
-   Folder Creation
-   ─────────────────────────────────────────────────────────── */
+async function getOrCreateFolder(data) {
+  let folder = game.folders.find(f => f.name === data.name && f.type === data.type && f.folder?.id === data.folder);
+  if (folder) return folder;
+  return await Folder.create(data);
+}
 
 async function createFolders() {
   const f = {};
+  f.actorRoot = await getOrCreateFolder({ name: 'Golden Hour', type: 'Actor', color: '#daa520' });
+  f.actorArena = await getOrCreateFolder({ name: 'Arena Creatures', type: 'Actor', folder: f.actorRoot.id, color: '#cd853f' });
+  f.actorRift = await getOrCreateFolder({ name: 'Rift Creatures', type: 'Actor', folder: f.actorRoot.id, color: '#8b4789' });
+  f.actorNPC = await getOrCreateFolder({ name: 'Allied NPCs', type: 'Actor', folder: f.actorRoot.id, color: '#4682b4' });
+  f.actorPregen = await getOrCreateFolder({ name: 'Pre-Generated Characters', type: 'Actor', folder: f.actorRoot.id, color: '#2e8b57' });
 
-  // ── Actor folders ──
-  f.actorRoot = await Folder.create({
-    name: 'Golden Hour', type: 'Actor', color: '#daa520'
-  });
-  const actorSubs = await Folder.create([
-    { name: 'Arena Creatures',        type: 'Actor', folder: f.actorRoot.id, color: '#cd853f' },
-    { name: 'Rift Creatures',         type: 'Actor', folder: f.actorRoot.id, color: '#8b4789' },
-    { name: 'Allied NPCs',            type: 'Actor', folder: f.actorRoot.id, color: '#4682b4' },
-    { name: 'Pre-Generated Characters', type: 'Actor', folder: f.actorRoot.id, color: '#2e8b57' }
-  ]);
-  f.actorArena  = actorSubs[0];
-  f.actorRift   = actorSubs[1];
-  f.actorNPC    = actorSubs[2];
-  f.actorPregen = actorSubs[3];
+  f.journalRoot = await getOrCreateFolder({ name: 'Golden Hour', type: 'JournalEntry', color: '#daa520' });
+  f.journalDM = await getOrCreateFolder({ name: 'DM Reference', type: 'JournalEntry', folder: f.journalRoot.id, color: '#8b0000' });
+  f.journalHandouts = await getOrCreateFolder({ name: 'Player Handouts', type: 'JournalEntry', folder: f.journalRoot.id, color: '#2e8b57' });
 
-  // ── Journal folders ──
-  f.journalRoot = await Folder.create({
-    name: 'Golden Hour', type: 'JournalEntry', color: '#daa520'
-  });
-  const journalSubs = await Folder.create([
-    { name: 'DM Reference',     type: 'JournalEntry', folder: f.journalRoot.id, color: '#8b0000' },
-    { name: 'Player Handouts',  type: 'JournalEntry', folder: f.journalRoot.id, color: '#2e8b57' }
-  ]);
-  f.journalDM       = journalSubs[0];
-  f.journalHandouts = journalSubs[1];
-
-  // ── Table folder ──
-  f.tableRoot = await Folder.create({
-    name: 'Golden Hour', type: 'RollTable', color: '#daa520'
-  });
-
-  // ── Scene folder ──
-  f.sceneRoot = await Folder.create({
-    name: 'Golden Hour', type: 'Scene', color: '#daa520'
-  });
-
+  f.tableRoot = await getOrCreateFolder({ name: 'Golden Hour', type: 'RollTable', color: '#daa520' });
+  f.sceneRoot = await getOrCreateFolder({ name: 'Golden Hour', type: 'Scene', color: '#daa520' });
   return f;
 }
 
-/* ───────────────────────────────────────────────────────────
-   Scene Import
-   ─────────────────────────────────────────────────────────── */
-
 async function importScene(data, folders) {
-  await Scene.create({
+  const updateData = {
     name: data.name,
     folder: folders.sceneRoot?.id,
     width: data.width,
@@ -227,44 +160,29 @@ async function importScene(data, folders) {
     navigation: data.navigation ?? false,
     lights: data.lights ?? [],
     walls: data.walls ?? []
-  });
+  };
+
+  const existing = game.scenes.find(s => s.name === data.name && s.folder?.id === folders.sceneRoot?.id);
+  if (existing) {
+    ui.notifications.info(`Updating scene: ${data.name}`);
+    return await existing.update(updateData);
+  }
+  return await Scene.create(updateData);
 }
 
-/* ───────────────────────────────────────────────────────────
-   Actor Import — Sorts into folders by creature type
-   ─────────────────────────────────────────────────────────── */
-
-// Map actor names to folder categories
-const ACTOR_FOLDER_MAP = {
-  'Arena Chimera Spawn':    'arena',
-  'Arena Drake':            'arena',
-  'Arena Champion Golem':   'arena',
-  'Golem of the Seventh Star': 'arena',
-  'Rift Stalker':           'rift',
-  'Temporal Wraith':        'rift',
-  'Riftborn Colossus':      'rift',
-  'Valerius Thorne — The Philanthropist': 'npc',
-  'Bron Ironfist':          'npc',
-  'Sylara Moonwhisper':     'npc',
-  'Torq':                   'npc',
-  'Pip Nimblefingers':      'npc',
-  'Herald Elara Dawnmantle': 'npc'
-};
-
 async function importActor(data, folders) {
-  // Determine folder
-  let folder;
   const category = ACTOR_FOLDER_MAP[data.name];
-  if (category === 'arena')       folder = folders.actorArena?.id;
-  else if (category === 'rift')   folder = folders.actorRift?.id;
-  else if (category === 'npc')    folder = folders.actorNPC?.id;
-  else                            folder = folders.actorPregen?.id;  // pre-gen PCs
+  let folderId = folders.actorRoot.id;
+  if (category === 'arena') folderId = folders.actorArena.id;
+  else if (category === 'rift') folderId = folders.actorRift.id;
+  else if (category === 'npc') folderId = folders.actorNPC.id;
+  else if (category === 'pregen' || !category) folderId = folders.actorPregen.id;
 
   const doc = {
     name: data.name,
     type: 'npc',
     img: data.img || 'icons/svg/mystery-man.svg',
-    folder: folder ?? folders.actorRoot?.id,
+    folder: folderId,
     system: {
       abilities: {
         str: { value: data.str ?? 10 },
@@ -276,112 +194,28 @@ async function importActor(data, folders) {
       },
       attributes: {
         ac: { flat: data.ac ?? 10, calc: 'flat' },
-        hp: {
-          value: data.hp ?? 10,
-          max: data.hp ?? 10,
-          formula: data.hpFormula ?? ''
-        },
-        movement: {
-          walk:   data.speed?.walk   ?? 30,
-          fly:    data.speed?.fly    ?? 0,
-          swim:   data.speed?.swim   ?? 0,
-          burrow: data.speed?.burrow ?? 0,
-          hover:  data.speed?.hover  ?? false,
-          units: 'ft'
-        },
-        senses: {
-          darkvision:  data.senses?.darkvision  ?? 0,
-          blindsight:  data.senses?.blindsight  ?? 0,
-          tremorsense: data.senses?.tremorsense ?? 0,
-          truesight:   data.senses?.truesight   ?? 0,
-          units: 'ft'
-        }
+        hp: { value: data.hp ?? 10, max: data.hp ?? 10, formula: data.hpFormula ?? '' },
+        movement: { walk: data.speed?.walk ?? 30, units: 'ft' }
       },
-      details: {
-        cr: data.cr ?? 0,
-        type: {
-          value: data.creatureType ?? 'humanoid',
-          subtype: data.subtype ?? ''
-        },
-        alignment: data.alignment ?? '',
-        biography: { value: data.biography ?? '' }
-      },
-      traits: {
-        size: data.size ?? 'med',
-        di:  { value: data.di ?? [], custom: '' },
-        dr:  { value: data.dr ?? [], custom: data.drCustom ?? '' },
-        dv:  { value: data.dv ?? [], custom: '' },
-        ci:  { value: data.ci ?? [], custom: '' }
-      }
+      details: { cr: data.cr ?? 0, biography: { value: data.biography ?? '' } }
     },
     prototypeToken: {
       name: data.name,
-      displayName: 30,      // OWNER_HOVER
-      displayBars: 40,      // ALWAYS
-      bar1: { attribute: 'attributes.hp' },
       texture: { src: data.token || 'icons/svg/mystery-man.svg' },
-      sight: {
-        enabled: (
-          (data.senses?.darkvision ?? 0) > 0 ||
-          (data.senses?.truesight ?? 0) > 0
-        )
-      },
-      disposition: data.disposition ?? -1  // HOSTILE
+      disposition: data.disposition ?? -1
     }
   };
 
-  // Set save proficiencies
-  if (data.saves) {
-    for (const ability of data.saves) {
-      doc.system.abilities[ability].proficient = 1;
-    }
+  const existing = game.actors.find(a => a.name === data.name && a.folder?.id === folderId);
+  if (existing) {
+    return await existing.update(doc);
   }
-
-  // Set spellcasting ability
-  if (data.spellcastingAbility) {
-    doc.system.attributes.spellcasting = data.spellcastingAbility;
-  }
-
-  // Create the actor
-  const actor = await Actor.create(doc);
-
-  // Set skill proficiencies after creation
-  if (data.skills && Object.keys(data.skills).length > 0) {
-    const skillUpdate = {};
-    for (const [skill, prof] of Object.entries(data.skills)) {
-      skillUpdate[`system.skills.${skill}.value`] = prof;
-    }
-    await actor.update(skillUpdate);
-  }
-
-  // Create embedded items (features, actions, reactions, etc.)
-  if (data.items && data.items.length > 0) {
-    const itemDocs = data.items.map(item => ({
-      name: item.name,
-      type: 'feat',
-      system: {
-        description: { value: item.description ?? '' },
-        type: {
-          value: 'monster',
-          subtype: ''
-        }
-      }
-    }));
-    await actor.createEmbeddedDocuments('Item', itemDocs);
-  }
-
-  return actor;
+  return await Actor.create(doc);
 }
 
-/* ───────────────────────────────────────────────────────────
-   Journal Import
-   ─────────────────────────────────────────────────────────── */
-
 async function importJournal(data, folders) {
-  const folderMap = {
-    'dm':       folders.journalDM?.id,
-    'handouts': folders.journalHandouts?.id
-  };
+  const folderMap = { 'dm': folders.journalDM?.id, 'handouts': folders.journalHandouts?.id };
+  const folderId = folderMap[data.folder] ?? folders.journalRoot?.id;
 
   const pages = (data.pages ?? []).map((p, i) => ({
     name: p.name,
@@ -390,19 +224,20 @@ async function importJournal(data, folders) {
     sort: (i + 1) * 100000
   }));
 
-  await JournalEntry.create({
+  const existing = game.journal.find(j => j.name === data.name && j.folder?.id === folderId);
+  if (existing) {
+    // For journals, we replace pages to ensure they match exactly
+    await existing.deleteEmbeddedDocuments('JournalEntryPage', existing.pages.map(p => p.id));
+    return await existing.createEmbeddedDocuments('JournalEntryPage', pages);
+  }
+
+  return await JournalEntry.create({
     name: data.name,
-    folder: folderMap[data.folder] ?? folders.journalRoot?.id,
+    folder: folderId,
     pages: pages,
-    ownership: data.playerVisible
-      ? { default: 2 }   // OBSERVER — players can view
-      : { default: 0 }   // NONE — GM only
+    ownership: data.playerVisible ? { default: 2 } : { default: 0 }
   });
 }
-
-/* ───────────────────────────────────────────────────────────
-   Roll Table Import
-   ─────────────────────────────────────────────────────────── */
 
 async function importTable(data, folders) {
   const results = (data.results ?? []).map((r, i) => ({
@@ -412,13 +247,16 @@ async function importTable(data, folders) {
     type: 0
   }));
 
-  await RollTable.create({
+  const existing = game.tables.find(t => t.name === data.name && t.folder?.id === folders.tableRoot?.id);
+  if (existing) {
+    await existing.deleteEmbeddedDocuments('TableResult', existing.results.map(r => r.id));
+    return await existing.createEmbeddedDocuments('TableResult', results);
+  }
+
+  return await RollTable.create({
     name: data.name,
     folder: folders.tableRoot?.id,
     formula: data.formula ?? '1d4',
-    replacement: true,
-    displayRoll: true,
-    description: data.description ?? '',
     results: results
   });
 }
