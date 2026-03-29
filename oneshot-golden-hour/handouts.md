@@ -150,6 +150,11 @@ And tomorrow we'll do it again!
 
 ---
 
+<div style="text-align: center; margin-bottom: 10px;">
+  <img src="../foundry-module/golden-hour/assets/handouts/TheMedalOfTheSeventhStar.png" 
+       width="300" style="border-radius: 8px;" />
+</div>
+
 <div style="border: 2px solid #c9a84c; padding: 15px;
             background: #fffbe6;">
 
