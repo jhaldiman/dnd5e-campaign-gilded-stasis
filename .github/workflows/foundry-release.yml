@@ -1,4 +1,4 @@
-name: Foundry VTT Module Release
+name: Golden Hour - Foundry VTT Module Release
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'foundry-module/golden-hour/**'
+  workflow_dispatch:
 
 jobs:
   build:
