@@ -50,9 +50,10 @@ function showImportDialog() {
         <p>Welcome to <strong>The Golden Hour</strong> one-shot module!</p>
         <p>This will import all custom content into your world:</p>
         <ul>
-          <li><strong>13 Actors</strong> — 8 custom creatures &amp; 5 pre-generated player characters</li>
+          <li><strong>18 Actors</strong> — 8 creatures, 5 allied NPCs, &amp; 5 pre-gen PCs</li>
           <li><strong>6 Journals</strong> — Adventure overview &amp; 5 player handouts</li>
           <li><strong>1 Roll Table</strong> — Rift Lair Actions</li>
+          <li><strong>4 Scenes</strong> — High-quality battle maps from Dungeon Alchemist</li>
         </ul>
         <p><em>All content will be organized in "Golden Hour" folders.</em></p>
       </div>`,
@@ -85,7 +86,7 @@ async function runFullImport() {
 
   try {
     // 1. Fetch all data files in parallel
-    const [actorsRaw, journalsRaw, tablesRaw] = await Promise.all([
+    const [actorsRaw, journalsRaw, tablesRaw, scenesRaw] = await Promise.all([
       fetch(`${MODULE_PATH}/actors.json`).then(r => {
         if (!r.ok) throw new Error(`Failed to load actors.json (${r.status})`);
         return r.json();
@@ -96,6 +97,10 @@ async function runFullImport() {
       }),
       fetch(`${MODULE_PATH}/tables.json`).then(r => {
         if (!r.ok) throw new Error(`Failed to load tables.json (${r.status})`);
+        return r.json();
+      }),
+      fetch(`${MODULE_PATH}/scenes.json`).then(r => {
+        if (!r.ok) throw new Error(`Failed to load scenes.json (${r.status})`);
         return r.json();
       })
     ]);
@@ -121,10 +126,16 @@ async function runFullImport() {
       await importTable(data, folders);
     }
 
-    // 6. Mark complete
+    // 6. Import scenes
+    ui.notifications.info(`Golden Hour: Importing ${scenesRaw.length} scenes…`);
+    for (const data of scenesRaw) {
+      await importScene(data, folders);
+    }
+
+    // 7. Mark complete
     await game.settings.set(MODULE_ID, 'imported', true);
 
-    // 7. Success dialog
+    // 8. Success dialog
     ui.notifications.info('Golden Hour: Import complete!');
     new Dialog({
       title: 'Import Complete!',
@@ -136,9 +147,10 @@ async function runFullImport() {
             <li>✅ ${actorsRaw.length} Actors (8 creatures + 5 pre-gen PCs)</li>
             <li>✅ ${journalsRaw.length} Journal Entries</li>
             <li>✅ ${tablesRaw.length} Roll Tables</li>
+            <li>✅ ${scenesRaw.length} Scenes (Battle Maps)</li>
           </ul>
           <p style="margin-top: 12px;">Check your <strong>Actors</strong>, <strong>Journal</strong>,
-          and <strong>Roll Tables</strong> sidebar tabs.<br/>
+          <strong>Roll Tables</strong>, and <strong>Scenes</strong> sidebar tabs.<br/>
           Everything is in <em>"Golden Hour"</em> folders.</p>
         </div>`,
       buttons: { ok: { icon: '<i class="fas fa-check"></i>', label: 'Got It!' } },
@@ -188,7 +200,31 @@ async function createFolders() {
     name: 'Golden Hour', type: 'RollTable', color: '#daa520'
   });
 
+  // ── Scene folder ──
+  f.sceneRoot = await Folder.create({
+    name: 'Golden Hour', type: 'Scene', color: '#daa520'
+  });
+
   return f;
+}
+
+/* ───────────────────────────────────────────────────────────
+   Scene Import
+   ─────────────────────────────────────────────────────────── */
+
+async function importScene(data, folders) {
+  await Scene.create({
+    name: data.name,
+    folder: folders.sceneRoot?.id,
+    width: data.width,
+    height: data.height,
+    grid: data.grid,
+    background: data.background,
+    globalLight: data.globalLight ?? true,
+    darkness: data.darkness ?? 0,
+    lights: data.lights ?? [],
+    walls: data.walls ?? []
+  });
 }
 
 /* ───────────────────────────────────────────────────────────
@@ -204,7 +240,12 @@ const ACTOR_FOLDER_MAP = {
   'Rift Stalker':           'rift',
   'Temporal Wraith':        'rift',
   'Riftborn Colossus':      'rift',
-  'Valerius Thorne — The Philanthropist': 'npc'
+  'Valerius Thorne — The Philanthropist': 'npc',
+  'Bron Ironfist':          'npc',
+  'Sylara Moonwhisper':     'npc',
+  'Torq':                   'npc',
+  'Pip Nimblefingers':      'npc',
+  'Herald Elara Dawnmantle': 'npc'
 };
 
 async function importActor(data, folders) {
@@ -219,6 +260,7 @@ async function importActor(data, folders) {
   const doc = {
     name: data.name,
     type: 'npc',
+    img: data.img || 'icons/svg/mystery-man.svg',
     folder: folder ?? folders.actorRoot?.id,
     system: {
       abilities: {
@@ -274,6 +316,7 @@ async function importActor(data, folders) {
       displayName: 30,      // OWNER_HOVER
       displayBars: 40,      // ALWAYS
       bar1: { attribute: 'attributes.hp' },
+      texture: { src: data.token || 'icons/svg/mystery-man.svg' },
       sight: {
         enabled: (
           (data.senses?.darkvision ?? 0) > 0 ||

@@ -151,39 +151,44 @@ earns a "Flawless" rating from the crowd.
 
 ---
 
-### Stage 2: The Labyrinth (Puzzle — 25 minutes)
+### Stage 2: The Trial of Timing and Truth (Puzzle/Spectacle — 40 minutes)
 
-**Setup:** The arena floor transforms — walls rise from the ground,
-creating a maze. The party must navigate from the entrance to the
-center, solving three challenges along the way.
+The second stage is a two-part challenge designed to test the party's coordination and their commitment to the "Heroic Virtues."
 
-**Challenge 1 — The Bridge of Trust**
-A 30-ft. gap with an invisible bridge. One character must walk across
-blindfolded (or with eyes closed) while another guides them with voice
-alone. Success is automatic if a player commits to the bit and
-roleplays it. If they test with objects first, the bridge becomes
-visible — but the crowd boos (less style points).
+#### Part A: The Chronos Clock (Timing — 15 minutes)
 
-**Challenge 2 — The Mirror Room**
-A room full of mirrors. One mirror shows the "true path" forward. To
-identify it:
-- Investigation DC 15: Notice one mirror reflects the room slightly
-  differently (shows an open door)
-- Arcana DC 13: Detect the illusion magic on the other mirrors
-- Or just touch each mirror — the true one ripples like water
+**Setup:** The arena floor transforms into a massive, glowing clock face. Twelve circular pressure plates (marked I through XII) line the perimeter. In the center, a 40-ft. "hand" of scorching golden light (The Radiant Sweeper) begins to rotate.
 
-**Challenge 3 — The Guardian's Riddle**
-A stone face on the wall asks:
+**The Goal:** Lock in the Sacred Hours: **III (The Dawn), VI (The Noon), and IX (The Dusk).**
 
-> *"I am given freely, yet priceless. I am lost easily, yet cannot be
-> bought. I grow stronger the more it is tested. What am I?"*
+**The Mechanics:**
+- **The Radiant Sweeper:** On Initiative 20, the beam rotates 90 degrees clockwise. DC 16 Dex save or 22 (4d10) radiant damage.
+- **Locking a Plate:** A player must be on the plate (III, VI, or IX) *at the moment* the beam passes over it.
+- **The Cost of Valor:** Locking a plate grounds the energy through the player (automatic fail on the save, taking full 4d10 damage), but turns the plate brilliant blue.
 
-**Answer: Trust** (also accept: Faith, Loyalty, Friendship)
-- Intelligence DC 15 if no one guesses
-- Wrong answers cause the stone face to look disappointed (comedic)
+#### Part B: The Archive of the Seven Stars (Clues/Skills — 25 minutes)
 
-**Time Limit:** 10 minutes of real time at the table, or 10 rounds
-in-game.
+**Setup:** Once the third plate is locked, the Sweeper beam focuses into a vertical pillar of light in the center. A 10ft stone cube (**The Archive**) rises from the floor around this light.
+
+**Step 1: The Root of the Realm**
+- **The Clue:** Carved on the Cube: *"The First is found at the Dawn, the Second at the Noon, the Third at the Dusk. The Fourth is where they meet."*
+- **The Solve:** Players must return to the locked plates. **Investigation (DC 14)** or **History (DC 12)** reveals a hidden letter within the glowing blue runes.
+    - Plate III (Dawn): **A** | Plate VI (Noon): **U** | Plate IX (Dusk): **R** | Center (Meet): **E**
+- **Action:** Input "AURE" (Ancient root for Gold/Aurelius) into the rotating stone rings at the Archive's base.
+
+**Step 2: The Prismatic Valor**
+- **The Setup:** The Archive opens, revealing a **Prism of the Protector**. Four new beams of light shoot from the arena corners, hitting the ground.
+- **The Clue:** *"Reflect the light of the people to the one who watches over them."*
+- **The Solve:** Players must use the Prism and their own equipment (shields, blades) to redirect all four beams into the Royal Box where Archduke Valerius is sitting.
+- **Skill Checks:** **Athletics (DC 15)** to hold a shield steady against the light's pressure, or **Acrobatics (DC 14)** to balance while catching a beam.
+
+**Step 3: The Echo of the Oath**
+- **The Setup:** When the four beams hit the Royal Box, a hollow voice booms: *"A hero’s strength is nothing without their anchor. What is the weight of your word?"*
+- **The Clue:** Four small pedestals rise. Three have items (**Golden Weight, Silk Ribbon, Stone Heart**); the fourth is **Empty**.
+- **The Solve:** A player must place a "Personal Toll"—an item of sentimental value from their inventory—on the empty pedestal and describe why it matters.
+- **Skill Checks:** **Insight (DC 16)** to realize it's a test of emotional weight. **Performance (DC 14)** to "tell the tale" of the item to the crowd.
+
+**Conclusion:** The Archive slides open, revealing a **Golden Chalice**. Taking it triggers Stage 3.
 
 ---
 

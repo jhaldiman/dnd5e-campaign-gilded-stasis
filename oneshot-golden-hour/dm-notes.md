@@ -27,116 +27,22 @@ setup.
 |-------|----|-------|
 | Insight on Valerius | 25 | Reveals complete, genuine sincerity — he means every word |
 | Animal Handling (Chimera Spawn) | 14 | Disengage the Spawn for 1 round |
-| Arcana (Labyrinth Mirror) | 13 | Understand the mirror puzzle |
-| Investigation (Labyrinth Mirror) | 15 | Alternative solve for the mirror |
-| Intelligence (Guardian's Riddle) | 15 | Hint toward the answer "Trust" |
+| Investigation (Archive Step 1) | 14 | Notice hidden letters on locked clock plates |
+| History (Archive Step 1) | 12 | Identify "AURE" as the ancient root for Gold |
+| Athletics (Archive Step 2) | 15 | Hold shield steady to redirect prismatic light |
+| Insight (Archive Step 3) | 16 | Realize the toll is emotional/sentimental, not gold |
+| Performance (Archive Step 3) | 14 | "Tell the Tale" of the sacrifice to rouse the crowd |
 | Arcana/Perception (Golem weak spot) | 13 | Identify Dramatic Weakness at 50% HP |
 | Perception (Rift Stalkers) | See stat | Passive 13 to notice Phase Shift |
 | Various (civilian rescue) | 12-15 | Athletics, Acrobatics, Persuasion to rescue civilians |
 
 ---
 
-## NPC Voice & Personality Quick Ref
+## The Archive Puzzle Solve Sheet (For the DM)
 
-### Valerius Thorne — The Philanthropist
-
-- **Voice:** Calm, measured, warm. Think a university professor who
-  genuinely loves his students.
-- **Mannerisms:** Makes eye contact. Remembers names. Asks follow-up
-  questions. Touches people's shoulders when he talks to them.
-- **Key Lines:**
-  - "You are the best of us."
-  - "The world needs heroes. But heroes deserve peace."
-  - Calls people by their first names, never titles
-- **What he DOESN'T do:** Boast, command, intimidate, talk about
-  himself, or show any sign of power hunger
-- **Combat presence:** Supportive, drained, visibly struggling —
-  his heroism is effort, not ease
-
-### Herald Elara
-
-- **Voice:** Slightly breathless, enthusiastic, trying very hard to be
-  professional.
-- **Mannerisms:** Talks with her hands. Blushes when she says
-  something she thinks is dumb. Straightens her armor constantly.
-- **Key Lines:**
-  - "I'm Herald Elara, assigned to your — I mean, welcome."
-  - "The Archduke arranged everything personally. And I mean
-    *personally*."
-- **Role:** Tour guide, expositor, audience surrogate (she's also
-  impressed by the PCs)
-
-### Bron Ironfist
-
-- **Voice:** LOUD. Booming. Never whispers. A dwarf-shaped foghorn.
-- **Mannerisms:** Slaps backs. Stands on furniture. Challenges people
-  to physical contests. Laughs before, during, and after fights.
-- **Key Lines:**
-  - "WHO WANTS TO ARM-WRESTLE?"
-  - "We'll see you at the Eighth Games!"
-  - "THAT'S more like it!"
-- **Combat:** Rushes the biggest enemy. Shouts encouragement at the
-  PCs.
-
-### Sylara Moonwhisper
-
-- **Voice:** Quiet, measured. Speaks in complete sentences with no
-  filler words. Slightly unsettling calm.
-- **Mannerisms:** Watches everything. Smiles rarely but warmly.
-  Sometimes finishes people's sentences (Portent — she saw this
-  moment).
-- **Key Lines:**
-  - "I know."
-  - "Gold twenty. Black one." (enigmatic Portent reading)
-  - Silence, then a knowing look
-- **Combat:** Hangs back. Counterspells at dramatic moments. One
-  well-placed Fireball.
-
-### Torq
-
-- **Voice:** Deep, earnest, slow. Speaks like every word carries
-  weight. Surprisingly gentle for a 7-ft. half-orc barbarian.
-- **Mannerisms:** Writes poetry (badly). Gestures when he talks.
-  Tears up at beautiful things. Stares into the distance.
-- **Key Lines:**
-  - "I wrote a poem. Want to hear it?"
-  - "The stars are... *very* bright tonight." (said profoundly)
-  - "RAAAGHH!" (in combat, then immediately: "Sorry, was that too
-    loud?")
-- **Combat:** Rages. Attacks the biggest thing. Will take a hit for
-  a PC.
-
-### Pip Nimblefingers
-
-- **Voice:** Quick, playful, slightly sarcastic. Classic halfling
-  rogue energy.
-- **Mannerisms:** Appears from nowhere. Picks pockets as a greeting
-  (returns items immediately). Sits on Torq's shoulder.
-- **Key Lines:**
-  - "What? I was always here."
-  - "Found this in your pocket." (hands back something they didn't
-    know was missing)
-  - "Don't tell Bron."
-- **Combat:** Invisible most of the time. Dramatic Sneak Attacks.
-  Rescues civilians between strikes.
-
----
-
-## Encounter Balance Quick Ref
-
-| Encounter | Enemy Composition | Difficulty (5 PCs, Lv 10) |
-|-----------|-------------------|--------------------------|
-| Crucible Wave 1 | 4× Chimera Spawn (CR 3) | Medium |
-| Crucible Wave 2 | 2× Arena Drake (CR 5) | Medium |
-| Crucible Wave 3 | 1× Arena Champion Golem (CR 8) | Medium-Hard |
-| Champion's Trial | 1× Golem of the Seventh Star (CR 10) | Hard |
-| Promenade | 6× Rift Stalker (CR 2), 2× Temporal Wraith (CR 5) | Hard (allies arrive R2) |
-| Boss: Colossus | 1× Riftborn Colossus (CR 12) + spawns | Deadly (with allies) |
-
-**Note:** The Colossus fight is designed to be scary but winnable.
-Valerius's sealing of the Rift stops its regeneration and prevents new
-lair actions. The Iron Vanguard absorbs Stalker spawns. Let the PCs
-shine against the Colossus itself.
+- **Step 1 (Root):** Code is **A-U-R-E**. Letters are hidden on plates III, VI, IX, and the Center.
+- **Step 2 (Prism):** Players must use the **Prism of the Protector** and their own shiny items. Goal: hit the **Royal Box**.
+- **Step 3 (Toll):** Requires a **Personal Item** of sentimental value. The item isn't destroyed (it's returned in Act 5 with their medal), but they must part with it for now.
 
 ---
 
@@ -145,14 +51,14 @@ shine against the Colossus itself.
 | Act | Target Time | Contains |
 |-----|-------------|----------|
 | **Act 1** — Arrival | 45 min | Travel, Elara, Inn, Iron Vanguard, Reception, Valerius |
-| **Act 2** — Gauntlet | 75 min | 3 Crucible waves, Labyrinth (3 puzzles), Champion's Trial |
+| **Act 2** — Gauntlet | 90 min | 3 Crucible waves, Chronos Clock, The Archive, Champion's Trial |
 | **Act 3** — Gala | 30 min | Roleplay, Iron Vanguard bonds, Valerius's speech |
 | **Act 4** — Rift | 75 min | Promenade combat, Building collapse, Colossus boss |
 | **Act 5** — Golden Hour | 30 min | Ceremony, The Offer, Farewells, Epilogue |
-| **Total** | ~4.5 hours | Full one-shot |
+| **Total** | ~4.5 - 5 hours | Full one-shot |
 
 ### If you're running short on time:
-- **Cut the Labyrinth** to one puzzle (the Riddle)
+- **Skip the Prism step** of the Archive (go straight from AURE to the Riddle)
 - **Cut Wave 2** of the Crucible (skip Drakes)
 - **Shorten the Gala** to just Valerius's speech
 - **Reduce Colossus HP** to 140

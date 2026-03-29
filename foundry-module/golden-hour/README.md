@@ -9,6 +9,16 @@ A Foundry VTT V12 module containing all custom content for **The Golden Hour**, 
 | **Actors** | 13 | 8 custom creatures (CR 2–12) + 5 pre-generated level 10 PCs |
 | **Journals** | 6 | 1 DM adventure overview + 5 styled player handouts |
 | **Roll Tables** | 1 | Rift Lair Actions (d4) |
+| **Scenes** | 4 | High-quality battle maps from Dungeon Alchemist |
+
+### Scenes — Battle Maps
+
+| Name | File | Description |
+|------|------|-------------|
+| The Champions Trial | .jpg | Act 2, Stage 3: Arena boss fight |
+| The Crucible | .jpg | Act 2, Stage 1: Arena combat waves |
+| The Gilded Promenade | .webm | Act 4: Animated temporal rift street scene |
+| The Trial of Timing and Truth | .jpg | Act 2, Stage 2: Arena puzzle & clock face |
 
 ### Actors — Creatures
 
@@ -83,6 +93,10 @@ Journal Entries/
 Roll Tables/
   └─ Golden Hour/
        └─ Rift Lair Actions (d4)
+
+Scenes/
+  └─ Golden Hour/
+       └─ (4 Battle Maps)
 ```
 
 ## Compatibility

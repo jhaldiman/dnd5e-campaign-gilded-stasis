@@ -1,0 +1,82 @@
+[
+  {
+    "name": "The Champions Trial",
+    "width": 6600,
+    "height": 6600,
+    "grid": {
+      "size": 150,
+      "distance": 5,
+      "units": "ft",
+      "type": 1,
+      "color": "#000000",
+      "alpha": 0.2
+    },
+    "background": {
+      "src": "modules/golden-hour/assets/maps/TheChampionsTrial.jpg"
+    },
+    "globalLight": true,
+    "darkness": 0.0,
+    "lights": [],
+    "walls": []
+  },
+  {
+    "name": "The Crucible",
+    "width": 6300,
+    "height": 6300,
+    "grid": {
+      "size": 150,
+      "distance": 5,
+      "units": "ft",
+      "type": 1,
+      "color": "#000000",
+      "alpha": 0.2
+    },
+    "background": {
+      "src": "modules/golden-hour/assets/maps/TheCrucible.jpg"
+    },
+    "globalLight": true,
+    "darkness": 0.0,
+    "lights": [],
+    "walls": []
+  },
+  {
+    "name": "The Gilded Promenade",
+    "width": 4800,
+    "height": 6300,
+    "grid": {
+      "size": 150,
+      "distance": 5,
+      "units": "ft",
+      "type": 1,
+      "color": "#000000",
+      "alpha": 0.2
+    },
+    "background": {
+      "src": "modules/golden-hour/assets/maps/TheGuildedPromenade.webm"
+    },
+    "globalLight": true,
+    "darkness": 0.0,
+    "lights": [],
+    "walls": []
+  },
+  {
+    "name": "The Trial of Timing and Truth",
+    "width": 6600,
+    "height": 6600,
+    "grid": {
+      "size": 150,
+      "distance": 5,
+      "units": "ft",
+      "type": 1,
+      "color": "#000000",
+      "alpha": 0.2
+    },
+    "background": {
+      "src": "modules/golden-hour/assets/maps/TheTrialOfTimingAndTruth.jpg"
+    },
+    "globalLight": true,
+    "darkness": 0.0,
+    "lights": [],
+    "walls": []
+  }
+]

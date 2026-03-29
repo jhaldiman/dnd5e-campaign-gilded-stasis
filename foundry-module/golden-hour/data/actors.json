@@ -10,11 +10,27 @@
     "ac": 14,
     "hp": 52,
     "hpFormula": "7d10 + 14",
-    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
-    "str": 16, "dex": 11, "con": 14, "int": 3, "wis": 14, "cha": 6,
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 16,
+    "dex": 11,
+    "con": 14,
+    "int": 3,
+    "wis": 14,
+    "cha": 6,
     "saves": [],
-    "skills": { "prc": 1 },
+    "skills": {
+      "prc": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -44,7 +60,7 @@
         "activation": "passive"
       }
     ],
-    "biography": "<h2>Arena Chimera Spawn</h2><p><em>Medium monstrosity, unaligned</em></p><hr><p><em>A smaller, arena-bred chimera with three heads \u2014 lion, goat, and dragon \u2014 fitted with a jeweled harness that glows faintly with enchantment magic. Bred for spectacle rather than slaughter, these creatures are fierce but can be calmed by skilled handlers.</em></p><hr><p><strong>Armor Class</strong> 14 (natural armor)</p><p><strong>Hit Points</strong> 52 (7d10 + 14)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>11 (+0)</td><td>14 (+2)</td><td>3 (\u22124)</td><td>14 (+2)</td><td>6 (\u22122)</td></tr></tbody></table><hr><p><strong>Skills</strong> Perception +4</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 14</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 3 (700 XP)</p><hr><h3>Traits</h3><p><strong>Arena Behavior.</strong> These are arena animals fitted with jeweled harnesses. A DC 14 Animal Handling check as an action causes the Spawn to disengage for 1 round. If reduced to 0 HP, the harness activates and the Spawn falls asleep rather than dying.</p><h3>Actions</h3><p><strong>Bite (Lion Head).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d10 + 3) piercing damage.</p><p><strong>Headbutt (Goat Head).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) bludgeoning damage. If the Spawn moved at least 15 ft. straight toward the target, the target must succeed on a DC 13 Strength saving throw or be knocked prone.</p><p><strong>Fire Spit (Dragon Head, Recharge 6).</strong> 10-ft. cone. Each creature in the cone must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.</p>"
+    "biography": "<h2>Arena Chimera Spawn</h2><p><em>Medium monstrosity, unaligned</em></p><hr><p><em>A smaller, arena-bred chimera with three heads — lion, goat, and dragon — fitted with a jeweled harness that glows faintly with enchantment magic. Bred for spectacle rather than slaughter, these creatures are fierce but can be calmed by skilled handlers.</em></p><hr><p><strong>Armor Class</strong> 14 (natural armor)</p><p><strong>Hit Points</strong> 52 (7d10 + 14)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>11 (+0)</td><td>14 (+2)</td><td>3 (−4)</td><td>14 (+2)</td><td>6 (−2)</td></tr></tbody></table><hr><p><strong>Skills</strong> Perception +4</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 14</p><p><strong>Languages</strong> —</p><p><strong>Challenge</strong> 3 (700 XP)</p><hr><h3>Traits</h3><p><strong>Arena Behavior.</strong> These are arena animals fitted with jeweled harnesses. A DC 14 Animal Handling check as an action causes the Spawn to disengage for 1 round. If reduced to 0 HP, the harness activates and the Spawn falls asleep rather than dying.</p><h3>Actions</h3><p><strong>Bite (Lion Head).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d10 + 3) piercing damage.</p><p><strong>Headbutt (Goat Head).</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) bludgeoning damage. If the Spawn moved at least 15 ft. straight toward the target, the target must succeed on a DC 13 Strength saving throw or be knocked prone.</p><p><strong>Fire Spit (Dragon Head, Recharge 6).</strong> 10-ft. cone. Each creature in the cone must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.</p>"
   },
   {
     "name": "Arena Drake",
@@ -57,11 +73,30 @@
     "ac": 15,
     "hp": 85,
     "hpFormula": "10d10 + 30",
-    "speed": { "walk": 40, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
-    "str": 18, "dex": 12, "con": 16, "int": 4, "wis": 12, "cha": 6,
-    "saves": ["str", "con"],
-    "skills": { "prc": 1 },
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 4,
+    "wis": 12,
+    "cha": 6,
+    "saves": [
+      "str",
+      "con"
+    ],
+    "skills": {
+      "prc": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -91,12 +126,12 @@
         "activation": "action"
       },
       {
-        "name": "Fire Breath (Recharge 5\u20136)",
+        "name": "Fire Breath (Recharge 5–6)",
         "description": "<p>The drake exhales fire in a 15-ft. cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</p>",
         "activation": "action"
       }
     ],
-    "biography": "<h2>Arena Drake</h2><p><em>Large dragon, unaligned</em></p><hr><p><em>A muscular, wingless drake bred for arena combat. Its scales shimmer with a bronze sheen, and its powerful tail can send combatants flying. Arena drakes hunt in pairs, using pack tactics to corner their prey.</em></p><hr><p><strong>Armor Class</strong> 15 (natural armor)</p><p><strong>Hit Points</strong> 85 (10d10 + 30)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>12 (+1)</td><td>16 (+3)</td><td>4 (\u22123)</td><td>12 (+1)</td><td>6 (\u22122)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +6</p><p><strong>Skills</strong> Perception +4</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 14</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Pack Tactics.</strong> The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The drake makes two attacks: one with its bite and one with its tail swipe.</p><p><strong>Bite.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage.</p><p><strong>Tail Swipe.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one target. <em>Hit:</em> 9 (1d10 + 4) bludgeoning damage. The target must succeed on a DC 15 Strength saving throw or be pushed 10 ft.</p><p><strong>Fire Breath (Recharge 5\u20136).</strong> The drake exhales fire in a 15-ft. cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</p>"
+    "biography": "<h2>Arena Drake</h2><p><em>Large dragon, unaligned</em></p><hr><p><em>A muscular, wingless drake bred for arena combat. Its scales shimmer with a bronze sheen, and its powerful tail can send combatants flying. Arena drakes hunt in pairs, using pack tactics to corner their prey.</em></p><hr><p><strong>Armor Class</strong> 15 (natural armor)</p><p><strong>Hit Points</strong> 85 (10d10 + 30)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>12 (+1)</td><td>16 (+3)</td><td>4 (−3)</td><td>12 (+1)</td><td>6 (−2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +6</p><p><strong>Skills</strong> Perception +4</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 14</p><p><strong>Languages</strong> —</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Pack Tactics.</strong> The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The drake makes two attacks: one with its bite and one with its tail swipe.</p><p><strong>Bite.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage.</p><p><strong>Tail Swipe.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one target. <em>Hit:</em> 9 (1d10 + 4) bludgeoning damage. The target must succeed on a DC 15 Strength saving throw or be pushed 10 ft.</p><p><strong>Fire Breath (Recharge 5–6).</strong> The drake exhales fire in a 15-ft. cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</p>"
   },
   {
     "name": "Arena Champion Golem",
@@ -109,16 +144,40 @@
     "ac": 17,
     "hp": 114,
     "hpFormula": "12d10 + 48",
-    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 120, "blindsight": 0, "truesight": 0 },
-    "str": 20, "dex": 8, "con": 18, "int": 7, "wis": 10, "cha": 1,
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 20,
+    "dex": 8,
+    "con": 18,
+    "int": 7,
+    "wis": 10,
+    "cha": 1,
     "saves": [],
     "skills": {},
-    "di": ["poison", "psychic"],
+    "di": [
+      "poison",
+      "psychic"
+    ],
     "dr": [],
     "drCustom": "",
     "dv": [],
-    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"],
+    "ci": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
     "spellcastingAbility": "",
     "disposition": -1,
     "items": [
@@ -143,12 +202,12 @@
         "activation": "action"
       },
       {
-        "name": "Shockwave (Recharge 5\u20136)",
+        "name": "Shockwave (Recharge 5–6)",
         "description": "<p>Each creature within 15 ft. of the golem must make a DC 16 Strength saving throw. On a failed save, a creature takes 14 (4d6) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>",
         "activation": "action"
       }
     ],
-    "biography": "<h2>Arena Champion Golem</h2><p><em>Large construct, unaligned</em></p><hr><p><em>A towering stone construct carved in the likeness of a champion gladiator, its joints glow with golden magical energy. It wields an enormous stone greatsword and fights with mechanical precision and surprising honor.</em></p><hr><p><strong>Armor Class</strong> 17 (natural armor)</p><p><strong>Hit Points</strong> 114 (12d10 + 48)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>20 (+5)</td><td>8 (\u22121)</td><td>18 (+4)</td><td>7 (\u22122)</td><td>10 (+0)</td><td>1 (\u22125)</td></tr></tbody></table><hr><p><strong>Damage Immunities</strong> poison, psychic</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned</p><p><strong>Senses</strong> darkvision 120 ft., passive Perception 10</p><p><strong>Languages</strong> understands Common but can't speak</p><p><strong>Challenge</strong> 8 (3,900 XP)</p><hr><h3>Traits</h3><p><strong>Immutable Form.</strong> The golem is immune to any spell or effect that would alter its form.</p><p><strong>Arena Protocol.</strong> The golem fights honorably. It does not attack unconscious creatures or pursue creatures who leave the arena.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The golem makes two greatsword attacks.</p><p><strong>Stone Greatsword.</strong> <em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 18 (2d12 + 5) bludgeoning damage.</p><p><strong>Shockwave (Recharge 5\u20136).</strong> Each creature within 15 ft. of the golem must make a DC 16 Strength saving throw. On a failed save, a creature takes 14 (4d6) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>"
+    "biography": "<h2>Arena Champion Golem</h2><p><em>Large construct, unaligned</em></p><hr><p><em>A towering stone construct carved in the likeness of a champion gladiator, its joints glow with golden magical energy. It wields an enormous stone greatsword and fights with mechanical precision and surprising honor.</em></p><hr><p><strong>Armor Class</strong> 17 (natural armor)</p><p><strong>Hit Points</strong> 114 (12d10 + 48)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>20 (+5)</td><td>8 (−1)</td><td>18 (+4)</td><td>7 (−2)</td><td>10 (+0)</td><td>1 (−5)</td></tr></tbody></table><hr><p><strong>Damage Immunities</strong> poison, psychic</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned</p><p><strong>Senses</strong> darkvision 120 ft., passive Perception 10</p><p><strong>Languages</strong> understands Common but can't speak</p><p><strong>Challenge</strong> 8 (3,900 XP)</p><hr><h3>Traits</h3><p><strong>Immutable Form.</strong> The golem is immune to any spell or effect that would alter its form.</p><p><strong>Arena Protocol.</strong> The golem fights honorably. It does not attack unconscious creatures or pursue creatures who leave the arena.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The golem makes two greatsword attacks.</p><p><strong>Stone Greatsword.</strong> <em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 18 (2d12 + 5) bludgeoning damage.</p><p><strong>Shockwave (Recharge 5–6).</strong> Each creature within 15 ft. of the golem must make a DC 16 Strength saving throw. On a failed save, a creature takes 14 (4d6) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>"
   },
   {
     "name": "Golem of the Seventh Star",
@@ -161,16 +220,43 @@
     "ac": 18,
     "hp": 157,
     "hpFormula": "15d12 + 60",
-    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 120, "blindsight": 0, "truesight": 0 },
-    "str": 22, "dex": 10, "con": 18, "int": 8, "wis": 12, "cha": 5,
-    "saves": ["str", "con"],
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 22,
+    "dex": 10,
+    "con": 18,
+    "int": 8,
+    "wis": 12,
+    "cha": 5,
+    "saves": [
+      "str",
+      "con"
+    ],
     "skills": {},
-    "di": ["poison", "psychic"],
+    "di": [
+      "poison",
+      "psychic"
+    ],
     "dr": [],
     "drCustom": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
     "dv": [],
-    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "petrified", "poisoned"],
+    "ci": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
     "spellcastingAbility": "",
     "disposition": -1,
     "items": [
@@ -186,7 +272,7 @@
       },
       {
         "name": "Dramatic Weakness",
-        "description": "<p>At half HP (78 or below), the seven-pointed star on the golem\u2019s chest cracks and glows red. A DC 13 Arcana or Perception check (free action) identifies the weak point. Declared attacks targeting the star deal double damage.</p>",
+        "description": "<p>At half HP (78 or below), the seven-pointed star on the golem’s chest cracks and glows red. A DC 13 Arcana or Perception check (free action) identifies the weak point. Declared attacks targeting the star deal double damage.</p>",
         "activation": "passive"
       },
       {
@@ -205,7 +291,7 @@
         "activation": "action"
       },
       {
-        "name": "Starfire Beam (Recharge 5\u20136)",
+        "name": "Starfire Beam (Recharge 5–6)",
         "description": "<p>The golem fires a beam of radiant energy in a 60-ft. line that is 5 ft. wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 36 (8d8) radiant damage on a failed save, or half as much damage on a successful one.</p>",
         "activation": "action"
       },
@@ -215,7 +301,7 @@
         "activation": "reaction"
       }
     ],
-    "biography": "<h2>Golem of the Seventh Star</h2><p><em>Large construct, unaligned</em></p><hr><p><em>The ultimate arena champion \u2014 a magnificent golden construct standing twelve feet tall, with a blazing seven-pointed star embedded in its chest. It wields a massive golden greatsword and carries a tower shield. This is the final challenge of the Grand Melee, and it fights with devastating precision.</em></p><hr><p><strong>Armor Class</strong> 18 (natural armor)</p><p><strong>Hit Points</strong> 157 (15d12 + 60)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>22 (+6)</td><td>10 (+0)</td><td>18 (+4)</td><td>8 (\u22121)</td><td>12 (+1)</td><td>5 (\u22123)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +10, Con +8</p><p><strong>Damage Immunities</strong> poison, psychic</p><p><strong>Damage Resistances</strong> Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned</p><p><strong>Senses</strong> darkvision 120 ft., passive Perception 11</p><p><strong>Languages</strong> understands Common but can't speak</p><p><strong>Challenge</strong> 10 (5,900 XP)</p><hr><h3>Traits</h3><p><strong>Immutable Form.</strong> The golem is immune to any spell or effect that would alter its form.</p><p><strong>Arena Protocol.</strong> The golem fights honorably. It does not attack unconscious or fleeing opponents.</p><p><strong>Dramatic Weakness.</strong> At half HP (78 or below), the seven-pointed star on the golem\u2019s chest cracks and glows red. A DC 13 Arcana or Perception check (free action) identifies the weak point. Declared attacks targeting the star deal double damage.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The golem makes three attacks: two greatsword strikes and one shield bash.</p><p><strong>Golden Greatsword.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 19 (2d12 + 6) slashing damage.</p><p><strong>Shield Bash.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d6 + 6) bludgeoning damage. The target must succeed on a DC 18 Strength saving throw or be pushed 10 ft. and knocked prone.</p><p><strong>Starfire Beam (Recharge 5\u20136).</strong> The golem fires a beam of radiant energy in a 60-ft. line that is 5 ft. wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 36 (8d8) radiant damage on a failed save, or half as much damage on a successful one.</p><h3>Reactions</h3><p><strong>Deflect.</strong> When the golem is hit by a ranged attack, it reduces the damage by 10 (1d10 + 5). If the damage is reduced to 0, the golem catches or deflects the projectile.</p>"
+    "biography": "<h2>Golem of the Seventh Star</h2><p><em>Large construct, unaligned</em></p><hr><p><em>The ultimate arena champion — a magnificent golden construct standing twelve feet tall, with a blazing seven-pointed star embedded in its chest. It wields a massive golden greatsword and carries a tower shield. This is the final challenge of the Grand Melee, and it fights with devastating precision.</em></p><hr><p><strong>Armor Class</strong> 18 (natural armor)</p><p><strong>Hit Points</strong> 157 (15d12 + 60)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>22 (+6)</td><td>10 (+0)</td><td>18 (+4)</td><td>8 (−1)</td><td>12 (+1)</td><td>5 (−3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +10, Con +8</p><p><strong>Damage Immunities</strong> poison, psychic</p><p><strong>Damage Resistances</strong> Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, petrified, poisoned</p><p><strong>Senses</strong> darkvision 120 ft., passive Perception 11</p><p><strong>Languages</strong> understands Common but can't speak</p><p><strong>Challenge</strong> 10 (5,900 XP)</p><hr><h3>Traits</h3><p><strong>Immutable Form.</strong> The golem is immune to any spell or effect that would alter its form.</p><p><strong>Arena Protocol.</strong> The golem fights honorably. It does not attack unconscious or fleeing opponents.</p><p><strong>Dramatic Weakness.</strong> At half HP (78 or below), the seven-pointed star on the golem’s chest cracks and glows red. A DC 13 Arcana or Perception check (free action) identifies the weak point. Declared attacks targeting the star deal double damage.</p><h3>Actions</h3><p><strong>Multiattack.</strong> The golem makes three attacks: two greatsword strikes and one shield bash.</p><p><strong>Golden Greatsword.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 19 (2d12 + 6) slashing damage.</p><p><strong>Shield Bash.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d6 + 6) bludgeoning damage. The target must succeed on a DC 18 Strength saving throw or be pushed 10 ft. and knocked prone.</p><p><strong>Starfire Beam (Recharge 5–6).</strong> The golem fires a beam of radiant energy in a 60-ft. line that is 5 ft. wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 36 (8d8) radiant damage on a failed save, or half as much damage on a successful one.</p><h3>Reactions</h3><p><strong>Deflect.</strong> When the golem is hit by a ranged attack, it reduces the damage by 10 (1d10 + 5). If the damage is reduced to 0, the golem catches or deflects the projectile.</p>"
   },
   {
     "name": "Rift Stalker",
@@ -228,13 +314,32 @@
     "ac": 13,
     "hp": 33,
     "hpFormula": "6d8 + 6",
-    "speed": { "walk": 50, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
-    "str": 14, "dex": 16, "con": 12, "int": 3, "wis": 12, "cha": 6,
+    "speed": {
+      "walk": 50,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 6,
     "saves": [],
-    "skills": { "prc": 1, "ste": 1 },
+    "skills": {
+      "prc": 1,
+      "ste": 1
+    },
     "di": [],
-    "dr": ["force"],
+    "dr": [
+      "force"
+    ],
     "drCustom": "",
     "dv": [],
     "ci": [],
@@ -257,7 +362,7 @@
         "activation": "action"
       }
     ],
-    "biography": "<h2>Rift Stalker</h2><p><em>Medium aberration, unaligned</em></p><hr><p><em>A sleek, predatory creature that flickers in and out of visibility, its form shifting between dimensions. Rift Stalkers hunt in packs, phasing through reality to ambush their prey. They are drawn to temporal disturbances and emerge from rifts in spacetime.</em></p><hr><p><strong>Armor Class</strong> 13</p><p><strong>Hit Points</strong> 33 (6d8 + 6)</p><p><strong>Speed</strong> 50 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>14 (+2)</td><td>16 (+3)</td><td>12 (+1)</td><td>3 (\u22124)</td><td>12 (+1)</td><td>6 (\u22122)</td></tr></tbody></table><hr><p><strong>Skills</strong> Perception +3, Stealth +5</p><p><strong>Damage Resistances</strong> force</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 13</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 2 (450 XP)</p><hr><h3>Traits</h3><p><strong>Phase Shift.</strong> At the start of each of its turns, the Rift Stalker becomes partially invisible. Attack rolls against it have disadvantage unless the attacker has truesight or blindsight.</p><p><strong>Pack Tactics.</strong> The Rift Stalker has advantage on an attack roll against a creature if at least one of the stalker's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p><h3>Actions</h3><p><strong>Temporal Bite.</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d10 + 3) force damage.</p>"
+    "biography": "<h2>Rift Stalker</h2><p><em>Medium aberration, unaligned</em></p><hr><p><em>A sleek, predatory creature that flickers in and out of visibility, its form shifting between dimensions. Rift Stalkers hunt in packs, phasing through reality to ambush their prey. They are drawn to temporal disturbances and emerge from rifts in spacetime.</em></p><hr><p><strong>Armor Class</strong> 13</p><p><strong>Hit Points</strong> 33 (6d8 + 6)</p><p><strong>Speed</strong> 50 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>14 (+2)</td><td>16 (+3)</td><td>12 (+1)</td><td>3 (−4)</td><td>12 (+1)</td><td>6 (−2)</td></tr></tbody></table><hr><p><strong>Skills</strong> Perception +3, Stealth +5</p><p><strong>Damage Resistances</strong> force</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 13</p><p><strong>Languages</strong> —</p><p><strong>Challenge</strong> 2 (450 XP)</p><hr><h3>Traits</h3><p><strong>Phase Shift.</strong> At the start of each of its turns, the Rift Stalker becomes partially invisible. Attack rolls against it have disadvantage unless the attacker has truesight or blindsight.</p><p><strong>Pack Tactics.</strong> The Rift Stalker has advantage on an attack roll against a creature if at least one of the stalker's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p><h3>Actions</h3><p><strong>Temporal Bite.</strong> <em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d10 + 3) force damage.</p>"
   },
   {
     "name": "Temporal Wraith",
@@ -270,16 +375,51 @@
     "ac": 14,
     "hp": 67,
     "hpFormula": "9d8 + 27",
-    "speed": { "walk": 0, "fly": 50, "swim": 0, "hover": true },
-    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
-    "str": 6, "dex": 18, "con": 16, "int": 12, "wis": 14, "cha": 16,
-    "saves": ["wis", "cha"],
+    "speed": {
+      "walk": 0,
+      "fly": 50,
+      "swim": 0,
+      "hover": true
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 6,
+    "dex": 18,
+    "con": 16,
+    "int": 12,
+    "wis": 14,
+    "cha": 16,
+    "saves": [
+      "wis",
+      "cha"
+    ],
     "skills": {},
-    "di": ["necrotic", "poison"],
-    "dr": ["acid", "cold", "fire", "lightning", "thunder"],
+    "di": [
+      "necrotic",
+      "poison"
+    ],
+    "dr": [
+      "acid",
+      "cold",
+      "fire",
+      "lightning",
+      "thunder"
+    ],
     "drCustom": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
     "dv": [],
-    "ci": ["charmed", "exhaustion", "grappled", "paralyzed", "petrified", "poisoned", "prone", "restrained"],
+    "ci": [
+      "charmed",
+      "exhaustion",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "poisoned",
+      "prone",
+      "restrained"
+    ],
     "spellcastingAbility": "",
     "disposition": -1,
     "items": [
@@ -309,7 +449,7 @@
         "activation": "action"
       }
     ],
-    "biography": "<h2>Temporal Wraith</h2><p><em>Medium undead, neutral evil</em></p><hr><p><em>A spectral figure wreathed in flickering temporal energy, its form constantly shifting between ages \u2014 young, old, skeletal, and back again. Temporal Wraiths are creatures born from broken timelines, and their touch ages living creatures rapidly.</em></p><hr><p><strong>Armor Class</strong> 14</p><p><strong>Hit Points</strong> 67 (9d8 + 27)</p><p><strong>Speed</strong> 0 ft., fly 50 ft. (hover)</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>6 (\u22122)</td><td>18 (+4)</td><td>16 (+3)</td><td>12 (+1)</td><td>14 (+2)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Wis +5, Cha +6</p><p><strong>Damage Immunities</strong> necrotic, poison</p><p><strong>Damage Resistances</strong> acid, cold, fire, lightning, thunder; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Condition Immunities</strong> charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 12</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Incorporeal Movement.</strong> The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p><p><strong>Temporal Instability.</strong> When the wraith takes radiant damage, it loses Phase Shift until the start of its next turn.</p><h3>Actions</h3><p><strong>Aging Touch.</strong> <em>Melee Spell Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 16 (3d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or have its speed reduced by 10 ft. until the end of the target's next turn.</p><p><strong>Time Bolt.</strong> <em>Ranged Spell Attack:</em> +7 to hit, range 60 ft., one target. <em>Hit:</em> 13 (3d6 + 3) force damage.</p><p><strong>Temporal Wail (Recharge 6).</strong> Each creature within 30 ft. of the wraith must succeed on a DC 14 Wisdom saving throw or be stunned until the end of their next turn.</p>"
+    "biography": "<h2>Temporal Wraith</h2><p><em>Medium undead, neutral evil</em></p><hr><p><em>A spectral figure wreathed in flickering temporal energy, its form constantly shifting between ages — young, old, skeletal, and back again. Temporal Wraiths are creatures born from broken timelines, and their touch ages living creatures rapidly.</em></p><hr><p><strong>Armor Class</strong> 14</p><p><strong>Hit Points</strong> 67 (9d8 + 27)</p><p><strong>Speed</strong> 0 ft., fly 50 ft. (hover)</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>6 (−2)</td><td>18 (+4)</td><td>16 (+3)</td><td>12 (+1)</td><td>14 (+2)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Wis +5, Cha +6</p><p><strong>Damage Immunities</strong> necrotic, poison</p><p><strong>Damage Resistances</strong> acid, cold, fire, lightning, thunder; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks</p><p><strong>Condition Immunities</strong> charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 12</p><p><strong>Languages</strong> —</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Incorporeal Movement.</strong> The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p><p><strong>Temporal Instability.</strong> When the wraith takes radiant damage, it loses Phase Shift until the start of its next turn.</p><h3>Actions</h3><p><strong>Aging Touch.</strong> <em>Melee Spell Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 16 (3d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or have its speed reduced by 10 ft. until the end of the target's next turn.</p><p><strong>Time Bolt.</strong> <em>Ranged Spell Attack:</em> +7 to hit, range 60 ft., one target. <em>Hit:</em> 13 (3d6 + 3) force damage.</p><p><strong>Temporal Wail (Recharge 6).</strong> Each creature within 30 ft. of the wraith must succeed on a DC 14 Wisdom saving throw or be stunned until the end of their next turn.</p>"
   },
   {
     "name": "Riftborn Colossus",
@@ -322,16 +462,48 @@
     "ac": 16,
     "hp": 189,
     "hpFormula": "18d12 + 72",
-    "speed": { "walk": 40, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 60 },
-    "str": 22, "dex": 14, "con": 18, "int": 5, "wis": 14, "cha": 8,
-    "saves": ["str", "con", "wis"],
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 60
+    },
+    "str": 22,
+    "dex": 14,
+    "con": 18,
+    "int": 5,
+    "wis": 14,
+    "cha": 8,
+    "saves": [
+      "str",
+      "con",
+      "wis"
+    ],
     "skills": {},
-    "di": ["force", "poison"],
-    "dr": ["cold", "fire", "lightning", "thunder"],
+    "di": [
+      "force",
+      "poison"
+    ],
+    "dr": [
+      "cold",
+      "fire",
+      "lightning",
+      "thunder"
+    ],
     "drCustom": "",
     "dv": [],
-    "ci": ["charmed", "exhaustion", "frightened", "paralyzed", "poisoned"],
+    "ci": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "poisoned"
+    ],
     "spellcastingAbility": "",
     "disposition": -1,
     "items": [
@@ -361,13 +533,13 @@
         "activation": "action"
       },
       {
-        "name": "Temporal Breath (Recharge 5\u20136)",
-        "description": "<p>The Colossus exhales a wave of temporal energy in a 30-ft. cone. Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) force damage and is Slowed (speed halved, \u22122 AC, \u22122 Dexterity saves, no reactions) until the end of its next turn. On a successful save, the creature takes half damage and is not Slowed.</p>",
+        "name": "Temporal Breath (Recharge 5–6)",
+        "description": "<p>The Colossus exhales a wave of temporal energy in a 30-ft. cone. Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) force damage and is Slowed (speed halved, −2 AC, −2 Dexterity saves, no reactions) until the end of its next turn. On a successful save, the creature takes half damage and is not Slowed.</p>",
         "activation": "action"
       },
       {
         "name": "Rift Spawn (Phase 2 Bonus Action)",
-        "description": "<p>When below half HP (95), the Colossus can use a bonus action to summon 2 Rift Stalkers within 15 ft. of it. The Rift Stalkers act on the Colossus\u2019s initiative. A maximum of 4 summoned Rift Stalkers can be alive at any time.</p>",
+        "description": "<p>When below half HP (95), the Colossus can use a bonus action to summon 2 Rift Stalkers within 15 ft. of it. The Rift Stalkers act on the Colossus’s initiative. A maximum of 4 summoned Rift Stalkers can be alive at any time.</p>",
         "activation": "bonus"
       },
       {
@@ -376,10 +548,10 @@
         "activation": "passive"
       }
     ],
-    "biography": "<h2>Riftborn Colossus</h2><p><em>Huge aberration, chaotic evil</em></p><hr><p><em>A massive creature of shifting, impossible geometry that has torn its way through a temporal rift. Its body flickers between dimensions, and reality warps around it. The Colossus is the vanguard of something far worse \u2014 a harbinger of temporal collapse.</em></p><hr><p><strong>Armor Class</strong> 16</p><p><strong>Hit Points</strong> 189 (18d12 + 72)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>22 (+6)</td><td>14 (+2)</td><td>18 (+4)</td><td>5 (\u22123)</td><td>14 (+2)</td><td>8 (\u22121)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +10, Con +8, Wis +6</p><p><strong>Damage Immunities</strong> force, poison</p><p><strong>Damage Resistances</strong> cold, fire, lightning, thunder</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</p><p><strong>Senses</strong> truesight 60 ft., passive Perception 12</p><p><strong>Languages</strong> \u2014</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><hr><h3>Traits</h3><p><strong>Temporal Flicker.</strong> Ranged attacks have disadvantage against the Colossus. Creatures with truesight or blindsight ignore this effect.</p><p><strong>Rift-Linked.</strong> While the Temporal Rift is open, the Colossus regenerates 10 HP at the start of each of its turns. This regeneration ends if the Rift is sealed.</p><p><strong>Siege Monster.</strong> The Colossus deals double damage to objects and structures.</p><p><strong>Empowered Slam (Phase 2).</strong> When the Colossus is below half HP, its Rift Slam attacks deal extra 7 (2d6) force damage (total: 19 (2d12 + 6) bludgeoning + 14 (4d6) force damage).</p><h3>Actions</h3><p><strong>Multiattack.</strong> The Colossus makes two Rift Slam attacks.</p><p><strong>Rift Slam.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 19 (2d12 + 6) bludgeoning damage plus 7 (2d6) force damage.</p><p><strong>Temporal Breath (Recharge 5\u20136).</strong> The Colossus exhales a wave of temporal energy in a 30-ft. cone. Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) force damage and is Slowed (speed halved, \u22122 AC, \u22122 Dexterity saves, no reactions) until the end of its next turn. On a successful save, the creature takes half damage and is not Slowed.</p><h3>Bonus Actions</h3><p><strong>Rift Spawn (Phase 2).</strong> When below half HP (95), the Colossus can use a bonus action to summon 2 Rift Stalkers within 15 ft. of it. The Rift Stalkers act on the Colossus\u2019s initiative. A maximum of 4 summoned Rift Stalkers can be alive at any time.</p>"
+    "biography": "<h2>Riftborn Colossus</h2><p><em>Huge aberration, chaotic evil</em></p><hr><p><em>A massive creature of shifting, impossible geometry that has torn its way through a temporal rift. Its body flickers between dimensions, and reality warps around it. The Colossus is the vanguard of something far worse — a harbinger of temporal collapse.</em></p><hr><p><strong>Armor Class</strong> 16</p><p><strong>Hit Points</strong> 189 (18d12 + 72)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>22 (+6)</td><td>14 (+2)</td><td>18 (+4)</td><td>5 (−3)</td><td>14 (+2)</td><td>8 (−1)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +10, Con +8, Wis +6</p><p><strong>Damage Immunities</strong> force, poison</p><p><strong>Damage Resistances</strong> cold, fire, lightning, thunder</p><p><strong>Condition Immunities</strong> charmed, exhaustion, frightened, paralyzed, poisoned</p><p><strong>Senses</strong> truesight 60 ft., passive Perception 12</p><p><strong>Languages</strong> —</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><hr><h3>Traits</h3><p><strong>Temporal Flicker.</strong> Ranged attacks have disadvantage against the Colossus. Creatures with truesight or blindsight ignore this effect.</p><p><strong>Rift-Linked.</strong> While the Temporal Rift is open, the Colossus regenerates 10 HP at the start of each of its turns. This regeneration ends if the Rift is sealed.</p><p><strong>Siege Monster.</strong> The Colossus deals double damage to objects and structures.</p><p><strong>Empowered Slam (Phase 2).</strong> When the Colossus is below half HP, its Rift Slam attacks deal extra 7 (2d6) force damage (total: 19 (2d12 + 6) bludgeoning + 14 (4d6) force damage).</p><h3>Actions</h3><p><strong>Multiattack.</strong> The Colossus makes two Rift Slam attacks.</p><p><strong>Rift Slam.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 19 (2d12 + 6) bludgeoning damage plus 7 (2d6) force damage.</p><p><strong>Temporal Breath (Recharge 5–6).</strong> The Colossus exhales a wave of temporal energy in a 30-ft. cone. Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) force damage and is Slowed (speed halved, −2 AC, −2 Dexterity saves, no reactions) until the end of its next turn. On a successful save, the creature takes half damage and is not Slowed.</p><h3>Bonus Actions</h3><p><strong>Rift Spawn (Phase 2).</strong> When below half HP (95), the Colossus can use a bonus action to summon 2 Rift Stalkers within 15 ft. of it. The Rift Stalkers act on the Colossus’s initiative. A maximum of 4 summoned Rift Stalkers can be alive at any time.</p>"
   },
   {
-    "name": "Valerius Thorne \u2014 The Philanthropist",
+    "name": "Valerius Thorne — The Philanthropist",
     "phase": 0,
     "cr": 12,
     "size": "med",
@@ -389,11 +561,34 @@
     "ac": 18,
     "hp": 150,
     "hpFormula": "20d8 + 60",
-    "speed": { "walk": 30, "fly": 30, "swim": 0, "hover": true },
-    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
-    "str": 10, "dex": 16, "con": 16, "int": 22, "wis": 16, "cha": 20,
-    "saves": ["int", "wis", "con"],
-    "skills": { "arc": 1, "his": 1, "ins": 1, "per": 1 },
+    "speed": {
+      "walk": 30,
+      "fly": 30,
+      "swim": 0,
+      "hover": true
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 10,
+    "dex": 16,
+    "con": 16,
+    "int": 22,
+    "wis": 16,
+    "cha": 20,
+    "saves": [
+      "int",
+      "wis",
+      "con"
+    ],
+    "skills": {
+      "arc": 1,
+      "his": 1,
+      "ins": 1,
+      "per": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -419,12 +614,12 @@
       },
       {
         "name": "Slow (3rd Level)",
-        "description": "<p>120 ft. range. Up to 6 creatures within a 40-ft. cube must succeed on a DC 18 Wisdom saving throw or be affected by the Slow spell (halved speed, \u22122 AC, \u22122 Dexterity saves, no reactions, limited actions). Concentration, up to 1 minute.</p>",
+        "description": "<p>120 ft. range. Up to 6 creatures within a 40-ft. cube must succeed on a DC 18 Wisdom saving throw or be affected by the Slow spell (halved speed, −2 AC, −2 Dexterity saves, no reactions, limited actions). Concentration, up to 1 minute.</p>",
         "activation": "action"
       },
       {
         "name": "Wall of Force (5th Level)",
-        "description": "<p>120 ft. range. Creates an invisible wall composed of up to 10 panels (each 10 ft. by 10 ft.). The wall is immune to all damage and can\u2019t be dispelled by <em>dispel magic</em>. Concentration, up to 10 minutes.</p>",
+        "description": "<p>120 ft. range. Creates an invisible wall composed of up to 10 panels (each 10 ft. by 10 ft.). The wall is immune to all damage and can’t be dispelled by <em>dispel magic</em>. Concentration, up to 10 minutes.</p>",
         "activation": "action"
       },
       {
@@ -434,7 +629,7 @@
       },
       {
         "name": "Shield",
-        "description": "<p>+5 AC until the start of Valerius\u2019s next turn, including against the triggering attack. Cast as a reaction when hit by an attack or targeted by <em>magic missile</em>.</p>",
+        "description": "<p>+5 AC until the start of Valerius’s next turn, including against the triggering attack. Cast as a reaction when hit by an attack or targeted by <em>magic missile</em>.</p>",
         "activation": "reaction"
       },
       {
@@ -443,10 +638,12 @@
         "activation": "bonus"
       }
     ],
-    "biography": "<h2>Valerius Thorne \u2014 The Philanthropist</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>A tall, silver-haired man in immaculate white robes trimmed with gold. Valerius Thorne is Aurelia Solaris\u2019s greatest patron and a temporal mage of extraordinary power. He speaks softly, moves deliberately, and radiates an aura of calm authority. He has secretly been manipulating time to preserve the Golden Hour festival in a perfect loop.</em></p><hr><p><strong>Armor Class</strong> 18 (temporal distortion field)</p><p><strong>Hit Points</strong> 150 (20d8 + 60)</p><p><strong>Speed</strong> 30 ft., fly 30 ft. (hover)</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>16 (+3)</td><td>16 (+3)</td><td>22 (+6)</td><td>16 (+3)</td><td>20 (+5)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +10, Wis +7, Con +7</p><p><strong>Skills</strong> Arcana +10, History +10, Insight +7, Persuasion +9</p><p><strong>Senses</strong> passive Perception 13</p><p><strong>Languages</strong> Common, Celestial, Draconic, Elvish, Sylvan</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><p><strong>Spellcasting.</strong> Intelligence-based spellcaster.</p><hr><h3>Traits</h3><p><strong>Magic Resistance.</strong> Valerius has advantage on saving throws against spells and other magical effects.</p><h3>Actions</h3><p><strong>Chronal Bolt.</strong> <em>Ranged Spell Attack:</em> +10 to hit, range 120 ft., one target. <em>Hit:</em> 15 (2d8 + 6) force damage.</p><p><strong>Slow (3rd Level).</strong> 120 ft. range. Up to 6 creatures within a 40-ft. cube must succeed on a DC 18 Wisdom saving throw or be affected by the Slow spell (halved speed, \u22122 AC, \u22122 Dexterity saves, no reactions, limited actions). Concentration, up to 1 minute.</p><p><strong>Wall of Force (5th Level).</strong> 120 ft. range. Creates an invisible wall composed of up to 10 panels (each 10 ft. by 10 ft.). The wall is immune to all damage. Concentration, up to 10 minutes.</p><h3>Bonus Actions</h3><p><strong>Time Rewind (2/Day).</strong> Valerius targets one creature within 30 ft. The target regains 22 (4d8 + 4) hit points as temporal energy reverses recent injuries.</p><h3>Reactions</h3><p><strong>Temporal Shield.</strong> When an ally within 30 ft. is hit by an attack, Valerius grants that ally +5 AC against that attack, potentially causing it to miss.</p><p><strong>Counterspell (5th Level).</strong> 60 ft. range. Automatically interrupts a spell of 5th level or lower. For spells of 6th level or higher, make an Intelligence check (DC 10 + spell level).</p><p><strong>Shield.</strong> +5 AC until the start of Valerius\u2019s next turn, including against the triggering attack.</p>"
+    "biography": "<h2>Valerius Thorne — The Philanthropist</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>A tall, silver-haired man in immaculate white robes trimmed with gold. Valerius Thorne is Aurelia Solaris’s greatest patron and a temporal mage of extraordinary power. He speaks softly, moves deliberately, and radiates an aura of calm authority. He has secretly been manipulating time to preserve the Golden Hour festival in a perfect loop.</em></p><hr><p><strong>Armor Class</strong> 18 (temporal distortion field)</p><p><strong>Hit Points</strong> 150 (20d8 + 60)</p><p><strong>Speed</strong> 30 ft., fly 30 ft. (hover)</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>16 (+3)</td><td>16 (+3)</td><td>22 (+6)</td><td>16 (+3)</td><td>20 (+5)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +10, Wis +7, Con +7</p><p><strong>Skills</strong> Arcana +10, History +10, Insight +7, Persuasion +9</p><p><strong>Senses</strong> passive Perception 13</p><p><strong>Languages</strong> Common, Celestial, Draconic, Elvish, Sylvan</p><p><strong>Challenge</strong> 12 (8,400 XP)</p><p><strong>Spellcasting.</strong> Intelligence-based spellcaster.</p><hr><h3>Traits</h3><p><strong>Magic Resistance.</strong> Valerius has advantage on saving throws against spells and other magical effects.</p><h3>Actions</h3><p><strong>Chronal Bolt.</strong> <em>Ranged Spell Attack:</em> +10 to hit, range 120 ft., one target. <em>Hit:</em> 15 (2d8 + 6) force damage.</p><p><strong>Slow (3rd Level).</strong> 120 ft. range. Up to 6 creatures within a 40-ft. cube must succeed on a DC 18 Wisdom saving throw or be affected by the Slow spell (halved speed, −2 AC, −2 Dexterity saves, no reactions, limited actions). Concentration, up to 1 minute.</p><p><strong>Wall of Force (5th Level).</strong> 120 ft. range. Creates an invisible wall composed of up to 10 panels (each 10 ft. by 10 ft.). The wall is immune to all damage. Concentration, up to 10 minutes.</p><h3>Bonus Actions</h3><p><strong>Time Rewind (2/Day).</strong> Valerius targets one creature within 30 ft. The target regains 22 (4d8 + 4) hit points as temporal energy reverses recent injuries.</p><h3>Reactions</h3><p><strong>Temporal Shield.</strong> When an ally within 30 ft. is hit by an attack, Valerius grants that ally +5 AC against that attack, potentially causing it to miss.</p><p><strong>Counterspell (5th Level).</strong> 60 ft. range. Automatically interrupts a spell of 5th level or lower. For spells of 6th level or higher, make an Intelligence check (DC 10 + spell level).</p><p><strong>Shield.</strong> +5 AC until the start of Valerius’s next turn, including against the triggering attack.</p>",
+    "img": "modules/golden-hour/assets/characters/ArchdukeValeriusThorne.png",
+    "token": "modules/golden-hour/assets/characters/ArchdukeValeriusThorne_TOKEN.png"
   },
   {
-    "name": "Edric Voss \u2014 Human Fighter (Eldritch Knight) 10",
+    "name": "Edric Voss — Human Fighter (Eldritch Knight) 10",
     "phase": 0,
     "cr": 10,
     "size": "med",
@@ -456,11 +653,32 @@
     "ac": 20,
     "hp": 94,
     "hpFormula": "10d10 + 30",
-    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
-    "str": 20, "dex": 12, "con": 16, "int": 14, "wis": 12, "cha": 10,
-    "saves": ["str", "con"],
-    "skills": { "ath": 1, "prc": 1, "itm": 1 },
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 20,
+    "dex": 12,
+    "con": 16,
+    "int": 14,
+    "wis": 12,
+    "cha": 10,
+    "saves": [
+      "str",
+      "con"
+    ],
+    "skills": {
+      "ath": 1,
+      "prc": 1,
+      "itm": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -515,10 +733,12 @@
         "activation": "action"
       }
     ],
-    "biography": "<h2>Edric Voss \u2014 Human Fighter (Eldritch Knight) 10</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>Quiet professional. Oldest of the Silver Chalice. Led a mercenary company before joining. Trusts his team completely. Edric is a broad-shouldered man in his late 40s with a neatly trimmed grey beard and steady hands. He fights with economical precision, wasting no motion.</em></p><hr><p><strong>Armor Class</strong> 20 (plate + shield)</p><p><strong>Hit Points</strong> 94</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>20 (+5)</td><td>12 (+1)</td><td>16 (+3)</td><td>14 (+2)</td><td>12 (+1)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +9, Con +7</p><p><strong>Skills</strong> Athletics +9, Perception +5, Intimidation +4</p><p><strong>Senses</strong> passive Perception 15</p><p><strong>Languages</strong> Common</p><hr><h3>Traits</h3><p><strong>War Magic.</strong> When Edric uses his action to cast a cantrip, he can make one weapon attack as a bonus action.</p><p><strong>Extra Attack.</strong> Edric can attack twice, instead of once, whenever he takes the Attack action on his turn.</p><p><strong>Indomitable (1/Long Rest).</strong> Edric can reroll a saving throw that he fails. He must use the new roll.</p><h3>Actions</h3><p><strong>Action Surge (1/Short Rest).</strong> Edric can take one additional action on top of his regular action and a possible bonus action.</p><p><strong>Longsword +1.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands.</p><p><strong>Thunderwave.</strong> Each creature in a 15-ft. cube originating from Edric must make a DC 14 Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 ft. away. On a successful save, the creature takes half damage and isn't pushed.</p><h3>Bonus Actions</h3><p><strong>Second Wind (1/Short Rest).</strong> Edric regains 1d10 + 10 hit points.</p><h3>Reactions</h3><p><strong>Shield (Spell).</strong> When hit by an attack or targeted by <em>magic missile</em>, Edric gains +5 AC until the start of his next turn, including against the triggering attack.</p><p><strong>Absorb Elements.</strong> When Edric takes acid, cold, fire, lightning, or thunder damage, he gains resistance to the triggering damage type until the start of his next turn. The first melee attack he makes on his next turn deals an extra 1d6 damage of the triggering type.</p>"
+    "biography": "<h2>Edric Voss — Human Fighter (Eldritch Knight) 10</h2><p><em>Medium humanoid (human), lawful neutral</em></p><hr><p><em>Quiet professional. Oldest of the Silver Chalice. Led a mercenary company before joining. Trusts his team completely. Edric is a broad-shouldered man in his late 40s with a neatly trimmed grey beard and steady hands. He fights with economical precision, wasting no motion.</em></p><hr><p><strong>Armor Class</strong> 20 (plate + shield)</p><p><strong>Hit Points</strong> 94</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>20 (+5)</td><td>12 (+1)</td><td>16 (+3)</td><td>14 (+2)</td><td>12 (+1)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +9, Con +7</p><p><strong>Skills</strong> Athletics +9, Perception +5, Intimidation +4</p><p><strong>Senses</strong> passive Perception 15</p><p><strong>Languages</strong> Common</p><hr><h3>Traits</h3><p><strong>War Magic.</strong> When Edric uses his action to cast a cantrip, he can make one weapon attack as a bonus action.</p><p><strong>Extra Attack.</strong> Edric can attack twice, instead of once, whenever he takes the Attack action on his turn.</p><p><strong>Indomitable (1/Long Rest).</strong> Edric can reroll a saving throw that he fails. He must use the new roll.</p><h3>Actions</h3><p><strong>Action Surge (1/Short Rest).</strong> Edric can take one additional action on top of his regular action and a possible bonus action.</p><p><strong>Longsword +1.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands.</p><p><strong>Thunderwave.</strong> Each creature in a 15-ft. cube originating from Edric must make a DC 14 Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 ft. away. On a successful save, the creature takes half damage and isn't pushed.</p><h3>Bonus Actions</h3><p><strong>Second Wind (1/Short Rest).</strong> Edric regains 1d10 + 10 hit points.</p><h3>Reactions</h3><p><strong>Shield (Spell).</strong> When hit by an attack or targeted by <em>magic missile</em>, Edric gains +5 AC until the start of his next turn, including against the triggering attack.</p><p><strong>Absorb Elements.</strong> When Edric takes acid, cold, fire, lightning, or thunder damage, he gains resistance to the triggering damage type until the start of his next turn. The first melee attack he makes on his next turn deals an extra 1d6 damage of the triggering type.</p>",
+    "img": "modules/golden-hour/assets/characters/EdricVoss.png",
+    "token": "modules/golden-hour/assets/characters/EdricVoss_TOKEN.png"
   },
   {
-    "name": "Miriel Ashwood \u2014 Half-Elf Cleric (Life Domain) 10",
+    "name": "Miriel Ashwood — Half-Elf Cleric (Life Domain) 10",
     "phase": 0,
     "cr": 10,
     "size": "med",
@@ -528,11 +748,32 @@
     "ac": 18,
     "hp": 83,
     "hpFormula": "10d8 + 30",
-    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 60, "blindsight": 0, "truesight": 0 },
-    "str": 14, "dex": 10, "con": 16, "int": 10, "wis": 20, "cha": 14,
-    "saves": ["wis", "cha"],
-    "skills": { "med": 1, "ins": 1, "per": 1 },
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 14,
+    "dex": 10,
+    "con": 16,
+    "int": 10,
+    "wis": 20,
+    "cha": 14,
+    "saves": [
+      "wis",
+      "cha"
+    ],
+    "skills": {
+      "med": 1,
+      "ins": 1,
+      "per": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -577,10 +818,12 @@
         "activation": "action"
       }
     ],
-    "biography": "<h2>Miriel Ashwood \u2014 Half-Elf Cleric (Life Domain) 10</h2><p><em>Medium humanoid (half-elf), neutral good</em></p><hr><p><em>Warm, slightly fussy. Worships Solara. Carries snacks for everyone. Calls the party \u201cmy ducklings.\u201d Miriel is a gentle half-elf woman with warm brown eyes and laugh lines. She wears polished chain mail adorned with the sun symbol of Solara and carries a well-worn mace and a shield emblazoned with a golden sunrise.</em></p><hr><p><strong>Armor Class</strong> 18 (chain mail + shield)</p><p><strong>Hit Points</strong> 83</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>14 (+2)</td><td>10 (+0)</td><td>16 (+3)</td><td>10 (+0)</td><td>20 (+5)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Wis +9, Cha +6</p><p><strong>Skills</strong> Medicine +9, Insight +9, Persuasion +6</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 15</p><p><strong>Languages</strong> Common, Elvish, Celestial</p><p><strong>Spellcasting.</strong> Wisdom-based spellcaster (spell save DC 17, +9 to hit with spell attacks).</p><hr><h3>Traits</h3><p><strong>Disciple of Life.</strong> When Miriel casts a healing spell of 1st level or higher, the target regains additional hit points equal to 2 + the spell's level.</p><h3>Actions</h3><p><strong>Preserve Life (Channel Divinity).</strong> Miriel presents her holy symbol and evokes healing energy that can restore up to 50 hit points. She chooses any creatures within 30 ft. and divides those hit points among them. This feature can restore a creature to no more than half of its hit point maximum.</p><p><strong>Spirit Guardians (3rd Level).</strong> Spirits swirl in a 15-ft. radius around Miriel. When a hostile creature enters the area for the first time on a turn or starts its turn there, it must make a DC 17 Wisdom saving throw, taking 3d8 radiant damage on a failed save, or half as much on a success. Affected creatures have their speed halved. Concentration, up to 10 minutes.</p><p><strong>Revivify (3rd Level).</strong> Miriel touches a creature that has died within the last minute. That creature returns to life with 1 hit point. Requires a 300 gp diamond.</p><p><strong>Mace.</strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.</p><h3>Bonus Actions</h3><p><strong>Spiritual Weapon (2nd Level).</strong> Creates a floating, spectral weapon. <em>Melee Spell Attack:</em> +9 to hit, <em>Hit:</em> 1d8 + 5 force damage. Bonus action to move and attack on subsequent turns.</p><p><strong>Mass Healing Word (3rd Level).</strong> Up to 6 creatures within 60 ft. each regain 1d4 + 5 hit points.</p>"
+    "biography": "<h2>Miriel Ashwood — Half-Elf Cleric (Life Domain) 10</h2><p><em>Medium humanoid (half-elf), neutral good</em></p><hr><p><em>Warm, slightly fussy. Worships Solara. Carries snacks for everyone. Calls the party “my ducklings.” Miriel is a gentle half-elf woman with warm brown eyes and laugh lines. She wears polished chain mail adorned with the sun symbol of Solara and carries a well-worn mace and a shield emblazoned with a golden sunrise.</em></p><hr><p><strong>Armor Class</strong> 18 (chain mail + shield)</p><p><strong>Hit Points</strong> 83</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>14 (+2)</td><td>10 (+0)</td><td>16 (+3)</td><td>10 (+0)</td><td>20 (+5)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Wis +9, Cha +6</p><p><strong>Skills</strong> Medicine +9, Insight +9, Persuasion +6</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 15</p><p><strong>Languages</strong> Common, Elvish, Celestial</p><p><strong>Spellcasting.</strong> Wisdom-based spellcaster (spell save DC 17, +9 to hit with spell attacks).</p><hr><h3>Traits</h3><p><strong>Disciple of Life.</strong> When Miriel casts a healing spell of 1st level or higher, the target regains additional hit points equal to 2 + the spell's level.</p><h3>Actions</h3><p><strong>Preserve Life (Channel Divinity).</strong> Miriel presents her holy symbol and evokes healing energy that can restore up to 50 hit points. She chooses any creatures within 30 ft. and divides those hit points among them. This feature can restore a creature to no more than half of its hit point maximum.</p><p><strong>Spirit Guardians (3rd Level).</strong> Spirits swirl in a 15-ft. radius around Miriel. When a hostile creature enters the area for the first time on a turn or starts its turn there, it must make a DC 17 Wisdom saving throw, taking 3d8 radiant damage on a failed save, or half as much on a success. Affected creatures have their speed halved. Concentration, up to 10 minutes.</p><p><strong>Revivify (3rd Level).</strong> Miriel touches a creature that has died within the last minute. That creature returns to life with 1 hit point. Requires a 300 gp diamond.</p><p><strong>Mace.</strong> <em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.</p><h3>Bonus Actions</h3><p><strong>Spiritual Weapon (2nd Level).</strong> Creates a floating, spectral weapon. <em>Melee Spell Attack:</em> +9 to hit, <em>Hit:</em> 1d8 + 5 force damage. Bonus action to move and attack on subsequent turns.</p><p><strong>Mass Healing Word (3rd Level).</strong> Up to 6 creatures within 60 ft. each regain 1d4 + 5 hit points.</p>",
+    "img": "modules/golden-hour/assets/characters/MirielAshwood.png",
+    "token": "modules/golden-hour/assets/characters/MirielAshwood_TOKEN.png"
   },
   {
-    "name": "Renn Quicksilver \u2014 Halfling Rogue (Arcane Trickster) 10",
+    "name": "Renn Quicksilver — Halfling Rogue (Arcane Trickster) 10",
     "phase": 0,
     "cr": 10,
     "size": "sm",
@@ -590,11 +833,35 @@
     "ac": 17,
     "hp": 68,
     "hpFormula": "10d8 + 10",
-    "speed": { "walk": 25, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
-    "str": 8, "dex": 20, "con": 12, "int": 16, "wis": 10, "cha": 14,
-    "saves": ["dex", "int"],
-    "skills": { "ste": 1, "sle": 1, "acr": 1, "inv": 1, "dec": 1, "prc": 1 },
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 8,
+    "dex": 20,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 14,
+    "saves": [
+      "dex",
+      "int"
+    ],
+    "skills": {
+      "ste": 1,
+      "sle": 1,
+      "acr": 1,
+      "inv": 1,
+      "dec": 1,
+      "prc": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -644,10 +911,12 @@
         "activation": "action"
       }
     ],
-    "biography": "<h2>Renn Quicksilver \u2014 Halfling Rogue (Arcane Trickster) 10</h2><p><em>Small humanoid (halfling), chaotic good</em></p><hr><p><em>Quick-witted, impossible to embarrass. Steals things as a compliment. Best friends with Pip Nimblefingers from the Iron Vanguard. Renn is a wiry halfling with a perpetual grin and quick hands. He dresses in dark leather and always seems to have something shiny he wasn't holding a moment ago.</em></p><hr><p><strong>Armor Class</strong> 17 (studded leather + DEX)</p><p><strong>Hit Points</strong> 68</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (\u22121)</td><td>20 (+5)</td><td>12 (+1)</td><td>16 (+3)</td><td>10 (+0)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Dex +9, Int +7</p><p><strong>Skills</strong> Stealth +9, Sleight of Hand +9, Acrobatics +9, Investigation +7, Deception +6, Perception +4</p><p><strong>Senses</strong> passive Perception 14</p><p><strong>Languages</strong> Common, Halfling, Thieves' Cant</p><p><strong>Spellcasting.</strong> Intelligence-based spellcaster (spell save DC 15, +7 to hit with spell attacks).</p><hr><h3>Traits</h3><p><strong>Sneak Attack (5d6).</strong> Once per turn, Renn deals an extra 5d6 damage to one creature he hits with an attack if he has advantage on the attack roll, or if another enemy of the target is within 5 ft. of it and Renn doesn't have disadvantage.</p><p><strong>Mage Hand Legerdemain.</strong> When Renn casts <em>mage hand</em>, the hand is invisible. He can use it to stow or retrieve objects, pick locks, and disarm traps at range without being noticed.</p><p><strong>Evasion.</strong> When subjected to a Dex save for half damage, Renn takes no damage on a success and half on a failure.</p><h3>Actions</h3><p><strong>Shortsword +1.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 5) piercing damage.</p><p><strong>Mirror Image.</strong> Three illusory duplicates appear (AC 15). Attacks may target a duplicate instead of Renn.</p><p><strong>Find Familiar.</strong> Summons an owl familiar for scouting and delivering touch spells.</p><h3>Bonus Actions</h3><p><strong>Cunning Action.</strong> Dash, Disengage, or Hide as a bonus action.</p><h3>Reactions</h3><p><strong>Uncanny Dodge.</strong> When hit by an attack Renn can see, he halves the damage.</p>"
+    "biography": "<h2>Renn Quicksilver — Halfling Rogue (Arcane Trickster) 10</h2><p><em>Small humanoid (halfling), chaotic good</em></p><hr><p><em>Quick-witted, impossible to embarrass. Steals things as a compliment. Best friends with Pip Nimblefingers from the Iron Vanguard. Renn is a wiry halfling with a perpetual grin and quick hands. He dresses in dark leather and always seems to have something shiny he wasn't holding a moment ago.</em></p><hr><p><strong>Armor Class</strong> 17 (studded leather + DEX)</p><p><strong>Hit Points</strong> 68</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (−1)</td><td>20 (+5)</td><td>12 (+1)</td><td>16 (+3)</td><td>10 (+0)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Dex +9, Int +7</p><p><strong>Skills</strong> Stealth +9, Sleight of Hand +9, Acrobatics +9, Investigation +7, Deception +6, Perception +4</p><p><strong>Senses</strong> passive Perception 14</p><p><strong>Languages</strong> Common, Halfling, Thieves' Cant</p><p><strong>Spellcasting.</strong> Intelligence-based spellcaster (spell save DC 15, +7 to hit with spell attacks).</p><hr><h3>Traits</h3><p><strong>Sneak Attack (5d6).</strong> Once per turn, Renn deals an extra 5d6 damage to one creature he hits with an attack if he has advantage on the attack roll, or if another enemy of the target is within 5 ft. of it and Renn doesn't have disadvantage.</p><p><strong>Mage Hand Legerdemain.</strong> When Renn casts <em>mage hand</em>, the hand is invisible. He can use it to stow or retrieve objects, pick locks, and disarm traps at range without being noticed.</p><p><strong>Evasion.</strong> When subjected to a Dex save for half damage, Renn takes no damage on a success and half on a failure.</p><h3>Actions</h3><p><strong>Shortsword +1.</strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 5) piercing damage.</p><p><strong>Mirror Image.</strong> Three illusory duplicates appear (AC 15). Attacks may target a duplicate instead of Renn.</p><p><strong>Find Familiar.</strong> Summons an owl familiar for scouting and delivering touch spells.</p><h3>Bonus Actions</h3><p><strong>Cunning Action.</strong> Dash, Disengage, or Hide as a bonus action.</p><h3>Reactions</h3><p><strong>Uncanny Dodge.</strong> When hit by an attack Renn can see, he halves the damage.</p>",
+    "img": "modules/golden-hour/assets/characters/RennQuicksilver.png",
+    "token": "modules/golden-hour/assets/characters/RennQuicksilver_TOKEN.png"
   },
   {
-    "name": "Lysara Dawnfire \u2014 Dragonborn Sorcerer (Draconic Bloodline, Gold) 10",
+    "name": "Lysara Dawnfire — Dragonborn Sorcerer (Draconic Bloodline, Gold) 10",
     "phase": 0,
     "cr": 10,
     "size": "med",
@@ -657,11 +926,32 @@
     "ac": 15,
     "hp": 76,
     "hpFormula": "10d6 + 30",
-    "speed": { "walk": 30, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 0, "blindsight": 0, "truesight": 0 },
-    "str": 10, "dex": 14, "con": 16, "int": 10, "wis": 12, "cha": 20,
-    "saves": ["con", "cha"],
-    "skills": { "arc": 1, "prf": 1, "per": 1 },
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 10,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 20,
+    "saves": [
+      "con",
+      "cha"
+    ],
+    "skills": {
+      "arc": 1,
+      "prf": 1,
+      "per": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -701,7 +991,7 @@
         "activation": "passive"
       },
       {
-        "name": "Fireball (3rd Level) \u2014 \u201cThe Dawnfire Special\u201d",
+        "name": "Fireball (3rd Level) — “The Dawnfire Special”",
         "description": "<p>150 ft. range. Each creature in a 20-ft.-radius sphere must make a DC 17 Dexterity saving throw, taking 8d6 fire damage on a failed save, or half as much on a successful one.</p>",
         "activation": "action"
       },
@@ -721,10 +1011,12 @@
         "activation": "action"
       }
     ],
-    "biography": "<h2>Lysara Dawnfire \u2014 Dragonborn Sorcerer (Draconic Bloodline, Gold) 10</h2><p><em>Medium humanoid (dragonborn), chaotic good</em></p><hr><p><em>Dramatic, vain (in a lovable way), breathtakingly confident. Names her spells. Fireball is \u201cthe Dawnfire Special.\u201d Lysara is a golden-scaled dragonborn woman with an imperious bearing and a flair for the dramatic. She speaks with grand gestures and treats every spell cast as a performance.</em></p><hr><p><strong>Armor Class</strong> 15 (Draconic Resilience + DEX)</p><p><strong>Hit Points</strong> 76</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>14 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>12 (+1)</td><td>20 (+5)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Con +7, Cha +9</p><p><strong>Skills</strong> Arcana +4, Performance +9, Persuasion +9</p><p><strong>Senses</strong> passive Perception 11</p><p><strong>Languages</strong> Common, Draconic</p><p><strong>Spellcasting.</strong> Charisma-based spellcaster (spell save DC 17, +9 to hit with spell attacks). Sorcery Points: 10.</p><hr><h3>Traits</h3><p><strong>Metamagic: Twinned Spell.</strong> Spend sorcery points equal to spell level to target a second creature with a single-target spell.</p><p><strong>Metamagic: Quickened Spell.</strong> Spend 2 sorcery points to cast a spell as a bonus action instead of an action.</p><p><strong>Metamagic: Subtle Spell.</strong> Spend 1 sorcery point to cast a spell without verbal or somatic components.</p><p><strong>Sorcery Points (10).</strong> 10 sorcery points, recovered on long rest.</p><p><strong>Draconic Resilience.</strong> AC 13 + DEX when unarmored. HP maximum increases by 1 per sorcerer level.</p><p><strong>Elemental Affinity (Fire).</strong> Add Charisma modifier (+5) to one fire spell damage roll. Spend 1 sorcery point to gain fire resistance for 1 hour.</p><h3>Actions</h3><p><strong>Fireball (3rd Level) \u2014 \u201cThe Dawnfire Special.\u201d</strong> 150 ft. range, 20 ft. radius. DC 17 Dex save, 8d6 fire damage, half on save.</p><p><strong>Haste (3rd Level).</strong> Concentration. Target gains +2 AC, doubled speed, extra action (one attack, Dash, Disengage, Hide, Use Object). Twinnable.</p><p><strong>Fly (3rd Level).</strong> Touch target gains 60 ft. fly speed for 10 minutes. Concentration.</p><h3>Reactions</h3><p><strong>Counterspell (3rd Level).</strong> Automatically counter spells 3rd level or lower. Higher: DC 10 + spell level Charisma check.</p>"
+    "biography": "<h2>Lysara Dawnfire — Dragonborn Sorcerer (Draconic Bloodline, Gold) 10</h2><p><em>Medium humanoid (dragonborn), chaotic good</em></p><hr><p><em>Dramatic, vain (in a lovable way), breathtakingly confident. Names her spells. Fireball is “the Dawnfire Special.” Lysara is a golden-scaled dragonborn woman with an imperious bearing and a flair for the dramatic. She speaks with grand gestures and treats every spell cast as a performance.</em></p><hr><p><strong>Armor Class</strong> 15 (Draconic Resilience + DEX)</p><p><strong>Hit Points</strong> 76</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>10 (+0)</td><td>14 (+2)</td><td>16 (+3)</td><td>10 (+0)</td><td>12 (+1)</td><td>20 (+5)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Con +7, Cha +9</p><p><strong>Skills</strong> Arcana +4, Performance +9, Persuasion +9</p><p><strong>Senses</strong> passive Perception 11</p><p><strong>Languages</strong> Common, Draconic</p><p><strong>Spellcasting.</strong> Charisma-based spellcaster (spell save DC 17, +9 to hit with spell attacks). Sorcery Points: 10.</p><hr><h3>Traits</h3><p><strong>Metamagic: Twinned Spell.</strong> Spend sorcery points equal to spell level to target a second creature with a single-target spell.</p><p><strong>Metamagic: Quickened Spell.</strong> Spend 2 sorcery points to cast a spell as a bonus action instead of an action.</p><p><strong>Metamagic: Subtle Spell.</strong> Spend 1 sorcery point to cast a spell without verbal or somatic components.</p><p><strong>Sorcery Points (10).</strong> 10 sorcery points, recovered on long rest.</p><p><strong>Draconic Resilience.</strong> AC 13 + DEX when unarmored. HP maximum increases by 1 per sorcerer level.</p><p><strong>Elemental Affinity (Fire).</strong> Add Charisma modifier (+5) to one fire spell damage roll. Spend 1 sorcery point to gain fire resistance for 1 hour.</p><h3>Actions</h3><p><strong>Fireball (3rd Level) — “The Dawnfire Special.”</strong> 150 ft. range, 20 ft. radius. DC 17 Dex save, 8d6 fire damage, half on save.</p><p><strong>Haste (3rd Level).</strong> Concentration. Target gains +2 AC, doubled speed, extra action (one attack, Dash, Disengage, Hide, Use Object). Twinnable.</p><p><strong>Fly (3rd Level).</strong> Touch target gains 60 ft. fly speed for 10 minutes. Concentration.</p><h3>Reactions</h3><p><strong>Counterspell (3rd Level).</strong> Automatically counter spells 3rd level or lower. Higher: DC 10 + spell level Charisma check.</p>",
+    "img": "modules/golden-hour/assets/characters/LysaraDawnfire.png",
+    "token": "modules/golden-hour/assets/characters/LysaraDawnfire_TOKEN.png"
   },
   {
-    "name": "Orin Thistlefoot \u2014 Wood Elf Ranger (Gloom Stalker) 10",
+    "name": "Orin Thistlefoot — Wood Elf Ranger (Gloom Stalker) 10",
     "phase": 0,
     "cr": 10,
     "size": "med",
@@ -734,11 +1026,33 @@
     "ac": 17,
     "hp": 84,
     "hpFormula": "10d10 + 20",
-    "speed": { "walk": 35, "fly": 0, "swim": 0, "hover": false },
-    "senses": { "darkvision": 90, "blindsight": 0, "truesight": 0 },
-    "str": 12, "dex": 20, "con": 14, "int": 10, "wis": 16, "cha": 8,
-    "saves": ["str", "dex"],
-    "skills": { "ste": 1, "prc": 1, "sur": 1, "nat": 1 },
+    "speed": {
+      "walk": 35,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 90,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 12,
+    "dex": 20,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 8,
+    "saves": [
+      "str",
+      "dex"
+    ],
+    "skills": {
+      "ste": 1,
+      "prc": 1,
+      "sur": 1,
+      "nat": 1
+    },
     "di": [],
     "dr": [],
     "drCustom": "",
@@ -784,10 +1098,419 @@
       },
       {
         "name": "Silence (2nd Level)",
-        "description": "<p>120 ft. range. For the duration, no sound can be created within or pass through a 20-ft.-radius sphere centered on a point Orin chooses. Creatures in the sphere are immune to thunder damage, are deafened, and can\u2019t cast spells with verbal components. Concentration, up to 10 minutes.</p>",
+        "description": "<p>120 ft. range. For the duration, no sound can be created within or pass through a 20-ft.-radius sphere centered on a point Orin chooses. Creatures in the sphere are immune to thunder damage, are deafened, and can’t cast spells with verbal components. Concentration, up to 10 minutes.</p>",
         "activation": "action"
       }
     ],
-    "biography": "<h2>Orin Thistlefoot \u2014 Wood Elf Ranger (Gloom Stalker) 10</h2><p><em>Medium humanoid (elf), neutral good</em></p><hr><p><em>Calm, patient, speaks in short sentences. The moral compass of the group. If Orin says something is wrong, it\u2019s wrong. Orin is a lean, weathered wood elf with dark green eyes and bark-brown skin. He moves silently and speaks even more quietly. His longbow is never far from his hand.</em></p><hr><p><strong>Armor Class</strong> 17 (studded leather + DEX)</p><p><strong>Hit Points</strong> 84</p><p><strong>Speed</strong> 35 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>12 (+1)</td><td>20 (+5)</td><td>14 (+2)</td><td>10 (+0)</td><td>16 (+3)</td><td>8 (\u22121)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +5, Dex +9</p><p><strong>Skills</strong> Stealth +9, Perception +7, Survival +7, Nature +4</p><p><strong>Senses</strong> darkvision 90 ft., passive Perception 17</p><p><strong>Languages</strong> Common, Elvish, Sylvan</p><p><strong>Spellcasting.</strong> Wisdom-based spellcaster (spell save DC 15, +7 to hit with spell attacks).</p><hr><h3>Traits</h3><p><strong>Dread Ambusher.</strong> First round of combat: +3 to initiative, one extra attack with first Attack action dealing extra 1d8 damage, walking speed increases by 10 ft.</p><p><strong>Umbral Sight.</strong> Darkvision 90 ft. Invisible to creatures relying on darkvision to see him.</p><p><strong>Extra Attack.</strong> Two attacks per Attack action.</p><h3>Actions</h3><p><strong>Longbow +1.</strong> <em>Ranged Weapon Attack:</em> +10 to hit, range 150/600 ft., one target. <em>Hit:</em> 9 (1d8 + 5) piercing damage.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d6 + 5) piercing damage.</p><p><strong>Conjure Animals (3rd Level).</strong> Summon 8 CR 1/4 beasts or 2 CR 1 beasts. Concentration, 1 hour.</p><p><strong>Silence (2nd Level).</strong> 120 ft. range, 20-ft. radius sphere. No sound, immunity to thunder damage, creatures are deafened, verbal spell components impossible. Concentration, up to 10 minutes.</p><h3>Bonus Actions</h3><p><strong>Hunter's Mark (1st Level).</strong> Mark a creature within 90 ft. Extra 1d6 damage on each hit. Concentration, up to 1 hour.</p>"
+    "biography": "<h2>Orin Thistlefoot — Wood Elf Ranger (Gloom Stalker) 10</h2><p><em>Medium humanoid (elf), neutral good</em></p><hr><p><em>Calm, patient, speaks in short sentences. The moral compass of the group. If Orin says something is wrong, it’s wrong. Orin is a lean, weathered wood elf with dark green eyes and bark-brown skin. He moves silently and speaks even more quietly. His longbow is never far from his hand.</em></p><hr><p><strong>Armor Class</strong> 17 (studded leather + DEX)</p><p><strong>Hit Points</strong> 84</p><p><strong>Speed</strong> 35 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>12 (+1)</td><td>20 (+5)</td><td>14 (+2)</td><td>10 (+0)</td><td>16 (+3)</td><td>8 (−1)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +5, Dex +9</p><p><strong>Skills</strong> Stealth +9, Perception +7, Survival +7, Nature +4</p><p><strong>Senses</strong> darkvision 90 ft., passive Perception 17</p><p><strong>Languages</strong> Common, Elvish, Sylvan</p><p><strong>Spellcasting.</strong> Wisdom-based spellcaster (spell save DC 15, +7 to hit with spell attacks).</p><hr><h3>Traits</h3><p><strong>Dread Ambusher.</strong> First round of combat: +3 to initiative, one extra attack with first Attack action dealing extra 1d8 damage, walking speed increases by 10 ft.</p><p><strong>Umbral Sight.</strong> Darkvision 90 ft. Invisible to creatures relying on darkvision to see him.</p><p><strong>Extra Attack.</strong> Two attacks per Attack action.</p><h3>Actions</h3><p><strong>Longbow +1.</strong> <em>Ranged Weapon Attack:</em> +10 to hit, range 150/600 ft., one target. <em>Hit:</em> 9 (1d8 + 5) piercing damage.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d6 + 5) piercing damage.</p><p><strong>Conjure Animals (3rd Level).</strong> Summon 8 CR 1/4 beasts or 2 CR 1 beasts. Concentration, 1 hour.</p><p><strong>Silence (2nd Level).</strong> 120 ft. range, 20-ft. radius sphere. No sound, immunity to thunder damage, creatures are deafened, verbal spell components impossible. Concentration, up to 10 minutes.</p><h3>Bonus Actions</h3><p><strong>Hunter's Mark (1st Level).</strong> Mark a creature within 90 ft. Extra 1d6 damage on each hit. Concentration, up to 1 hour.</p>",
+    "img": "modules/golden-hour/assets/characters/OrinThistlefoot.png",
+    "token": "modules/golden-hour/assets/characters/OrinThistlefoot_TOKEN.png"
+  },
+  {
+    "name": "Bron Ironfist",
+    "phase": 2,
+    "cr": 5,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "dwarf",
+    "alignment": "Lawful Good",
+    "ac": 18,
+    "hp": 90,
+    "hpFormula": "12d8 + 36",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 18,
+    "dex": 10,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 14,
+    "saves": [
+      "str",
+      "con"
+    ],
+    "skills": {
+      "ath": 1,
+      "itm": 1
+    },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Dwarven Resilience",
+        "description": "<p>Advantage on saving throws against poison, and resistance to poison damage.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Improved Critical",
+        "description": "<p>Bron scores a critical hit on a roll of 19 or 20.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Second Wind (1/Rest)",
+        "description": "<p>As a bonus action, Bron regains 1d10 + 5 hit points.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Bron makes two warhammer attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Warhammer",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Bron Ironfist</h2><p><em>Medium humanoid (dwarf), lawful good</em></p><hr><p><em>Leader of the Iron Vanguard. A stocky dwarf fighter-champion with arms like tree trunks and a beard braided with iron rings. Gruff exterior, heart of gold. He and his party are the beloved previous champions of the Heroic Games — secretly frozen in stasis pods beneath Solhaven Palace.</em></p><hr><p><strong>Armor Class</strong> 18 (plate)</p><p><strong>Hit Points</strong> 90 (12d8 + 36)</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>10 (+0)</td><td>16 (+3)</td><td>10 (+0)</td><td>12 (+1)</td><td>14 (+2)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +6</p><p><strong>Skills</strong> Athletics +7, Intimidation +5</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 11</p><p><strong>Languages</strong> Common, Dwarvish</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Dwarven Resilience.</strong> Advantage on saving throws against poison, and resistance to poison damage.</p><p><strong>Improved Critical.</strong> Bron scores a critical hit on a roll of 19 or 20.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Bron makes two warhammer attacks.</p><p><strong>Warhammer.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) bludgeoning damage.</p><p><strong>Second Wind (1/Rest).</strong> As a bonus action, Bron regains 1d10 + 5 hit points.</p>",
+    "img": "modules/golden-hour/assets/characters/BronIronfist.png",
+    "token": "modules/golden-hour/assets/characters/BronIronfist_TOKEN.png"
+  },
+  {
+    "name": "Sylara Moonwhisper",
+    "phase": 2,
+    "cr": 4,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "elf",
+    "alignment": "Neutral Good",
+    "ac": 13,
+    "hp": 55,
+    "hpFormula": "10d8 + 10",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 8,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 14,
+    "cha": 10,
+    "saves": [
+      "int",
+      "wis"
+    ],
+    "skills": {
+      "arc": 1,
+      "his": 1,
+      "inv": 1
+    },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "int",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Portent (2/Day)",
+        "description": "<p>After a long rest, Sylara rolls 2d20 and records the numbers. She can replace any attack roll, saving throw, or ability check made by a creature she can see with one of these foretelling rolls.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Fey Ancestry",
+        "description": "<p>Advantage on saving throws against being charmed, and magic can’t put her to sleep.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Arcane Recovery (1/Day)",
+        "description": "<p>Once per day during a short rest, Sylara can recover up to 2 levels of expended spell slots.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Spellcasting (7th Level)",
+        "description": "<p>Sylara is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Fire Bolt, Minor Illusion, Prestidigitation</p><p><strong>1st level (4 slots):</strong> Shield, Mage Armor, Magic Missile</p><p><strong>2nd level (3 slots):</strong> Misty Step, Detect Thoughts</p><p><strong>3rd level (3 slots):</strong> Counterspell, Fireball</p><p><strong>4th level (1 slot):</strong> Greater Invisibility</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Fire Bolt",
+        "description": "<p><em>Ranged Spell Attack:</em> +7 to hit, range 120 ft., one target. <em>Hit:</em> 11 (2d10) fire damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Quarterstaff",
+        "description": "<p><em>Melee Weapon Attack:</em> +1 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d6 − 1) bludgeoning damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Sylara Moonwhisper</h2><p><em>Medium humanoid (elf), neutral good</em></p><hr><p><em>Iron Vanguard’s wizard. A serene elven divination wizard who always seems to know what’s going to happen — except when it mattered most. Tall and willowy with silver-white hair and pale violet eyes that occasionally flash with prescient light. Found frozen in stasis beneath Solhaven Palace with an expression of stunned surprise — she didn’t see it coming.</em></p><hr><p><strong>Armor Class</strong> 13 (16 with Mage Armor)</p><p><strong>Hit Points</strong> 55 (10d8 + 10)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (−1)</td><td>14 (+2)</td><td>12 (+1)</td><td>18 (+4)</td><td>14 (+2)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Int +7, Wis +5</p><p><strong>Skills</strong> Arcana +7, History +7, Investigation +7</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 12</p><p><strong>Languages</strong> Common, Elvish, Draconic, Sylvan</p><p><strong>Challenge</strong> 4 (1,100 XP)</p><hr><h3>Traits</h3><p><strong>Portent (2/Day).</strong> After a long rest, Sylara rolls 2d20 and records the numbers. She can replace any attack roll, saving throw, or ability check made by a creature she can see with one of these foretelling rolls.</p><p><strong>Fey Ancestry.</strong> Advantage on saving throws against being charmed, and magic can’t put her to sleep.</p><p><strong>Arcane Recovery (1/Day).</strong> Once per day during a short rest, Sylara can recover up to 2 levels of expended spell slots.</p><p><strong>Spellcasting (7th Level).</strong> Sylara is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Fire Bolt, Minor Illusion, Prestidigitation</p><p><strong>1st level (4 slots):</strong> Shield, Mage Armor, Magic Missile</p><p><strong>2nd level (3 slots):</strong> Misty Step, Detect Thoughts</p><p><strong>3rd level (3 slots):</strong> Counterspell, Fireball</p><p><strong>4th level (1 slot):</strong> Greater Invisibility</p>",
+    "img": "modules/golden-hour/assets/characters/SylaraMoonwhisper.png",
+    "token": "modules/golden-hour/assets/characters/SylaraMoonwhisper_TOKEN.png"
+  },
+  {
+    "name": "Torq",
+    "phase": 2,
+    "cr": 5,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "half-orc",
+    "alignment": "Chaotic Good",
+    "ac": 14,
+    "hp": 95,
+    "hpFormula": "10d12 + 30",
+    "speed": {
+      "walk": 40,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 18,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10,
+    "saves": [
+      "str",
+      "con"
+    ],
+    "skills": {
+      "ath": 1,
+      "prc": 1,
+      "sur": 1
+    },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Rage (3/Day)",
+        "description": "<p>As a bonus action, Torq enters a rage for 1 minute. While raging: +2 melee damage, resistance to bludgeoning/piercing/slashing, advantage on Strength checks and saves. Cannot cast spells.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Bear Totem",
+        "description": "<p>While raging, Torq has resistance to all damage except psychic.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Relentless Endurance (1/Day)",
+        "description": "<p>When reduced to 0 HP but not killed, Torq drops to 1 HP instead.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Danger Sense",
+        "description": "<p>Advantage on Dexterity saving throws against effects Torq can see.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Reckless Attack",
+        "description": "<p>At the start of his turn, Torq can choose to attack recklessly. He gains advantage on melee attack rolls during that turn, but attack rolls against him have advantage until his next turn.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Torq makes two greataxe attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Greataxe",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d12 + 4) slashing damage, plus 2 while raging.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Torq</h2><p><em>Medium humanoid (half-orc), chaotic good</em></p><hr><p><em>Iron Vanguard’s barbarian. A gentle half-orc poet-barbarian who writes terrible poetry and fights with terrifying efficiency. Broad-shouldered with grey-green skin and surprisingly kind eyes. Found frozen with an unfinished poem crumpled in his hand. The poem reads: “The axe falls like autumn leaves / But softer, I think, than—”</em></p><hr><p><strong>Armor Class</strong> 14 (unarmored defense)</p><p><strong>Hit Points</strong> 95 (10d12 + 30)</p><p><strong>Speed</strong> 40 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>18 (+4)</td><td>14 (+2)</td><td>16 (+3)</td><td>8 (−1)</td><td>12 (+1)</td><td>10 (+0)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Str +7, Con +6</p><p><strong>Skills</strong> Athletics +7, Perception +4, Survival +4</p><p><strong>Senses</strong> passive Perception 14</p><p><strong>Languages</strong> Common, Orc</p><p><strong>Challenge</strong> 5 (1,800 XP)</p><hr><h3>Traits</h3><p><strong>Rage (3/Day).</strong> As a bonus action, Torq enters a rage for 1 minute. While raging: +2 melee damage, resistance to bludgeoning/piercing/slashing, advantage on Strength checks and saves. Cannot cast spells.</p><p><strong>Bear Totem.</strong> While raging, Torq has resistance to all damage except psychic.</p><p><strong>Relentless Endurance (1/Day).</strong> When reduced to 0 HP but not killed, Torq drops to 1 HP instead.</p><p><strong>Danger Sense.</strong> Advantage on Dexterity saving throws against effects Torq can see.</p><p><strong>Reckless Attack.</strong> At the start of his turn, Torq can choose to attack recklessly. He gains advantage on melee attack rolls during that turn, but attack rolls against him have advantage until his next turn.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Torq makes two greataxe attacks.</p><p><strong>Greataxe.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d12 + 4) slashing damage, plus 2 while raging.</p>",
+    "img": "modules/golden-hour/assets/characters/Torq.png",
+    "token": "modules/golden-hour/assets/characters/Torq_TOKEN.png"
+  },
+  {
+    "name": "Pip Nimblefingers",
+    "phase": 2,
+    "cr": 3,
+    "size": "sm",
+    "creatureType": "humanoid",
+    "subtype": "halfling",
+    "alignment": "Chaotic Good",
+    "ac": 15,
+    "hp": 45,
+    "hpFormula": "10d8",
+    "speed": {
+      "walk": 25,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 0,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 8,
+    "dex": 18,
+    "con": 10,
+    "int": 14,
+    "wis": 12,
+    "cha": 16,
+    "saves": [
+      "dex",
+      "int"
+    ],
+    "skills": {
+      "acr": 1,
+      "dec": 1,
+      "slt": 1,
+      "ste": 2
+    },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Sneak Attack (3d6)",
+        "description": "<p>Once per turn, Pip deals an extra 10 (3d6) damage to one creature she hits with an attack if she has advantage on the attack roll, or if an ally is within 5 ft. of the target.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Cunning Action",
+        "description": "<p>On each of her turns, Pip can use a bonus action to Dash, Disengage, or Hide.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Lucky (Halfling)",
+        "description": "<p>When Pip rolls a 1 on an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Naturally Stealthy",
+        "description": "<p>Pip can attempt to hide even when obscured only by a creature that is at least one size larger.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Evasion",
+        "description": "<p>When subjected to an effect that allows a Dexterity save for half damage, Pip takes no damage on a success and half on a failure.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Multiattack",
+        "description": "<p>Pip makes two shortsword attacks.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Shortsword",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p>",
+        "activation": "action"
+      },
+      {
+        "name": "Hand Crossbow",
+        "description": "<p><em>Ranged Weapon Attack:</em> +7 to hit, range 30/120 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Pip Nimblefingers</h2><p><em>Small humanoid (halfling), chaotic good</em></p><hr><p><em>Iron Vanguard’s rogue. A cheerful halfling who steals everything that isn’t nailed down and picks the pockets of anyone who stands still too long. The youngest member of the Vanguard, with curly auburn hair, freckles, and an irrepressible grin. Found frozen beneath Solhaven Palace with someone else’s coin purse clutched in her hand.</em></p><hr><p><strong>Armor Class</strong> 15 (studded leather)</p><p><strong>Hit Points</strong> 45 (10d8)</p><p><strong>Speed</strong> 25 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>8 (−1)</td><td>18 (+4)</td><td>10 (+0)</td><td>14 (+2)</td><td>12 (+1)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Dex +7, Int +5</p><p><strong>Skills</strong> Acrobatics +7, Deception +6, Sleight of Hand +7, Stealth +10 (expertise)</p><p><strong>Senses</strong> passive Perception 11</p><p><strong>Languages</strong> Common, Halfling, Thieves’ Cant</p><p><strong>Challenge</strong> 3 (700 XP)</p><hr><h3>Traits</h3><p><strong>Sneak Attack (3d6).</strong> Once per turn, Pip deals an extra 10 (3d6) damage to one creature she hits with an attack if she has advantage on the attack roll, or if an ally is within 5 ft. of the target.</p><p><strong>Cunning Action.</strong> On each of her turns, Pip can use a bonus action to Dash, Disengage, or Hide.</p><p><strong>Lucky (Halfling).</strong> When Pip rolls a 1 on an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll.</p><p><strong>Naturally Stealthy.</strong> Pip can attempt to hide even when obscured only by a creature that is at least one size larger.</p><p><strong>Evasion.</strong> When subjected to an effect that allows a Dexterity save for half damage, Pip takes no damage on a success and half on a failure.</p><h3>Actions</h3><p><strong>Multiattack.</strong> Pip makes two shortsword attacks.</p><p><strong>Shortsword.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p><p><strong>Hand Crossbow.</strong> <em>Ranged Weapon Attack:</em> +7 to hit, range 30/120 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p>",
+    "img": "modules/golden-hour/assets/characters/PipNimblefingers.png",
+    "token": "modules/golden-hour/assets/characters/PipNimblefingers_TOKEN.png"
+  },
+  {
+    "name": "Herald Elara Dawnmantle",
+    "phase": 2,
+    "cr": 9,
+    "size": "med",
+    "creatureType": "humanoid",
+    "subtype": "aasimar",
+    "alignment": "Lawful Good",
+    "ac": 18,
+    "hp": 110,
+    "hpFormula": "13d8 + 52",
+    "speed": {
+      "walk": 30,
+      "fly": 0,
+      "swim": 0,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": 0,
+      "truesight": 0
+    },
+    "str": 16,
+    "dex": 10,
+    "con": 18,
+    "int": 13,
+    "wis": 18,
+    "cha": 16,
+    "saves": [
+      "con",
+      "wis",
+      "cha"
+    ],
+    "skills": {
+      "ins": 1,
+      "med": 1,
+      "per": 1,
+      "rel": 1
+    },
+    "di": [],
+    "dr": [],
+    "drCustom": "",
+    "dv": [],
+    "ci": [],
+    "spellcastingAbility": "wis",
+    "disposition": 1,
+    "items": [
+      {
+        "name": "Aasimar Radiance (1/Day)",
+        "description": "<p>As a bonus action, Elara unleashes divine energy. For 1 minute, she deals an extra 4 radiant damage once per turn when she deals damage.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "War Priest (3/Day)",
+        "description": "<p>When Elara uses the Attack action, she can make one weapon attack as a bonus action.</p>",
+        "activation": "bonus"
+      },
+      {
+        "name": "Spellcasting (9th Level)",
+        "description": "<p>Elara is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Sacred Flame, Light, Thaumaturgy</p><p><strong>1st level (4 slots):</strong> Healing Word, Shield of Faith, Bless</p><p><strong>2nd level (3 slots):</strong> Hold Person, Spiritual Weapon, Silence</p><p><strong>3rd level (3 slots):</strong> Spirit Guardians, Dispel Magic, Revivify</p><p><strong>4th level (3 slots):</strong> Banishment, Guardian of Faith</p><p><strong>5th level (1 slot):</strong> Flame Strike, Greater Restoration</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Phase 3 — Reluctant Antagonist",
+        "description": "<p>If fought in Phase 3: deals half damage on melee attacks (pulling punches). If a PC is at 0 HP, she uses Healing Word on them instead of attacking. Can be turned mid-fight: Persuasion DC 22 (disadvantage). If turned, she immediately helps destroy the Anchors.</p>",
+        "activation": "passive"
+      },
+      {
+        "name": "Mace",
+        "description": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) radiant damage.</p>",
+        "activation": "action"
+      }
+    ],
+    "biography": "<h2>Herald Elara Dawnmantle</h2><p><em>Medium humanoid (aasimar), lawful good</em></p><hr><p><em>The Archduke’s herald and most trusted agent. An aasimar war priest who genuinely believes in Valerius’s vision of a world frozen in perfect peace. She has luminous golden skin, white-blonde hair, and eyes that glow with soft divine light. She serves as the party’s guide to Aurelius in Phase 2 and may become a reluctant antagonist in Phase 3. Her character arc is central to the campaign’s moral themes.</em></p><hr><p><strong>Armor Class</strong> 18 (plate)</p><p><strong>Hit Points</strong> 110 (13d8 + 52)</p><p><strong>Speed</strong> 30 ft.</p><hr><table><thead><tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr></thead><tbody><tr><td>16 (+3)</td><td>10 (+0)</td><td>18 (+4)</td><td>13 (+1)</td><td>18 (+4)</td><td>16 (+3)</td></tr></tbody></table><hr><p><strong>Saving Throws</strong> Con +8, Wis +8, Cha +7</p><p><strong>Skills</strong> Insight +8, Medicine +8, Persuasion +7, Religion +5</p><p><strong>Senses</strong> darkvision 60 ft., passive Perception 14</p><p><strong>Languages</strong> Common, Celestial</p><p><strong>Challenge</strong> 9 (5,000 XP)</p><hr><h3>Traits</h3><p><strong>Aasimar Radiance (1/Day).</strong> As a bonus action, Elara unleashes divine energy. For 1 minute, she deals an extra 4 radiant damage once per turn when she deals damage.</p><p><strong>War Priest (3/Day).</strong> When Elara uses the Attack action, she can make one weapon attack as a bonus action.</p><p><strong>Phase 3 — Reluctant Antagonist.</strong> If fought in Phase 3: deals half damage on melee attacks (pulling punches). If a PC is at 0 HP, she uses Healing Word on them instead of attacking. Can be turned mid-fight: Persuasion DC 22 (disadvantage). If turned, she immediately helps destroy the Anchors.</p><p><strong>Spellcasting (9th Level).</strong> Elara is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks).</p><p><strong>Cantrips (at will):</strong> Sacred Flame, Light, Thaumaturgy</p><p><strong>1st level (4 slots):</strong> Healing Word, Shield of Faith, Bless</p><p><strong>2nd level (3 slots):</strong> Hold Person, Spiritual Weapon, Silence</p><p><strong>3rd level (3 slots):</strong> Spirit Guardians, Dispel Magic, Revivify</p><p><strong>4th level (3 slots):</strong> Banishment, Guardian of Faith</p><p><strong>5th level (1 slot):</strong> Flame Strike, Greater Restoration</p><h3>Actions</h3><p><strong>Mace.</strong> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) radiant damage.</p>",
+    "img": "modules/golden-hour/assets/characters/HeraldElara.png",
+    "token": "modules/golden-hour/assets/characters/HeraldElara_TOKEN.png"
   }
 ]

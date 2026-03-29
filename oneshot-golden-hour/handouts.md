@@ -71,13 +71,14 @@ I look forward to greeting you personally.
 - Teams may use any spells, abilities, or items at their disposal.
 - Surrender is permitted (no shame, but the crowd will boo).
 
-**STAGE 2 — THE LABYRINTH**
+**STAGE 2 — THE CHRONOS CLOCK**
 
-*A test of mind and spirit.*
+*A test of timing and spectacle.*
 
-- Teams navigate a shifting magical maze.
-- Combat is NOT expected (but anything can happen).
-- The Labyrinth responds to teamwork, not brute force.
+- The arena transforms into a massive, magical clock face.
+- Champions must "lock in" the Sacred Hours while navigating the **Radiant Sweeper**.
+- This stage is broadcast live — style and flair earn the favor of the crowd.
+- Success requires perfect synchronization between teammates.
 
 **STAGE 3 — THE CHAMPION'S TRIAL**
 

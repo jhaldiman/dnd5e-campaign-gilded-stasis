@@ -250,59 +250,101 @@ head of state who genuinely cares.]*
 
 ---
 
-### 2E — Stage 2: The Labyrinth
+### 2E — Stage 2: The Chronos Clock
 
-*[Read when the party enters the Labyrinth.]*
+*[Read when the arena floor transforms for Stage 2.]*
 
-> Beneath the Colosseum, a staircase spirals down into cool darkness.
-> The roar of the crowd fades behind you, replaced by an echoing
-> silence.
+> The gates close, and for a moment, the arena is silent. Then, a
+> sound like a thousand winding gears rises from beneath the sand.
 >
-> The Labyrinth opens before you — a maze of translucent walls that
-> shimmer like soap bubbles, rearranging themselves with gentle chimes.
-> The floor is polished glass that shows your reflections looking
-> slightly... different. Older. Younger. Scarred. Untouched. As if
-> the maze is showing you versions of yourselves from different
-> timelines.
+> The floor doesn't just change — it *unfolds*.
 >
-> Mounted on the wall at the entrance is a brass plaque:
+> Massive plates of white marble slide into place, forming a perfect
+> circle eighty feet across. Twelve circular runes ignite around the
+> perimeter, glowing with a soft, pulsing celestial light: I through
+> XII.
 >
-> *"The Labyrinth has no wrong path — only paths walked alone.*
-> *Trust your companions. The way forward reveals itself to those*
-> *who cannot find it without each other."*
+> In the center, a pillar of brilliant golden energy erupts forty
+> feet into the air. It leans over, forming a singular, razor-sharp
+> "hand" of light that begins to sweep across the marble floor with
+> a low, rhythmic hum. *Thrum. Thrum. Thrum.*
+>
+> Herald Elara's voice booms across the stands:
+>
+> **"Phase Two: THE CHRONOS CLOCK! Champions, the city honors its**
+> **history through the Sacred Hours. You must lock in the hours of**
+> **DAWN, NOON, and DUSK! Stand in the light — if you have the**
+> **courage!"**
 
 ---
 
-### 2F — The Guardian's Riddle
+### 2F — The Archive Emerges
 
-*[Read when the party reaches the final chamber.]*
+*[Read when the third plate is locked and the Archive rises.]*
 
-> The maze opens into a circular chamber of white stone. In the
-> center stands a crystalline figure — humanoid, faceless, arms
-> folded, floating an inch off the ground.
+> The final plate ignites in a pillar of blue fire, and the "Radiant
+> Sweeper" beam snaps into the center of the arena.
 >
-> It speaks in a voice that sounds like three people talking in
-> perfect unison:
+> The sand churns as a ten-foot cube of white stone rises from the
+> floor, surrounding the central light. Its surface is carved with
+> intricate celestial maps, and at its base, four heavy stone rings
+> sit waiting to be turned.
 >
-> **"I am given freely but cannot be bought.**
-> **I make the strong stronger and the weak unafraid.**
-> **I am broken by doubt and built by time.**
-> **What am I?"**
+> Herald Elara leans over the announcer's rail, her voice hushed:
 >
-> *[The answer is: TRUST.]*
+> **"Timing is but the first step, Silver Chalice. Now, the Archive of**
+> **the Seven Stars opens its doors. Find the path, or the trial ends**
+> **here!"**
 
 ---
 
-### 2G — Stage 3: The Champion's Trial
+### 2G — The Prismatic Valor
 
-*[Read when the Golem of the Seventh Star appears.]*
+*[Read when the Archive rings are turned to "AURE".]*
 
-> The Labyrinth releases you onto a new arena floor — smaller, more
-> intimate. The stands here are fewer but closer, the audience packed
-> tight. This is the Champion's Ring.
+> The stone rings click into place, and the Archive groans. A small
+> compartment slides open, revealing a heavy glass prism.
 >
-> At the far end, a curtain of golden light blazes, and through it
-> steps something magnificent.
+> Simultaneously, four brilliant beams of light shoot from the upper
+> corners of the Colosseum, striking the arena floor in a blinding
+> display.
+>
+> **"Look up, heroes!"** Elara shouts. **"The light of the people is**
+> **scattered! Return it to the one who leads us! Honor the**
+> **Philanthropist!"**
+
+---
+
+### 2H — The Echo of the Oath
+
+*[Read when the light beams are redirected to Valerius.]*
+
+> As the four beams converge on the Archduke’s box, Valerius stands,
+> his robes catching the light until he glows like a beacon.
+>
+> The Archive begins to hum — a deep, vibrating sound that shakes the
+> very air. Four small pedestals rise around it, but only three hold
+> offerings: a golden weight, a silk ribbon, and a stone heart.
+>
+> A voice like ancient thunder rolls across the arena:
+>
+> **"A hero’s strength is nothing without their anchor. What is the**
+> **weight of your word? Pay the toll, and enter the inner circle!"**
+
+---
+
+### 2I — Stage 3: The Champion's Trial
+
+*[Read when the Archive opens.]*
+
+> The final door of the Archive slides open with a hiss of escaping
+> light. Inside, resting on a velvet cushion, is a golden chalice
+> that catches the sun.
+>
+> As [Player Name] takes the cup, the Archive begins to sink back into
+> the sand. The crowd holds its breath.
+>
+> Rising from the center is something magnificent.
 >
 > Twelve feet of golden armor. A seven-pointed star blazing on its
 > chest like a small sun. It moves with fluid, dancer's grace — each
