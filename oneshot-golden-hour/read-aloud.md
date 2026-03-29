@@ -43,9 +43,11 @@
 
 *[Read when Elara arrives — a few minutes after entering the gate.]*
 
-> A young woman in polished ceremonial armor pushes through the crowd
-> toward you, her face flushed with excitement and barely contained
-> nerves. A blue cloak bearing the Thorne crest billows behind her.
+> A young woman with warm brown skin and dark hair in a single thick,
+> practical braid pushes through the crowd toward you. She wears
+> polished silver ceremonial half-plate over a deep blue tabard
+> bearing a golden sunburst crest. Her face is flushed with
+> excitement and barely contained nerves.
 >
 > "You're here! You're actually — I mean, of course you are. Welcome.
 > I'm Herald Elara, assigned to your party for the duration of the
@@ -96,12 +98,14 @@
 > A roar of laughter erupts from ahead, and then a table flies out
 > of a tavern doorway and lands in the street.
 >
-> A mountain of a dwarf — bald head, braided beard, arms like tree
-> trunks — stumbles out after it, laughing so hard he can barely
-> stand. Behind him, a half-elf woman with silver hair and knowing
-> eyes watches with a look of practiced patience. A hulking
-> half-orc covered in tribal tattoos tries to catch the table, and
-> a halfling sits ON the half-orc's shoulder, eating an apple.
+> A mountain of a dwarf — bald head, brown beard bound with iron
+> rings, arms like tree trunks — stumbles out after it, laughing so
+> hard he can barely stand. Behind him, a half-elf woman with
+> waist-length silver hair and knowing eyes watches with a look of
+> practiced patience; she floats nearly an inch above the cobblestones.
+> A hulking half-orc covered in swirling tribal tattoos on his neck
+> tries to catch the table, and a halfling with tousled auburn hair
+> sits ON the half-orc's shoulder, eating an apple.
 >
 > The dwarf spots your group and his eyes go wide.
 >
@@ -142,9 +146,9 @@ man meeting people he genuinely admires.]*
 
 > He's taller than you expected. Silver-streaked dark hair swept back
 > from a face that's handsome in an approachable, bookish way — more
-> scholar than warrior. His robes are fine but not extravagant, deep
-> blue with subtle gold embroidery. His eyes are warm and sharp, the
-> eyes of someone who reads a great deal and listens even more.
+> scholar than warrior. His robes are deep-navy, trimmed with subtle
+> gold filigree at the collar and cuffs. His eyes are warm and sharp,
+> the eyes of someone who reads a great deal and listens even more.
 >
 > He walks directly to your group with the ease of someone crossing
 > his own living room.
@@ -201,10 +205,11 @@ head of state who genuinely cares.]*
 > Four iron gates grind open at the corners of the arena. From within,
 > something growls.
 >
-> They pour onto the sand — four young chimeras, each the size of a
-> large wolf, wearing jeweled restraint harnesses. Three heads snap and
-> snarl on each body: lion, goat, dragon. They're young, they're
-> angry, and they smell fresh meat.
+> They pour onto the sand — four young chimeras, each wearing a
+> jeweled golden harness that glows with soft enchantment magic. Each
+> creature bears three distinct heads: a regal lion, a black mountain
+> goat, and a brass dragon. They're young, they're angry, and they
+> smell fresh meat.
 >
 > Elara's voice booms: **"WAVE ONE! FOUR CHIMERA SPAWN! BEGIN!"**
 
@@ -220,10 +225,11 @@ head of state who genuinely cares.]*
 >
 > The ground shakes.
 >
-> Two arena drakes surge onto the sand — massive, wingless lizards
-> the color of rust, each the size of a horse. Their tails crack
-> like whips. One opens its jaws and a gout of flame scorches the air
-> just to announce itself.
+> Two arena drakes surge onto the sand — massive, wingless predators
+> with shimmering bronze scales and decorative leather collars studded
+> with gold. Their heavy, spiked tails crack like whips against the
+> sand. One opens its jaws and a gout of flame scorches the air just
+> to announce itself.
 >
 > **"WAVE TWO! ARENA DRAKES! FIGHT ON!"**
 
@@ -240,8 +246,9 @@ head of state who genuinely cares.]*
 >
 > A shadow moves inside. Then it steps into the light.
 >
-> Ten feet of polished gray stone. A massive greatsword held in one
-> hand. Blue glyphs pulse along its body like a heartbeat. It walks
+> Ten feet of seamless white marble, carved in the likeness of a
+> heroic gladiator. A massive greatsword of matching marble is held in
+> one hand. Warm golden light glows from its joints and eyes. It walks
 > to the center of the arena, stops, and very deliberately...
 >
 > ...bows.
@@ -346,9 +353,10 @@ head of state who genuinely cares.]*
 >
 > Rising from the center is something magnificent.
 >
-> Twelve feet of golden armor. A seven-pointed star blazing on its
-> chest like a small sun. It moves with fluid, dancer's grace — each
-> step precise, each turn of its head deliberate and almost gentle.
+> Twelve feet of burnished golden and brass armor. A seven-pointed star
+> blazing on its chest like a small sun. It moves with fluid, dancer's
+> grace — each step precise, each turn of its head deliberate and
+> almost gentle.
 >
 > The Golem of the Seventh Star.
 >
@@ -463,10 +471,11 @@ warm celebration to sudden danger.]*
 > The Rift hangs forty feet above the Promenade, fifty feet wide and
 > growing. And things are coming through.
 >
-> Shapes made of broken glass and fractured light hit the cobblestones
-> — wolf-like, flickering between visible and invisible. Behind them,
-> humanoid figures of swirling golden energy drift down like terrible
-> lanterns.
+> Sleek, predatory shapes made of shifting geometry and violet shadow
+> hit the cobblestones. Their skin looks like distorted star-charts,
+> and they flicker in and out of reality. Behind them, spectral
+> figures wreathed in flickering chronal energy drift down, their
+> forms rapidly shifting between youth and skeletal age.
 >
 > People scream. The Festival Promenade — packed with civilians —
 > erupts into panic.
@@ -509,8 +518,8 @@ THE key moment of the one-shot. Deliver it with weight.]*
 > And then Valerius is there.
 >
 > You didn't see him arrive. One moment the building is falling —
-> the next, a figure in blue robes stands beneath the collapsing
-> wall with both hands raised, and the world... *stops*.
+> the next, a figure in navy scholar's robes stands beneath the
+> collapsing wall with both hands raised, and the world... *stops*.
 >
 > The rubble hangs in the air. Dust particles freeze mid-fall. A
 > chunk of stone the size of a cart hovers three feet above
@@ -551,14 +560,12 @@ THE key moment of the one-shot. Deliver it with weight.]*
 >
 > Something massive pushes through — hands first, then a head, then
 > shoulders that blot out the stars. Fifteen feet tall and made of
-> shattered moments — broken glass, frozen lightning, the ghostly
-> outlines of places that haven't happened yet.
+> shattered glass, dark obsidian, and crackling white lightning. Its
+> body follows impossible geometry, with floating limbs and a hollow
+> chest where a miniature rift swirls.
 >
 > The Riftborn Colossus lands on the Promenade. The cobblestones
-> crack beneath it. Its chest is a whirling vortex — the heart of
-> the Rift itself, pulled into a shape that wants to be alive.
->
-> It looks at you. Its face is a mosaic of a hundred different
+> crack beneath it. Its face is a mosaic of a hundred different
 > expressions, all of them rage.
 >
 > Valerius steps up beside you, golden energy crackling around his
@@ -605,10 +612,10 @@ the boss fight).]*
 
 > The Colossus shatters.
 >
-> A thousand fragments of frozen time explode outward, dissolving into
-> golden dust before they hit the ground. The Rift — now sealed — fades
-> from the sky like a bad dream. The stars return, one by one, as if
-> checking whether it's safe to come out.
+> A thousand fragments of frozen time and obsidian explode outward,
+> dissolving into golden dust before they hit the ground. The Rift —
+> now sealed — fades from the sky like a bad dream. The stars return,
+> one by one, as if checking whether it's safe to come out.
 >
 > Silence. Then, from somewhere in the city, someone starts clapping.
 >
