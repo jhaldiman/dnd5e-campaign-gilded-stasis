@@ -1,0 +1,46 @@
+name: Foundry VTT Module Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'foundry-module/golden-hour/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Extract Version
+        id: get_version
+        run: |
+          VERSION=$(jq -r '.version' foundry-module/golden-hour/module.json)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Prepare Module Files
+        run: |
+          mkdir -p staging
+          cp -r foundry-module/golden-hour/* staging/
+
+      - name: Zip Module
+        run: |
+          cd staging
+          zip -r ../module.zip .
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Release v${{ env.VERSION }}
+          draft: false
+          prerelease: false
+          files: |
+            module.zip
+            foundry-module/golden-hour/module.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
