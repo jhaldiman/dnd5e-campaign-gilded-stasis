@@ -34,7 +34,29 @@ setup.
 | Performance (Archive Step 3) | 14 | "Tell the Tale" of the sacrifice to rouse the crowd |
 | Arcana/Perception (Golem weak spot) | 13 | Identify Dramatic Weakness at 50% HP |
 | Perception (Rift Stalkers) | See stat | Passive 13 to notice Phase Shift |
-| Various (civilian rescue) | 12-15 | Athletics, Acrobatics, Persuasion to rescue civilians |
+|Various (civilian rescue) | 12-15 | Athletics, Acrobatics, Persuasion to rescue civilians |
+
+---
+
+## Special Mechanics
+
+### Favor of the Crowd
+In Act 2 (The Arena), the crowd rewards heroism and style.
+- **Grant "The Crowd's Favor" (1d6 Heroism Die)** whenever a player
+  describes a particularly cinematic or cool action.
+- The die must be used on an attack roll, ability check, or save before
+  the end of the player's next turn.
+- Elara’s commentary should explicitly call out these moments to
+  make them feel impactful.
+
+### The Preservation Motif (The Gallery of the Rescued)
+In Act 3, introduce the **Gallery of the Rescued** to plant the stasis
+seed early.
+- Describe the statues as being *disturbingly* lifelike.
+- Valerius’s explanation should be warm and aspirational: *"keep them
+  exactly as they were at their finest moment."*
+- This establishes that Valerius views "preservation" as the ultimate
+  act of love for his heroes.
 
 ---
 

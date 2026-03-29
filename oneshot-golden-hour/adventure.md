@@ -112,6 +112,18 @@ tomorrow. Everything is perfect.
 Valerius watches from the royal box. Elara provides color commentary
 from a magically amplified announcer's platform.
 
+**Mechanic: Favor of the Crowd**
+The crowd is a character in this Act. Encourage players to describe their
+actions with flair.
+- **Trigger:** A player describes a particularly heroic, stylish, or
+  "cinematic" action (e.g., a backflip off a pillar, a witty quip mid-swing,
+  or a flashy use of a spell).
+- **Reward:** Grant the player **The Crowd's Favor** — a **1d6 Heroism Die**.
+- **Effect:** The player can add this 1d6 to one attack roll, ability check,
+  or saving throw. They must use it before the end of their next turn or
+  it is lost as the crowd's attention shifts.
+- **Vibe:** Elara should highlight these moments: *"And look at that footwork! The Silver Chalice isn't just winning, they're PUTTING ON A SHOW!"*
+
 The Gauntlet has three stages. Teams run them sequentially. The Silver
 Chalice goes last (dramatic tension). The Iron Vanguard went before
 them and posted an excellent time.
@@ -227,6 +239,20 @@ Read the gala read-aloud text. Music, dancing, feasting. Every hero
 from every team is present. The mood is electric.
 
 ### Social Encounters (Run 2–3 as interest allows)
+
+**The Gallery of the Rescued (The Preservation Motif):**
+If the players explore the estate with Valerius or Elara, they may be
+led to a quiet, high-ceilinged wing of the palace. Read the Gallery
+read-aloud text.
+
+- **The Clue:** The statues are *too* perfect. Every thread of fabric,
+  every bead of sweat, is rendered in flawless white marble.
+- **Valerius's Explanation:** *"These are the heroes who gave
+  everything for Aurelius. I found a way to... keep them exactly as
+  they were at their finest moment. So we never forget."*
+- **The Secret:** These aren't statues. They are the first generation
+  of heroes Valerius placed in stasis, encased in a thin shell of
+  alchemical stone to serve as "inspiration."
 
 **Bron's Toast:**
 Bron stands on a table (despite Sylara's protests) and raises his mug:

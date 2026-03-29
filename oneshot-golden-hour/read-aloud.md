@@ -401,7 +401,34 @@ head of state who genuinely cares.]*
 
 ---
 
-### 3B — Valerius's Speech
+### 3B — The Gallery of the Rescued
+
+*[Read if the players explore the Palace with Valerius or Elara.]*
+
+> Valerius leads you into a quiet, high-ceilinged wing of the palace,
+> away from the music and the crowd.
+>
+> Rows of statues line the walls — white marble figures carved with
+> such incredible detail that you can see the texture of their
+> cloaks, the individual links in their mail, and the lines of
+> determination on their faces. They aren't just poses; they are
+> moments. A fighter mid-swing, a cleric in prayer, a rogue
+> leaping from a ledge.
+>
+> "These are the heroes who gave everything for Aurelius," Valerius
+> says, his voice soft with reverence. "I found a way to... keep them
+> exactly as they were at their finest moment. So we never forget."
+>
+> He stops before a statue of a young knight and touches the marble
+> hand.
+>
+> "They deserve to be remembered at their best. Not as broken things,
+> or as dust in a tomb. Here, they are forever heroes. Forever
+> safe. It's the least I could do for them."
+
+---
+
+### 3C — Valerius's Speech
 
 *[Read when Valerius addresses the gathering. Deliver with genuine
 emotion — NOT villain grandstanding. This is a man who believes what
