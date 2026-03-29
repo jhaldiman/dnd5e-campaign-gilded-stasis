@@ -2,7 +2,7 @@
  * The Golden Hour — Foundry VTT Import Script
  * For Foundry V12, dnd5e system 3.x
  *
- * One-click import of all one-shot actors, journal entries, and roll tables.
+ * One-click import/update of all one-shot actors, journal entries, and roll tables.
  */
 
 const MODULE_ID = 'golden-hour';
@@ -30,6 +30,7 @@ const ACTOR_FOLDER_MAP = {
    ─────────────────────────────────────────────────────────── */
 
 Hooks.once('init', () => {
+  console.log("Golden Hour | Initializing API");
   game.goldenHour = {
     importContent: () => showImportDialog()
   };
@@ -100,8 +101,10 @@ function showImportDialog() {
 
 async function runFullImport() {
   ui.notifications.info('Golden Hour: Starting import/update…');
+  console.log("Golden Hour | Starting full import");
 
   try {
+    console.log("Golden Hour | Fetching data files...");
     const [actorsRaw, journalsRaw, tablesRaw, scenesRaw] = await Promise.all([
       fetch(`${MODULE_PATH}/actors.json`).then(r => r.json()),
       fetch(`${MODULE_PATH}/journals.json`).then(r => r.json()),
@@ -109,33 +112,35 @@ async function runFullImport() {
       fetch(`${MODULE_PATH}/scenes.json`).then(r => r.json())
     ]);
 
+    console.log("Golden Hour | Ensuring folder structure exists...");
     const folders = await createFolders();
 
-    ui.notifications.info(`Golden Hour: Processing ${actorsRaw.length} actors…`);
+    console.log(`Golden Hour | Processing actors...`);
     for (const data of actorsRaw) {
       await importActor(data, folders);
     }
 
-    ui.notifications.info(`Golden Hour: Processing ${journalsRaw.length} journals…`);
+    console.log(`Golden Hour | Processing journals...`);
     for (const data of journalsRaw) {
       await importJournal(data, folders);
     }
 
-    ui.notifications.info(`Golden Hour: Processing ${tablesRaw.length} tables…`);
+    console.log(`Golden Hour | Processing tables...`);
     for (const data of tablesRaw) {
       await importTable(data, folders);
     }
 
-    ui.notifications.info(`Golden Hour: Processing ${scenesRaw.length} scenes…`);
+    console.log(`Golden Hour | Processing scenes...`);
     for (const data of scenesRaw) {
       await importScene(data, folders);
     }
 
     await game.settings.set(MODULE_ID, 'imported', true);
     ui.notifications.info('Golden Hour: Update/Import complete!');
+    console.log("Golden Hour | Import successful");
   } catch (err) {
-    console.error('Golden Hour import error:', err);
-    ui.notifications.error(`Golden Hour: Import failed — ${err.message}`);
+    console.error('Golden Hour | Import failed:', err);
+    ui.notifications.error(`Golden Hour: Import failed — ${err.message}. See console (F12) for details.`);
   }
 }
 
@@ -144,8 +149,14 @@ async function runFullImport() {
    ─────────────────────────────────────────────────────────── */
 
 async function getOrCreateFolder(data) {
-  let folder = game.folders.find(f => f.name === data.name && f.type === data.type && f.folder?.id === (data.folder || null));
+  const targetParentId = data.folder || null;
+  let folder = game.folders.find(f => 
+    f.name === data.name && 
+    f.type === data.type && 
+    (f.folder?.id || null) === targetParentId
+  );
   if (folder) return folder;
+  console.log(`Golden Hour | Creating folder: ${data.name} (${data.type})`);
   return await Folder.create(data);
 }
 
@@ -166,10 +177,26 @@ async function createFolders() {
   return f;
 }
 
+/**
+ * Maps legacy numeric wall properties to V12 constants.
+ */
+function mapLegacyWalls(walls = []) {
+  return walls.map(w => ({
+    c: w.c,
+    // V12 constants: 0 = NONE, 10 = LIMITED, 20 = ALL
+    move: w.move === 1 ? 20 : (w.move ?? 0),
+    sense: w.sense === 1 ? 20 : (w.sense ?? 0),
+    sound: w.sound === 1 ? 20 : (w.sound ?? 0),
+    door: w.door ?? 0,
+    ds: w.ds ?? 0
+  }));
+}
+
 async function importScene(data, folders) {
+  const folderId = folders.sceneRoot?.id;
   const updateData = {
     name: data.name,
-    folder: folders.sceneRoot?.id,
+    folder: folderId,
     width: data.width,
     height: data.height,
     grid: data.grid,
@@ -180,23 +207,25 @@ async function importScene(data, folders) {
     active: data.active ?? false,
     navigation: data.navigation ?? false,
     lights: data.lights ?? [],
-    walls: data.walls ?? []
+    walls: mapLegacyWalls(data.walls ?? [])
   };
 
-  const existing = game.scenes.find(s => s.name === data.name && s.folder?.id === folders.sceneRoot?.id);
+  const existing = game.scenes.find(s => s.name === data.name && s.folder?.id === folderId);
   if (existing) {
+    console.log(`Golden Hour | Updating scene: ${data.name}`);
     return await existing.update(updateData);
   }
+  console.log(`Golden Hour | Creating scene: ${data.name}`);
   return await Scene.create(updateData);
 }
 
 async function importActor(data, folders) {
   const category = ACTOR_FOLDER_MAP[data.name];
-  let folderId = folders.actorRoot.id;
-  if (category === 'arena') folderId = folders.actorArena.id;
-  else if (category === 'rift') folderId = folders.actorRift.id;
-  else if (category === 'npc') folderId = folders.actorNPC.id;
-  else folderId = folders.actorPregen.id;
+  let folderId = folders.actorRoot?.id;
+  if (category === 'arena') folderId = folders.actorArena?.id;
+  else if (category === 'rift') folderId = folders.actorRift?.id;
+  else if (category === 'npc') folderId = folders.actorNPC?.id;
+  else folderId = folders.actorPregen?.id;
 
   const doc = {
     name: data.name,
@@ -247,9 +276,11 @@ async function importJournal(data, folders) {
     sort: (i + 1) * 100000
   }));
 
-  const existing = game.journal.find(j => j.name === data.name && j.folder?.id === folderId);
+  const existing = game.journals.find(j => j.name === data.name && j.folder?.id === folderId);
   if (existing) {
-    await existing.deleteEmbeddedDocuments('JournalEntryPage', existing.pages.map(p => p.id));
+    // Delete old pages and create new ones to ensure content is fresh
+    const pageIds = existing.pages.map(p => p.id);
+    if (pageIds.length > 0) await existing.deleteEmbeddedDocuments('JournalEntryPage', pageIds);
     return await existing.createEmbeddedDocuments('JournalEntryPage', pages);
   }
 
@@ -262,6 +293,7 @@ async function importJournal(data, folders) {
 }
 
 async function importTable(data, folders) {
+  const folderId = folders.tableRoot?.id;
   const results = (data.results ?? []).map((r, i) => ({
     text: r.text,
     range: r.range,
@@ -269,15 +301,16 @@ async function importTable(data, folders) {
     type: 0
   }));
 
-  const existing = game.tables.find(t => t.name === data.name && t.folder?.id === folders.tableRoot?.id);
+  const existing = game.tables.find(t => t.name === data.name && t.folder?.id === folderId);
   if (existing) {
-    await existing.deleteEmbeddedDocuments('TableResult', existing.results.map(r => r.id));
+    const resultIds = existing.results.map(r => r.id);
+    if (resultIds.length > 0) await existing.deleteEmbeddedDocuments('TableResult', resultIds);
     return await existing.createEmbeddedDocuments('TableResult', results);
   }
 
   return await RollTable.create({
     name: data.name,
-    folder: folders.tableRoot?.id,
+    folder: folderId,
     formula: data.formula ?? '1d4',
     results: results
   });
