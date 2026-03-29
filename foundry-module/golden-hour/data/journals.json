@@ -68,5 +68,24 @@
         "content": "<div style=\"border: 2px solid #c9a84c; padding: 15px; background: #fffbe6;\"><h3>Medal of the Seventh Star</h3><p><em>Wondrous Item (Uncommon)</em></p><p>A heavy gold medal in the shape of a seven-pointed star, set with a small sapphire at its center. The names of the Silver Chalice are engraved on the reverse.</p><h4>Properties</h4><ul><li>While wearing the Medal, you have advantage on Charisma (Persuasion) checks made in the Tri-Kingdoms. People recognize you as a Games champion.</li><li>Once per long rest, you can invoke the Medal to gain +2 to one attack roll, ability check, or saving throw. You must declare the use before rolling.</li></ul><p><em>\u201cAwarded to the Silver Chalice for valor, cunning, and teamwork in the Seventh Grand Heroic Games.\u201d</em></p><p><em>Presented by Archduke Valerius Thorne</em></p></div>"
       }
     ]
+  },
+  {
+    "name": "Key Scenes",
+    "folder": "dm",
+    "playerVisible": false,
+    "pages": [
+      {
+        "name": "The Victory Gala",
+        "content": "<img src=\"modules/golden-hour/assets/scenes/TheVictoryGala.png\" style=\"display: block; margin: 10px auto; width: 100%; border-radius: 8px;\" />\n<p>That night, Aurelius celebrates.</p>\n<p>The Victory Gala spills out of the Archduke's estate into the streets. Enchanted fireworks bloom overhead in shapes of famous heroes — including, to your surprise, silhouettes of each of you recreating your finest moments from the Gauntlet.</p>\n<p>Food, music, laughter — the city is alive with it. People stop you in the street to shake your hands. Children ask you to sign their paper swords.</p>\n<p>Inside the estate, the competing teams gather. The Iron Vanguard have claimed the biggest table and appear to be three rounds into a drinking contest. Bron stands on his chair the moment he spots you.</p>\n<p>\"THERE THEY ARE! The Silver Chalice! Get over here!\"</p>"
+      },
+      {
+        "name": "The Closing Ceremony",
+        "content": "<img src=\"modules/golden-hour/assets/scenes/TheClosingCeremony.png\" style=\"display: block; margin: 10px auto; width: 100%; border-radius: 8px;\" />\n<p>The morning after.</p>\n<p>The Colosseum is full again — fuller, if that's possible. Word of last night has spread across the city. You're not just Games champions anymore. You saved Aurelius.</p>\n<p>Valerius stands on the central platform, looking tired but whole. Beside him, Herald Elara holds five golden medals on a velvet cushion: the Medals of the Seventh Star.</p>\n<p>\"What happened last night was not part of the Games,\" Valerius says. \"It was real. There was no ward protecting the audience. No handlers waiting in the wings. There was only darkness — and the people who chose to stand against it.\"</p>\n<p>He turns to you.</p>\n<p>\"The Silver Chalice earned these medals in the Gauntlet. But they earned something greater last night — the gratitude of every soul in this city.\"</p>\n<p>He pins the medals personally, taking a moment with each of you.</p>"
+      },
+      {
+        "name": "Farewell at the Gate",
+        "content": "<img src=\"modules/golden-hour/assets/scenes/FarewellAtTheGate.png\" style=\"display: block; margin: 10px auto; width: 100%; border-radius: 8px;\" />\n<p>At the city gate, the Iron Vanguard waits to see you off.</p>\n<p>Bron enfolds each of you in a crushing bear hug. He smells like ale and forge smoke. \"We'll see you at the Eighth Games. And next time, the Vanguard's winning!\"</p>\n<p>Torq hands you a rolled piece of parchment. \"A poem. For the road. My best work.\" Bron mouths \"It isn't\" behind his back.</p>\n<p>Pip appears from nowhere and presses a small pin into the hand of whoever she's most bonded with — a tiny silver chalice, beautifully crafted. \"Nicked the materials. Made it myself. Don't tell Bron.\"</p>\n<p>Sylara is last. She takes each of your hands in turn and says nothing for a long time. Then, very quietly:</p>\n<p>\"I drew the cards last night. For you.\"</p>\n<p>She pauses.</p>\n<p>\"Gold twenty. Black one.\"</p>\n<p>She doesn't explain. She just smiles — warm, a little sad — and squeezes your hands before letting go.</p>"
+      }
+    ]
   }
 ]

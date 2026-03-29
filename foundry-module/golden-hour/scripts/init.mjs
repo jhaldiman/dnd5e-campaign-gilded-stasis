@@ -51,7 +51,7 @@ function showImportDialog() {
         <p>This will import all custom content into your world:</p>
         <ul>
           <li><strong>18 Actors</strong> — 8 creatures, 5 allied NPCs, &amp; 5 pre-gen PCs</li>
-          <li><strong>6 Journals</strong> — Adventure overview &amp; 5 player handouts</li>
+          <li><strong>7 Journals</strong> — Adventure overview, 5 player handouts, &amp; key scenes</li>
           <li><strong>1 Roll Table</strong> — Rift Lair Actions</li>
           <li><strong>4 Scenes</strong> — High-quality battle maps from Dungeon Alchemist</li>
         </ul>
