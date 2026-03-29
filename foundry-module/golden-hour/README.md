@@ -6,21 +6,30 @@ A Foundry VTT V12 module containing all custom content for **The Golden Hour**, 
 
 | Type | Count | Details |
 |------|-------|---------|
-| **Actors** | 13 | 8 custom creatures (CR 2–12) + 5 pre-generated level 10 PCs |
-| **Journals** | 6 | 1 DM adventure overview + 5 styled player handouts |
+| **Actors** | 18 | 8 custom creatures + 5 allied NPCs + 5 pre-gen PCs |
+| **Journals** | 7 | 1 DM overview + 5 handouts + 1 key scene art |
 | **Roll Tables** | 1 | Rift Lair Actions (d4) |
-| **Scenes** | 4 | High-quality battle maps from Dungeon Alchemist |
+| **Scenes** | 5 | 4 battle maps + 1 Landing Page |
 
-### Scenes — Battle Maps
+### Scenes — Battle Maps & Visuals
 
 | Name | File | Description |
 |------|------|-------------|
+| The Golden Hour — Landing Page | .png | Default scene for players (no token vision) |
 | The Champions Trial | .jpg | Act 2, Stage 3: Arena boss fight |
 | The Crucible | .jpg | Act 2, Stage 1: Arena combat waves |
 | The Gilded Promenade | .webm | Act 4: Animated temporal rift street scene |
 | The Trial of Timing and Truth | .jpg | Act 2, Stage 2: Arena puzzle & clock face |
 
-### Actors — Creatures
+### Login Screen Branding
+
+A custom title screen is included in the module assets. To use it:
+1. Go to **Settings → Configure World**.
+2. Set **World Login Background** to:
+   `modules/golden-hour/assets/TitleScreen.png`
+3. Set **Background Sizing** to **Cover**.
+
+### Actors — Creatures & Allies
 
 | Name | CR | Type | Notes |
 |------|----|------|-------|
@@ -32,6 +41,11 @@ A Foundry VTT V12 module containing all custom content for **The Golden Hour**, 
 | Temporal Wraith | 5 | Undead | Temporal Rift elites |
 | Riftborn Colossus | 12 | Aberration | Final boss (2-phase) |
 | Valerius Thorne — The Philanthropist | 12 | Humanoid | Allied NPC (heroic version) |
+| Bron Ironfist | - | NPC | Iron Vanguard leader |
+| Sylara Moonwhisper | - | NPC | Iron Vanguard diviner |
+| Torq | - | NPC | Iron Vanguard poet |
+| Pip Nimblefingers | - | NPC | Iron Vanguard scout |
+| Herald Elara Dawnmantle | - | NPC | The party's herald |
 
 ### Actors — Pre-Generated PCs
 
@@ -82,12 +96,12 @@ Actors/
   └─ Golden Hour/
        ├─ Arena Creatures/      (4 arena encounter creatures)
        ├─ Rift Creatures/       (3 temporal rift creatures)
-       ├─ Allied NPCs/          (Valerius — heroic version)
+       ├─ Allied NPCs/          (Valerius, Elara, & Iron Vanguard)
        └─ Pre-Generated Characters/  (5 level 10 PCs)
 
 Journal Entries/
   └─ Golden Hour/
-       ├─ DM Reference/         (adventure overview, connections)
+       ├─ DM Reference/         (overview, connections, scene art)
        └─ Player Handouts/      (invitation, rules, poem, letter, medal)
 
 Roll Tables/
@@ -96,7 +110,7 @@ Roll Tables/
 
 Scenes/
   └─ Golden Hour/
-       └─ (4 Battle Maps)
+       └─ (5 Scenes)
 ```
 
 ## Compatibility
@@ -106,6 +120,5 @@ Scenes/
 
 ## Notes
 
-- The **Iron Vanguard** (Bron, Sylara, Torq, Pip) and **Herald Elara** are NOT included here — they exist in the main **Gilded Stasis** campaign module. If you're running both modules, those actors are already available.
 - Pre-gen characters are created as NPCs (not PCs) for easy drag-and-drop. To use as player characters, create a new PC actor and copy the stats, or have players reference the character card handouts.
 - Valerius's stat block here is the **heroic allied version** (CR 12, support-focused). The full BBEG version (CR 18) is in the main campaign module.

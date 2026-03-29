@@ -1,5 +1,28 @@
 [
   {
+    "name": "The Golden Hour — Landing Page",
+    "width": 3840,
+    "height": 2160,
+    "grid": {
+      "size": 150,
+      "distance": 5,
+      "units": "ft",
+      "type": 0,
+      "color": "#000000",
+      "alpha": 0.0
+    },
+    "background": {
+      "src": "modules/golden-hour/assets/maps/LandingPage.png"
+    },
+    "tokenVision": false,
+    "globalLight": true,
+    "darkness": 0.0,
+    "lights": [],
+    "walls": [],
+    "active": true,
+    "navigation": true
+  },
+  {
     "name": "The Champions Trial",
     "width": 6600,
     "height": 6600,
