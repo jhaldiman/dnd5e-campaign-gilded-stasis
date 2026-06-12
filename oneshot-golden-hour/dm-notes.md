@@ -109,7 +109,7 @@ planted by the one-shot that detonate during the main campaign.
 | Sylara's "Gold twenty. Black one" | She SAW this future — her Portent warned her and she went anyway | Phase 3 |
 | Torq's terrible, wonderful poem | Finding a copy in his pod, clutched in his frozen hands | Phase 3, optional gut-punch |
 | Pip's handmade silver chalice pin | Finding it on her frozen body, or in a display case | Phase 3 |
-| Bron's "See you at the Eighth Games!" | He won the 8th Games. Then vanished. | Phase 2, lore discovery |
+| Bron's "See you at the Eighth Games!" | The Iron Vanguard won the 8th Games. Then they all vanished. | Phase 2, lore discovery |
 | The Iron Vanguard at their prime — alive, LOUD, full of joy | The stillness of their frozen bodies in contrast | Phase 3 |
 
 ### The Pre-Gen PC Connection

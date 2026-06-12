@@ -80,7 +80,7 @@ The horror of this one-shot only becomes apparent in hindsight.
 | Act | Time | Summary |
 |-----|------|---------|
 | **Act 1 — Arrival** | 45 min | Arrive in Aurelius, meet Valerius and Elara, tour the city, settle into Heroes' Rest |
-| **Act 2 — The Gauntlet** | 75 min | Arena event: the Gauntlet of Heroes (three-stage combat/puzzle challenge) |
+| **Act 2 — The Gauntlet** | 90 min | Arena event: the Gauntlet of Heroes (three-stage combat/puzzle challenge) |
 | **Act 3 — The Gala** | 30 min | Victory celebration, meet the Iron Vanguard properly, Valerius's speech |
 | **Act 4 — The Rift** | 75 min | Temporal rift tears open above the city; monsters pour through; fight alongside Valerius and the Vanguard |
 | **Act 5 — Golden Hour** | 30 min | Aftermath, honors, the offer of "retirement," epilogue |
@@ -98,7 +98,7 @@ The horror of this one-shot only becomes apparent in hindsight.
 | **Miriel Ashwood** | Half-Elf | Cleric (Life) 10 | Healer/support | Warm, motherly. Keeps a journal of every person she's healed. |
 | **Renn Quicksilver** | Tiefling | Rogue (Arcane Trickster) 10 | Skill monkey/damage | Sarcastic, hides emotions with humor. Secretly writes letters home to a sister. |
 | **Lysara Dawnfire** | Dragonborn | Sorcerer (Draconic) 10 | Blaster | Bold, competitive. Wants to be remembered. "I didn't come here to lose." |
-| **Orin Thistlefoot** | Halfling | Ranger (Gloom Stalker) 10 | Scout/ranged | Quiet, observant. From a small town like Oakhaven. Homesick but proud. |
+| **Orin Thistlefoot** | Wood Elf | Ranger (Gloom Stalker) 10 | Scout/ranged | Quiet, observant. From a small town like Oakhaven. Homesick but proud. |
 
 **DM Note:** If the players use pre-gens, their characters will appear
 as frozen statues in the Hall of Statues during the main campaign
@@ -150,7 +150,7 @@ NPCs referenced in the main campaign.
 
 | Reward | Source |
 |--------|--------|
-| **Medal of the Seventh Star** | Arena victory — a seven-pointed gold medal. Purely ceremonial but beautiful. |
+| **Medal of the Seventh Star** | Arena victory — an Uncommon Wondrous Item; a seven-pointed gold medal with real mechanical properties (see Handout 4). |
 | **250 gp each** | Prize money from the Gauntlet |
 | **Valerius's Personal Thanks** | A handwritten letter from the Archduke praising each character by name |
 | **Torq's Poem** | A handwritten (terrible) poem about the party, signed by Torq |

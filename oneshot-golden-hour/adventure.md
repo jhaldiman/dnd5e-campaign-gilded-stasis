@@ -140,7 +140,7 @@ or Athletics DC 10).
 - **Wave 1 (Round 1):** 4 × **Arena Chimera Spawn** (CR 3 each)
   — young chimera variants bred for the arena, non-lethal
 - **Wave 2 (Round 3):** 2 × **Arena Drake** (CR 5 each)
-  — wingless drakes with breath weapons (10-ft. cone, 4d6 fire,
+  — wingless drakes with breath weapons (15-ft. cone, 21 (6d6) fire,
   DC 14 Dex save)
 - **Wave 3 (Round 5):** 1 × **Arena Champion Golem** (CR 8)
   — a stone construct that fights until "defeated" (reduced to 0 HP),
@@ -199,6 +199,16 @@ The second stage is a two-part challenge designed to test the party's coordinati
 - **The Clue:** Four small pedestals rise. Three have items (**Golden Weight, Silk Ribbon, Stone Heart**); the fourth is **Empty**.
 - **The Solve:** A player must place a "Personal Toll"—an item of sentimental value from their inventory—on the empty pedestal and describe why it matters.
 - **Skill Checks:** **Insight (DC 16)** to realize it's a test of emotional weight. **Performance (DC 14)** to "tell the tale" of the item to the crowd.
+
+> **DM Note — The Archive is a Surprise:** The Gauntlet Rules
+> Broadsheet (Handout 2) only describes Stage 2 as "The Chronos
+> Clock" — the Archive is deliberately omitted so it feels like an
+> unexpected second layer. When the stone cube rises from the floor,
+> play Elara's reaction with the crowd: she leans over the
+> announcer's rail, visibly surprised, and her commentary should
+> convey genuine wonder rather than practiced narration. *"Oh — oh,
+> the Archive! Citizens, I don't think we've SEEN the Archive since
+> the Third Games!"*
 
 **Conclusion:** The Archive slides open, revealing a **Golden Chalice**. Taking it triggers Stage 3.
 
@@ -261,8 +271,9 @@ Bron stands on a table (despite Sylara's protests) and raises his mug:
 > either the best — or we had too much ale last night. Either way —
 > TO HEROES!"
 
-**Torq's Poem:**
-Torq approaches a PC and presents a freshly written poem on a napkin:
+**Torq's Poem (The Napkin Scrawl):**
+Torq approaches a PC and thrusts a crumpled gala napkin at them. He
+wrote this during Bron's toast. The ink is still a little smeared.
 
 > *"They came like stars upon the road,*
 > *With gleaming blades and hearts un-bowed,*
@@ -270,6 +281,9 @@ Torq approaches a PC and presents a freshly written poem on a napkin:
 > *I wish I had a rhyme for 'loud.'"*
 
 He's very proud of it. If anyone compliments it, he tears up.
+
+> "I'll write you a proper one before we leave. This was just — I
+> had to get it down. The *feeling*, you know?"
 
 **Pip's Gift:**
 Pip appears beside a PC with no warning and hands them a small pouch.
@@ -300,8 +314,17 @@ Key elements:
 - He specifically praises the Silver Chalice
 - He talks about what heroism means — not strength, but the choice to
   help when you could walk away
-- He announces expanded funding for the Preservation Society's
-  charitable programs
+- He announces expanded funding for the **Preservation Society's**
+  charitable programs — the crowd applauds warmly. To anyone who
+  asks, Elara explains it's Valerius's philanthropic foundation:
+  scholarships for promising young adventurers, aid for retired
+  heroes, community rebuilding grants across the Tri-Kingdoms.
+  It is, by every public account, a model of civic generosity.
+
+> **DM Note:** The Preservation Society is Valerius's intelligence
+> service in disguise. The main campaign party will eventually
+> uncover this in Phase 2. The first time they hear the name here
+> should feel entirely wholesome — that's the point.
 - He ends with: *"You are the best of us. And the world is better
   because you exist."*
 
@@ -313,11 +336,12 @@ The room erupts in applause. It feels genuine because it IS genuine.
 
 ### The Crisis
 
-The next morning. The party is awakened by a sound like reality
-tearing. Read the Rift read-aloud text.
+Late that night. The Gala is winding down, the moon is high, and
+the streets are still full of revelers when the sky cracks open.
+Read the Rift read-aloud text.
 
 **What happened:** A **Temporal Rift** has opened above the Gilded
-Promenade — a 60-ft. tear in the sky that crackles with golden-white
+Promenade — a 50-ft. tear in the sky that crackles with golden-white
 energy. Aberrant creatures are pouring through.
 
 **DM Knowledge (do NOT share):** The Rift is a side effect of
@@ -470,6 +494,10 @@ Read the closing ceremony read-aloud.
 Key moments:
 - Valerius awards the **Medal of the Seventh Star** to each member of
   the Silver Chalice
+- A Preservation Society attendant presents each PC with a small
+  velvet box containing their returned personal item from the Archive
+  trial, nestled alongside their medal — Valerius smiles: *"A hero's
+  anchor, returned. You've more than proven its worth."*
 - He announces their prize: 250 gp each, plus permanent access to the
   Heroes' Rest
 - He personally shakes each PC's hand
@@ -500,7 +528,11 @@ honored. If a player says "That's so kind," let that stand.
 The Iron Vanguard says goodbye:
 - **Bron:** "See you at the 8th Games. Bring your A-game."
 - **Sylara:** *quietly* "Take care of each other."
-- **Torq:** Hands the party a final poem (see Handout — Torq's Gift).
+- **Torq:** Produces a carefully folded piece of parchment — not a
+  napkin this time. He's rewritten the poem from the Gala into a
+  proper ode, three stanzas, in his best handwriting. He spent the
+  night on it. *"I told you I'd write a proper one."* Hand the
+  players **Handout 3 — Torq's Poem (The Gift)**.
 - **Pip:** Salutes. Then steals back the silver pin she gave them.
   Then gives it back again. "I can't help it."
 

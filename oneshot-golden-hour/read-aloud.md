@@ -175,7 +175,7 @@ head of state who genuinely cares.]*
 
 > The Grand Colosseum is packed.
 >
-> Forty thousand people fill the stands, a living wall of noise and
+> Fifty thousand people fill the stands, a living wall of noise and
 > color. Banners of every competing team hang from the upper arches.
 > Yours — a silver chalice on a field of midnight blue — hangs among
 > them, rippling in the wind.
@@ -394,7 +394,7 @@ head of state who genuinely cares.]*
 >
 > Inside the estate, the competing teams gather. The Iron Vanguard
 > have claimed the biggest table and appear to be three rounds into
-> a drinking contest. Bron stands on his chair the moment he spots
+> a drinking contest. Bron stands on his table the moment he spots
 > you.
 >
 > "THERE THEY ARE! The Silver Chalice! Get over here!"

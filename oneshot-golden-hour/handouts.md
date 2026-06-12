@@ -102,8 +102,9 @@ I look forward to greeting you personally.
 
 ## Handout 3 — Torq's Poem (The Gift)
 
-*Give to a player during the Victory Gala (Act 3), when Torq presents
-his poem.*
+*Give to a player during the Farewells (Act 5), when Torq presents
+his polished copy. The napkin scrawl at the Gala was the rough draft
+— this is the version he stayed up to write properly.*
 
 ---
 
